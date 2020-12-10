@@ -3,3 +3,4 @@ wiki-subset-20140602.tar.gz
 IBM-Watson.iml
 /src/resources/
 .DS_Store
+/target
