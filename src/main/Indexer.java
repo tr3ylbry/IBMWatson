@@ -43,7 +43,6 @@ public class Indexer {
     }
 
     public void parseWikis() throws IOException {
-        //analyzer = new StandardAnalyzer();
         index = FSDirectory.open(new File(dataPath).toPath());
         IndexWriterConfig config = new IndexWriterConfig(analyzer);
 
@@ -105,66 +104,6 @@ public class Indexer {
         }
     }
 
-//    public void addPage(String title, String category, String content) {
-//        // Trim whitespace before processing
-//        title = title.trim();
-//        category = category.trim();
-//        content = content.trim();
-//
-//        // Pre-process params for empty fields
-//        if (category.isEmpty()) {
-//            category = ".";
-//        }
-//        if (content.isEmpty()) {
-//            content = ".";
-//        }
-//
-//        // Use StringBuilders to aggregate terms below
-//        StringBuilder categorySB = new StringBuilder();
-//        StringBuilder contentSB = new StringBuilder();
-//
-//        if (this.iType == 2) {
-//            // Aggregate lemmas of category & content
-//            for (String lemma: new Sentence(category).lemmas()) {
-//                categorySB.append(lemma + " ");
-//            }
-//            for (String lemma: new Sentence(content).lemmas()) {
-//                contentSB.append(lemma + " ");
-//            }
-//        } else if (this.iType == 3) {
-//            // Use stemmer to stem category & content
-//            PorterStemmer stemmer = new PorterStemmer();
-//            for (String term: new Sentence(category).words()) {
-//                stemmer.setCurrent(term);
-//                stemmer.stem();
-//                categorySB.append(stemmer.getCurrent() + " ");
-//            }
-//            for (String term: new Sentence(content).words()) {
-//                stemmer.setCurrent(term);
-//                stemmer.stem();
-//                contentSB.append(stemmer.getCurrent() + " ");
-//            }
-//        } else {
-//            // Default: Process without Lemma/Stemming, append as-is
-//            categorySB.append(category);
-//            contentSB.append(content);
-//        }
-//
-//        // Create document & add to index
-//        Document doc = new Document();
-//
-//        String textAttr = title + " " + categorySB.toString() + " " + contentSB.toString();
-//        doc.add(new StringField("title", title, Field.Store.YES));
-//        doc.add(new TextField("category", categorySB.toString(), Field.Store.YES));
-//        doc.add(new TextField("text", textAttr, Field.Store.YES));
-//
-//        try {
-//            writer.addDocument(doc);
-//        } catch (IOException ex) {
-//            ex.printStackTrace();
-//            System.exit(0);
-//        }
-//    }
     public void addPage(String title, String cat, String hdr, String txt) throws IOException {
         String body = hdr.toLowerCase().trim() + " " + txt.toLowerCase().trim();
         body = body.trim();
@@ -179,7 +118,7 @@ public class Indexer {
         String[] indexedFields = indexMethodinator(cat, body);
 
         body = title + " " + indexedFields[0].toLowerCase() + " " + indexedFields[1].toLowerCase();
-        
+
         Document doc = new Document();
         doc.add(new StringField("title", title.toLowerCase(), Field.Store.YES));
         doc.add(new TextField("category", indexedFields[0].toLowerCase().trim(), Field.Store.YES));
