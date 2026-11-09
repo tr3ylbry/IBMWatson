@@ -90,13 +90,16 @@ class GameRecoveryCookieTest {
     }
 
     @Test void validQuotedAndUnquotedCookiesRecoverOnlyTheirOwnExistingGame() throws Exception {
-        byte[] before = Files.readAllBytes(state);
+        JsonObject saved = PackCatalog.read(state).getJsonObject("state");
         server.close();
         game = new GameService(catalog, (scope, category, clue) -> {
             throw new AssertionError("Recovery must not repeat a committed search");
         }, clock, 15000).durable(new GameStore(root.resolve("saves"), GameStore.identity("cookie-http-test")));
         server = new GameServer(0, game); server.start();
         assertEquals(cookie, game.cookieName());
+        assertEquals(saved, PackCatalog.read(state).getJsonObject("state"));
+        // Startup may reserialize map order; the HTTP reads themselves must be byte-stable.
+        byte[] before = Files.readAllBytes(state);
         for (String value : List.of(owner, "\"" + owner + "\"")) {
             HttpResponse<String> response = request("/api/session", cookie + "=" + value, null);
             assertEquals(200, response.statusCode(), response.body());
