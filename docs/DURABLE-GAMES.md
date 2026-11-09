@@ -35,6 +35,17 @@ replacement under an old start/Play retry. Clearing cookies loses access, even
 if files remain. There is no account, secret URL or cross-device recovery.
 Downloads remain read-only review copies, never authoritative/importable saves.
 
+F2 recovery-parser follow-up (2026-11-09): the target's game cookie accepts a
+canonical UUID unquoted or enclosed in a complete pair of double quotes. Empty,
+single/unmatched-quote, malformed and duplicate values return 410 without
+issuing an identity, awarding points or changing a save. Unknown/expired durable
+identities also return 410. `GET /api/session` without a game cookie still creates
+an initial session; cookie-free game reads/mutations do not authorize an existing
+game. After rejection, only the explicit confirmed identity action above bypasses
+the rejected game cookie. It creates a separate session and preserves existing
+owners' games, never transfers or resets them. `GameRecoveryCookieTest` exercises
+this contract over real loopback HTTP against an isolated durable target.
+
 ### Recovery Focus and Evidence Navigation
 
 Focused client follow-up 2026-11-07: a failed deliberate game action focuses the

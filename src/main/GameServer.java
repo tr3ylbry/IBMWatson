@@ -179,7 +179,8 @@ public final class GameServer implements AutoCloseable {
             String[] pair=value.trim().split("=",2);
             if(pair.length==2&&pair[0].equals("cluelab")&&!game.cookieName().equals("cluelab"))old=pair[1];
             if(pair.length==2&&pair[0].equals(game.cookieName())){
-                String token=pair[1];if(token.startsWith("\"")&&token.endsWith("\""))token=token.substring(1,token.length()-1);
+                String token=pair[1];
+                if(token.length()>=2&&token.startsWith("\"")&&token.endsWith("\""))token=token.substring(1,token.length()-1);
                 if (found != null || !TopicBuilder.uuid(token)) throw new GameService.GameError(410, "Game recovery cookie is invalid or duplicated. Explicitly start a new game session.");
                 found = token;
             }
