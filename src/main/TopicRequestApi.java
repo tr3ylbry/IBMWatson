@@ -20,7 +20,7 @@ final class TopicRequestApi implements AutoCloseable {
             String[] pair = part.trim().split("=", 2);
             if (pair.length == 2 && pair[0].equals(COOKIE)) {
                 if (token != null) throw new GameService.GameError(401, "Duplicate topic recovery cookie.");
-                token = pair[1]; if (token.startsWith("\"") && token.endsWith("\"")) token = token.substring(1, token.length()-1);
+                token = pair[1]; if (token.length() >= 2 && token.startsWith("\"") && token.endsWith("\"")) token = token.substring(1, token.length()-1);
             }
         }
         return token;
@@ -32,12 +32,12 @@ final class TopicRequestApi implements AutoCloseable {
         String site = x.getRequestHeaders().getFirst("Sec-Fetch-Site");
         if (site != null && !Set.of("same-origin", "none").contains(site) || method.equals("POST") && !origin.equals(x.getRequestHeaders().getFirst("Origin")))
             throw new GameService.GameError(403, "Topic-request mutations require the exact player origin.");
-        String credential = credential(x);
         if (path.equals("/api/topic-requests/identity") && method.equals("POST")) {
             JsonObject body = GameServer.body(x); GameServer.fields(body, "confirmed");
             if (body.get("confirmed") != JsonValue.TRUE) throw new GameService.GameError(400, "Explicitly confirm a new recovery identity.");
             return list(issue(x));
         }
+        String credential = credential(x);
         if (path.equals("/api/topic-requests") && method.equals("GET")) return list(credential == null ? issue(x) : credential);
         if (path.equals("/api/topic-requests") && method.equals("POST")) {
             JsonObject body = GameServer.body(x); GameServer.fields(body, "retryId", "topic", "difficulty");

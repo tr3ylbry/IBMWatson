@@ -168,7 +168,22 @@ Same-browser cookie recovery survives reload and server restart independently of
 two-hour game expiry. Clearing/blocking cookies or changing browser loses access;
 there is no email recovery, portable secret link or cross-device restore. An
 expired/unavailable cookie gets an explicit **Start a New Request Identity**
-choice, not automatic access to someone else's records. Games now persist
+choice, not automatic access to someone else's records.
+
+F3 recovery follow-up (2026-11-09): request credentials support unquoted values
+or a complete pair of double quotes. Malformed, empty, single/unmatched-quote,
+duplicate, unknown or expired request cookies return 401 without creating an
+identity, changing requests or modifying games. The explicit same-origin
+`POST /api/topic-requests/identity {"confirmed":true}` bypasses only the old
+topic-request cookie parser, allowing recovery even from malformed/duplicate
+values. It still requires the custom request header and exact confirmation body;
+it creates a separate owner without transferring or deleting existing records.
+Missing-cookie `GET /api/topic-requests` retains initial identity creation, while
+cookie-free request reads/mutations do not authorize existing requests. Game
+credentials, ownership, expiry and recovery rules remain separate.
+`TopicRequestCookieTest` verifies this over isolated real HTTP and durable saves.
+
+Games now persist
 for two hours absolute/12 games/64 rounds per session. Play first commits its
 intention to this ledger, then starts the durable game under the cancellation
 lock. Only the hash of the game cookie is stored. After restart, an existing
