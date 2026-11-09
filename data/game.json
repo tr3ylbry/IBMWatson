@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "cluelab-local-game",
+  "version": "1.0.0",
+  "catalog": "packs/catalog.json",
+  "indexBase": "../indexes/packs",
+  "indexType": 1,
+  "scorer": 4,
+  "port": 8765
+}

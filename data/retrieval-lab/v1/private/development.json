@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 1,
+  "id": "cluelab-wiki-b-development",
+  "version": "1.0.0",
+  "collectionId": "cluelab-wiki-shard-b",
+  "collectionVersion": "1.0.0",
+  "construction": "Manually authored by Codex from the frozen historical source before retrieval experiments. Assistant excerpt-checked, not independently human-approved. No automatic generation pipeline.",
+  "split": "development",
+  "cases": [
+    {
+      "id": "wiki-b-development-01",
+      "category": "COMPUTING",
+      "clue": "Which operating system from Be Inc. was designed for digital media work and originally ran on BeBox hardware?",
+      "answerType": "article-title",
+      "aliases": [
+        "BeOS"
+      ],
+      "answerDocumentId": "wiki-b-0022",
+      "support": {
+        "documentId": "wiki-b-0022",
+        "rawSha256": "18c2863a3c03f24b06c5e5dad7591616deefc947e112e3349b9b8db56d22fb9c",
+        "quote": "BeOS was built for digital media work"
+      },
+      "reference": "https://en.wikipedia.org/wiki/BeOS",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-development-02",
+      "category": "ANCIENT HISTORY",
+      "clue": "At which battle in 490 BC did Athenians and Plataeans defeat the invading Persian army?",
+      "answerType": "article-title",
+      "aliases": [
+        "Battle of Marathon",
+        "Marathon"
+      ],
+      "answerDocumentId": "wiki-b-0025",
+      "support": {
+        "documentId": "wiki-b-0025",
+        "rawSha256": "11b46ba4a1f8fac9ce636d4646ca823b9929735c1bc254ae64ea3cd424c16bf6",
+        "quote": "It was fought between the citizens of Athens, aided by Plataea"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Battle_of_Marathon",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-development-03",
+      "category": "ECOLOGY",
+      "clue": "What name describes the global sum of Earth's ecosystems, sometimes called its zone of life?",
+      "answerType": "article-title",
+      "aliases": [
+        "Biosphere",
+        "The biosphere"
+      ],
+      "answerDocumentId": "wiki-b-0029",
+      "support": {
+        "documentId": "wiki-b-0029",
+        "rawSha256": "fbb0b52fdc78e4656344278aab276b268109f2a8d815ea84a036e92d933fbc23",
+        "quote": "The biosphere is the global sum of all ecosystems."
+      },
+      "reference": "https://en.wikipedia.org/wiki/Biosphere",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-development-04",
+      "category": "CELL BIOLOGY",
+      "clue": "What general term describes a selectively permeable, enclosing or separating barrier within living things?",
+      "answerType": "article-title",
+      "aliases": [
+        "Biological membrane",
+        "Biomembrane"
+      ],
+      "answerDocumentId": "wiki-b-0030",
+      "support": {
+        "documentId": "wiki-b-0030",
+        "rawSha256": "86dadbe2317a3490b5c0e344f7449b4001cfe56fa191490550dd6cf3cd3572bd",
+        "quote": "an enclosing or separating membrane that acts as a selectively permeable barrier within living things."
+      },
+      "reference": "https://en.wikipedia.org/wiki/Biological_membrane",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-development-05",
+      "category": "BUSINESS",
+      "clue": "What elected or appointed governing body jointly oversees the activities of a company?",
+      "answerType": "article-title",
+      "aliases": [
+        "Board of directors"
+      ],
+      "answerDocumentId": "wiki-b-0034",
+      "support": {
+        "documentId": "wiki-b-0034",
+        "rawSha256": "e783be17539435033c2ff305a6f86d5dcecd52a0925a04cd6279f03a90077c1f",
+        "quote": "a body of elected or appointed members who jointly oversee the activities of a company or organization."
+      },
+      "reference": "https://en.wikipedia.org/wiki/Board_of_directors",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-development-06",
+      "category": "EUROPEAN HISTORY",
+      "clue": "What collective name is given to the two southeastern European conflicts of 1912 and 1913?",
+      "answerType": "article-title",
+      "aliases": [
+        "Balkan Wars",
+        "The Balkan Wars"
+      ],
+      "answerDocumentId": "wiki-b-0035",
+      "support": {
+        "documentId": "wiki-b-0035",
+        "rawSha256": "c807a35d33197a4837acb672394103adaa96988f670d45248189bc0903d1e412",
+        "quote": "two conflicts that took place in the Balkan Peninsula in south-eastern Europe in 1912 and 1913."
+      },
+      "reference": "https://en.wikipedia.org/wiki/Balkan_Wars",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-development-07",
+      "category": "COMPUTER HARDWARE",
+      "clue": "Which dual-processor personal computer from Be Inc. featured a GeekPort and front-panel Blinkenlights?",
+      "answerType": "article-title",
+      "aliases": [
+        "BeBox",
+        "The BeBox"
+      ],
+      "answerDocumentId": "wiki-b-0037",
+      "support": {
+        "documentId": "wiki-b-0037",
+        "rawSha256": "3c343c6bb62d87145011e8220f9fd11c202ab0f15387fa43225a3121c5f14f5b",
+        "quote": "I/O board with \"GeekPort\", and \"Blinkenlights\" on the front bezel."
+      },
+      "reference": "https://en.wikipedia.org/wiki/BeBox",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-development-08",
+      "category": "DRINKS",
+      "clue": "Which gin is marketed in a flat-sided, sapphire-coloured bottle displaying Queen Victoria?",
+      "answerType": "article-title",
+      "aliases": [
+        "Bombay Sapphire"
+      ],
+      "answerDocumentId": "wiki-b-0042",
+      "support": {
+        "documentId": "wiki-b-0042",
+        "rawSha256": "4e55c7a6c3b2ab67fc6a00eecba04d1381fe31295992c47ae17c3207248cae7b",
+        "quote": "marketed in a flat-sided, sapphire-coloured bottle that bears a picture of Queen Victoria on the label."
+      },
+      "reference": "https://en.wikipedia.org/wiki/Bombay_Sapphire",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-development-09",
+      "category": "MUSIC",
+      "clue": "Name the Western swing bandleader born James Robert Wills.",
+      "answerType": "article-title",
+      "aliases": [
+        "Bob Wills",
+        "James Robert Wills"
+      ],
+      "answerDocumentId": "wiki-b-0043",
+      "support": {
+        "documentId": "wiki-b-0043",
+        "rawSha256": "8eeb0d9b01892dec490fb4d5730fc6d2fca2889dcc57b793935ff9259aab216a",
+        "quote": "James Robert Wills (March 6, 1905 – May 13, 1975), better known as Bob Wills"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Bob_Wills",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-development-10",
+      "category": "PROGRAMMING",
+      "clue": "Which game-oriented BASIC dialect was devised by New Zealand developer Mark Sibly?",
+      "answerType": "article-title",
+      "aliases": [
+        "Blitz BASIC"
+      ],
+      "answerDocumentId": "wiki-b-0047",
+      "support": {
+        "documentId": "wiki-b-0047",
+        "rawSha256": "e2f351743102b1b341f70a361b1203cd7033a801f3e1d94575d9c5b0fe4f016e",
+        "quote": "devised by New Zealand-based developer Mark Sibly."
+      },
+      "reference": "https://en.wikipedia.org/wiki/Blitz_BASIC",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-development-11",
+      "category": "LEGAL PROFESSIONS",
+      "clue": "In a split legal profession, which lawyer specializes in courtroom advocacy and is commonly instructed by solicitors?",
+      "answerType": "article-title",
+      "aliases": [
+        "Barrister",
+        "Barrister-at-law"
+      ],
+      "answerDocumentId": "wiki-b-0052",
+      "support": {
+        "documentId": "wiki-b-0052",
+        "rawSha256": "6e4d2dfd98fa20efc020c74548544618e070c92bcf50cbcde05cddecbff0f5da",
+        "quote": "Barristers specialize in courtroom advocacy, drafting legal pleadings, and giving expert legal opinions."
+      },
+      "reference": "https://en.wikipedia.org/wiki/Barrister",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-development-12",
+      "category": "DRINKS",
+      "clue": "Which Australian dark rum is often nicknamed Bundy?",
+      "answerType": "article-title",
+      "aliases": [
+        "Bundaberg Rum"
+      ],
+      "answerDocumentId": "wiki-b-0101",
+      "support": {
+        "documentId": "wiki-b-0101",
+        "rawSha256": "f3a6cc5d474fcf73e93709c5333c3a44a3c449b208c37aee61fb20f63e587647",
+        "quote": "It is often referred to as \"Bundy\"."
+      },
+      "reference": "https://en.wikipedia.org/wiki/Bundaberg_Rum",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-development-13",
+      "category": "GEOGRAPHY",
+      "clue": "Which granite moorland in northeastern Cornwall was formerly known as Fowey Moor?",
+      "answerType": "article-title",
+      "aliases": [
+        "Bodmin Moor"
+      ],
+      "answerDocumentId": "wiki-b-0060",
+      "support": {
+        "documentId": "wiki-b-0060",
+        "rawSha256": "795967309439433574bf2599187c5122aa9c643043d2dc6efb926a914734a27d",
+        "quote": "It was formerly known as Fowey Moor after the River Fowey"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Bodmin_Moor",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-development-14",
+      "category": "PSYCHOLOGY",
+      "clue": "Which American behaviorist's given names were Burrhus Frederic?",
+      "answerType": "article-title",
+      "aliases": [
+        "B. F. Skinner",
+        "B.F. Skinner",
+        "Burrhus Frederic Skinner"
+      ],
+      "answerDocumentId": "wiki-b-0067",
+      "support": {
+        "documentId": "wiki-b-0067",
+        "rawSha256": "617e8c4d0e969a06b0cbefd1aa2a56c8461927bd2c3e182d7c173cc9e8406f31",
+        "quote": "Burrhus Frederic (B. F.) Skinner"
+      },
+      "reference": "https://en.wikipedia.org/wiki/B._F._Skinner",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-development-15",
+      "category": "LITERATURE",
+      "clue": "What literary genre follows a protagonist's psychological and moral growth from youth to adulthood?",
+      "answerType": "article-title",
+      "aliases": [
+        "Bildungsroman"
+      ],
+      "answerDocumentId": "wiki-b-0075",
+      "support": {
+        "documentId": "wiki-b-0075",
+        "rawSha256": "eed08ae15a90bda33d0e105c9a8abdce909100d967cdfaccbffed98c39254b95",
+        "quote": "a literary genre that focuses on the psychological and moral growth of the protagonist from youth to adulthood"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Bildungsroman",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-development-16",
+      "category": "MATHEMATICS",
+      "clue": "Which interpretation of probability updates a prior in the light of new evidence?",
+      "answerType": "article-title",
+      "aliases": [
+        "Bayesian probability",
+        "Bayesian interpretation"
+      ],
+      "answerDocumentId": "wiki-b-0084",
+      "support": {
+        "documentId": "wiki-b-0084",
+        "rawSha256": "44543385154cc2471e88a59f330ae2875387c3ea7ce52bf38db79bc6c6012438",
+        "quote": "specifies some prior probability, which is then updated in the light of new, relevant data"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Bayesian_probability",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-development-17",
+      "category": "GEOGRAPHY",
+      "clue": "Which Bavarian town on the Regnitz has a UNESCO-listed historic centre?",
+      "answerType": "article-title",
+      "aliases": [
+        "Bamberg"
+      ],
+      "answerDocumentId": "wiki-b-0088",
+      "support": {
+        "documentId": "wiki-b-0088",
+        "rawSha256": "38c30c364ece30bca3251f14011169af1c5ab51d25a157f4c9badf661db27bc1",
+        "quote": "a town in Bavaria, Germany, located in Upper Franconia on the river Regnitz"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Bamberg",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-development-18",
+      "category": "MINERALS",
+      "clue": "Which beryllium aluminium cyclosilicate mineral forms hexagonal crystals?",
+      "answerType": "article-title",
+      "aliases": [
+        "Beryl"
+      ],
+      "answerDocumentId": "wiki-b-0096",
+      "support": {
+        "documentId": "wiki-b-0096",
+        "rawSha256": "51cf11446700538d279072795bc396abf37a4665ade213cc08e34981fa4a0253",
+        "quote": "beryl is a mineral composed of beryllium aluminium cyclosilicate"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Beryl",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-development-19",
+      "category": "TABLETOP GAMES",
+      "clue": "Which role-playing game inspired by Watership Down centres on intelligent rabbits?",
+      "answerType": "article-title",
+      "aliases": [
+        "Bunnies & Burrows",
+        "Bunnies and Burrows"
+      ],
+      "answerDocumentId": "wiki-b-0100",
+      "support": {
+        "documentId": "wiki-b-0100",
+        "rawSha256": "51e6a78450e1b541478f79dbf93a068501d48a3a28d1175d6d4da01701794c15",
+        "quote": "a role-playing game (RPG) inspired by the novel Watership Down"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Bunnies_%26_Burrows",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-development-20",
+      "category": "LANGUAGE",
+      "clue": "Which controlled language did Charles Kay Ogden devise to aid second-language learning?",
+      "answerType": "article-title",
+      "aliases": [
+        "Basic English"
+      ],
+      "answerDocumentId": "wiki-b-0116",
+      "support": {
+        "documentId": "wiki-b-0116",
+        "rawSha256": "86f68bf263db28dd5adcc05f028340af6453b7dbd712f4ee8e9a1aa2455fb3d4",
+        "quote": "controlled language created by linguist and philosopher Charles Kay Ogden"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Basic_English",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    }
+  ]
+}

@@ -1,0 +1,702 @@
+{
+  "schemaVersion": 1,
+  "id": "guided-analysis-diagnosis",
+  "measuredAt": "2026-11-06T06:09:02.167Z",
+  "corpusSha256": "5b2809ee4dced4c9c06dd00701949e4024ac0d958b735487359bd911960003f1",
+  "questionsSha256": "f4b143d342f68096f2f912ee270c254e98ae49b9fecfd3418ad73dab9054099b",
+  "query": "MADE IN THE UK BSI publishes these rules for product quality in the UK. Hint: the two-word answer begins with British; the second word means agreed rules or levels of quality.",
+  "acceptedAnswers": "British Standards",
+  "processedQueryIdentical": false,
+  "storedFieldsIdentical": false,
+  "controlledQueryTokensIdentical": true,
+  "controlledDocumentTokensIdentical": true,
+  "classification": "native-codec-controlled-diagnostic-not-an-opponent-trial",
+  "reports": {
+    "legacy": {
+      "records": [
+        [
+          "runtime",
+          "7.7.1",
+          "3.9.2"
+        ],
+        [
+          "processed",
+          "made in the uk bsi publishes these rules for product quality in the uk . hint : the two-word answer begins with british ; the second word means agreed rules or levels of quality . "
+        ],
+        [
+          "stopwords",
+          "33"
+        ],
+        [
+          "analyzed",
+          "made uk bsi publishes rules product quality uk hint two word answer begins british second word means agreed rules levels quality"
+        ],
+        [
+          "controlled-query-tokens",
+          "made in the uk bsi publishes these rules for product quality in the uk hint the two word answer begins with british the second word means agreed rules or levels of quality",
+          "made uk bsi publishes rules product quality uk hint two word answer begins british second word means agreed rules levels quality"
+        ],
+        [
+          "document",
+          "0",
+          "british standards",
+          "standards organizations , united kingdom",
+          "British Standards standards organizations , united kingdom  british standards are produced by bsi group , incorporated under a royal charter . products certified under designated schemes can carry the kitemark . ",
+          "british standards standards organizations united kingdom british standards produced bsi group incorporated under royal charter products certified under designated schemes can carry kitemark"
+        ],
+        [
+          "controlled-document-tokens",
+          "british standards",
+          "british standards standards organizations united kingdom british standards are produced by bsi group incorporated under a royal charter products certified under designated schemes can carry the kitemark",
+          "british standards standards organizations united kingdom british standards produced bsi group incorporated under royal charter products certified under designated schemes can carry kitemark"
+        ],
+        [
+          "norm",
+          "british standards",
+          "23"
+        ],
+        [
+          "document",
+          "1",
+          "building society",
+          "cooperatives , financial institutions",
+          "Building society cooperatives , financial institutions  a building society is a financial institution owned by its members as a mutual organisation . building societies offer banking services , especially mortgage lending and savings accounts . ",
+          "building society cooperatives financial institutions building society financial institution owned its members mutual organisation building societies offer banking services especially mortgage lending savings accounts"
+        ],
+        [
+          "controlled-document-tokens",
+          "building society",
+          "building society cooperatives financial institutions a building society is a financial institution owned by its members as a mutual organisation building societies offer banking services especially mortgage lending and savings accounts",
+          "building society cooperatives financial institutions building society financial institution owned its members mutual organisation building societies offer banking services especially mortgage lending savings accounts"
+        ],
+        [
+          "norm",
+          "building society",
+          "24"
+        ],
+        [
+          "document",
+          "2",
+          "burwash hall",
+          "university of toronto buildings , gothic revival architecture",
+          "Burwash Hall university of toronto buildings , gothic revival architecture  burwash hall is a residence building at toronto 's victoria college . construction began in 1911 and finished in 1913 . architect henry sproatt designed its neo-gothic turrets , gargoyles and battlements . ",
+          "burwash hall university toronto buildings gothic revival architecture burwash hall residence building toronto s victoria college construction began 1911 finished 1913 architect henry sproatt designed its neo gothic turrets gargoyles battlements"
+        ],
+        [
+          "controlled-document-tokens",
+          "burwash hall",
+          "burwash hall university of toronto buildings gothic revival architecture burwash hall is a residence building at toronto s victoria college construction began in 1911 and finished in 1913 architect henry sproatt designed its neo gothic turrets gargoyles and battlements",
+          "burwash hall university toronto buildings gothic revival architecture burwash hall residence building toronto s victoria college construction began 1911 finished 1913 architect henry sproatt designed its neo gothic turrets gargoyles battlements"
+        ],
+        [
+          "norm",
+          "burwash hall",
+          "31"
+        ],
+        [
+          "document",
+          "3",
+          "body mass index",
+          "human body weight , nutrition",
+          "Body mass index human body weight , nutrition  body mass index , abbreviated bmi , relates a person 's mass to height . it is calculated by dividing mass in kilograms by the square of height in metres . ",
+          "body mass index human body weight nutrition body mass index abbreviated bmi relates person s mass height calculated dividing mass kilograms square height metres"
+        ],
+        [
+          "controlled-document-tokens",
+          "body mass index",
+          "body mass index human body weight nutrition body mass index abbreviated bmi relates a person s mass to height it is calculated by dividing mass in kilograms by the square of height in metres",
+          "body mass index human body weight nutrition body mass index abbreviated bmi relates person s mass height calculated dividing mass kilograms square height metres"
+        ],
+        [
+          "norm",
+          "body mass index",
+          "24"
+        ],
+        [
+          "document",
+          "4",
+          "behistun inscription",
+          "persian history , inscriptions",
+          "Behistun Inscription persian history , inscriptions  the behistun inscription records the story of darius the great . its parallel versions in old persian , elamite and babylonian helped scholars decipher cuneiform , much as the rosetta stone helped with egyptian hieroglyphs . ",
+          "behistun inscription persian history inscriptions behistun inscription records story darius great its parallel versions old persian elamite babylonian helped scholars decipher cuneiform much rosetta stone helped egyptian hieroglyphs"
+        ],
+        [
+          "controlled-document-tokens",
+          "behistun inscription",
+          "behistun inscription persian history inscriptions the behistun inscription records the story of darius the great its parallel versions in old persian elamite and babylonian helped scholars decipher cuneiform much as the rosetta stone helped with egyptian hieroglyphs",
+          "behistun inscription persian history inscriptions behistun inscription records story darius great its parallel versions old persian elamite babylonian helped scholars decipher cuneiform much rosetta stone helped egyptian hieroglyphs"
+        ],
+        [
+          "norm",
+          "behistun inscription",
+          "28"
+        ],
+        [
+          "document",
+          "5",
+          "barry goldwater",
+          "united states senators from arizona",
+          "Barry Goldwater united states senators from arizona  barry goldwater served five terms as a united states senator from arizona . the republican party nominated him for president in 1964 . he was known as mr. conservative . ",
+          "barry goldwater united states senators from arizona barry goldwater served five terms united states senator from arizona republican party nominated him president 1964 he known mr conservative"
+        ],
+        [
+          "controlled-document-tokens",
+          "barry goldwater",
+          "barry goldwater united states senators from arizona barry goldwater served five terms as a united states senator from arizona the republican party nominated him for president in 1964 he was known as mr conservative",
+          "barry goldwater united states senators from arizona barry goldwater served five terms united states senator from arizona republican party nominated him president 1964 he known mr conservative"
+        ],
+        [
+          "norm",
+          "barry goldwater",
+          "27"
+        ],
+        [
+          "document",
+          "6",
+          "bob young (businessman)",
+          "open source people , red hat people",
+          "Bob Young (businessman) open source people , red hat people  bob young was an entrepreneur associated with the open source software company red hat . he founded the self-publishing website lulu.com in 2002 and purchased the hamilton tiger-cats football team in 2003 . ",
+          "bob young businessman open source people red hat people bob young entrepreneur associated open source software company red hat he founded self publishing website lulu.com 2002 purchased hamilton tiger cats football team 2003"
+        ],
+        [
+          "controlled-document-tokens",
+          "bob young (businessman)",
+          "bob young businessman open source people red hat people bob young was an entrepreneur associated with the open source software company red hat he founded the self publishing website lulu.com in 2002 and purchased the hamilton tiger cats football team in 2003",
+          "bob young businessman open source people red hat people bob young entrepreneur associated open source software company red hat he founded self publishing website lulu.com 2002 purchased hamilton tiger cats football team 2003"
+        ],
+        [
+          "norm",
+          "bob young (businessman)",
+          "33"
+        ],
+        [
+          "document",
+          "7",
+          "blue steel (missile)",
+          "british aviation history",
+          "Blue Steel (missile) british aviation history  the avro blue steel was a british air-launched nuclear stand-off missile built to arm the v bomber force . it preceded the royal navy 's polaris submarine deterrent . ",
+          "blue steel missile british aviation history avro blue steel british air launched nuclear stand off missile built arm v bomber force preceded royal navy s polaris submarine deterrent"
+        ],
+        [
+          "controlled-document-tokens",
+          "blue steel (missile)",
+          "blue steel missile british aviation history the avro blue steel was a british air launched nuclear stand off missile built to arm the v bomber force it preceded the royal navy s polaris submarine deterrent",
+          "blue steel missile british aviation history avro blue steel british air launched nuclear stand off missile built arm v bomber force preceded royal navy s polaris submarine deterrent"
+        ],
+        [
+          "norm",
+          "blue steel (missile)",
+          "28"
+        ],
+        [
+          "query",
+          "native",
+          "body:made body:uk body:bsi body:publishes body:rules body:product body:quality body:uk body:hint body:two body:word body:answer body:begins body:british body:second body:word body:means body:agreed body:rules body:levels body:quality"
+        ],
+        [
+          "hit",
+          "native",
+          "1",
+          "british standards",
+          "3.3215144",
+          "3.3215144 = sum of:\n  1.7510885 = weight(body:bsi in 0) [LMJelinekMercerSimilarity], result of:\n    1.7510885 = score(LMJelinekMercerSimilarity, doc=0, freq=1.0), computed from:\n      0.5 = lambda\n      0.00913242 = collection probability\n  1.5704259 = weight(body:british in 0) [LMJelinekMercerSimilarity], result of:\n    1.5704259 = score(LMJelinekMercerSimilarity, doc=0, freq=2.0), computed from:\n      0.5 = lambda\n      0.02283105 = collection probability\n"
+        ],
+        [
+          "hit",
+          "native",
+          "2",
+          "blue steel (missile)",
+          "1.4179314",
+          "1.4179314 = sum of:\n  1.4179314 = weight(body:british in 7) [LMJelinekMercerSimilarity], result of:\n    1.4179314 = score(LMJelinekMercerSimilarity, doc=7, freq=2.0), computed from:\n      0.5 = lambda\n      0.02283105 = collection probability\n"
+        ],
+        [
+          "query",
+          "indexStop=false,queryStop=false",
+          "body:made body:in body:the body:uk body:bsi body:publishes body:these body:rules body:for body:product body:quality body:in body:the body:uk body:hint body:the body:two body:word body:answer body:begins body:with body:british body:the body:second body:word body:means body:agreed body:rules body:or body:levels body:of body:quality"
+        ],
+        [
+          "hit",
+          "indexStop=false,queryStop=false",
+          "1",
+          "behistun inscription",
+          "8.146557",
+          "8.146557 = sum of:\n  1.2204449 = weight(body:in in 4) [LMJelinekMercerSimilarity], result of:\n    1.2204449 = score(LMJelinekMercerSimilarity, doc=4, freq=1.0), computed from:\n      2.0 = boost\n      0.5 = lambda\n      0.03214286 = collection probability\n  1.2591773 = weight(body:with in 4) [LMJelinekMercerSimilarity], result of:\n    1.2591773 = score(LMJelinekMercerSimilarity, doc=4, freq=1.0), computed from:\n      0.5 = lambda\n      0.010714286 = collection probability\n  4.605024 = weight(body:the in 4) [LMJelinekMercerSimilarity], result of:\n    4.605024 = score(LMJelinekMercerSimilarity, doc=4, freq=4.0), computed from:\n      4.0 = boost\n      0.5 = lambda\n      0.05 = collection probability\n  1.061911 = weight(body:of in 4) [LMJelinekMercerSimilarity], result of:\n    1.061911 = score(LMJelinekMercerSimilarity, doc=4, freq=1.0), computed from:\n      0.5 = lambda\n      0.014285714 = collection probability\n"
+        ],
+        [
+          "hit",
+          "indexStop=false,queryStop=false",
+          "2",
+          "bob young (businessman)",
+          "6.536996",
+          "6.536996 = sum of:\n  1.8177116 = weight(body:in in 6) [LMJelinekMercerSimilarity], result of:\n    1.8177116 = score(LMJelinekMercerSimilarity, doc=6, freq=2.0), computed from:\n      2.0 = boost\n      0.5 = lambda\n      0.03214286 = collection probability\n  1.1700712 = weight(body:with in 6) [LMJelinekMercerSimilarity], result of:\n    1.1700712 = score(LMJelinekMercerSimilarity, doc=6, freq=1.0), computed from:\n      0.5 = lambda\n      0.010714286 = collection probability\n  3.549213 = weight(body:the in 6) [LMJelinekMercerSimilarity], result of:\n    3.549213 = score(LMJelinekMercerSimilarity, doc=6, freq=3.0), computed from:\n      4.0 = boost\n      0.5 = lambda\n      0.05 = collection probability\n"
+        ],
+        [
+          "hit",
+          "indexStop=false,queryStop=false",
+          "3",
+          "british standards",
+          "5.678037",
+          "5.6780367 = sum of:\n  1.822157 = weight(body:bsi in 0) [LMJelinekMercerSimilarity], result of:\n    1.822157 = score(LMJelinekMercerSimilarity, doc=0, freq=1.0), computed from:\n      0.5 = lambda\n      0.007142857 = collection probability\n  1.6386371 = weight(body:british in 0) [LMJelinekMercerSimilarity], result of:\n    1.6386371 = score(LMJelinekMercerSimilarity, doc=0, freq=2.0), computed from:\n      0.5 = lambda\n      0.017857144 = collection probability\n  2.217243 = weight(body:the in 0) [LMJelinekMercerSimilarity], result of:\n    2.217243 = score(LMJelinekMercerSimilarity, doc=0, freq=1.0), computed from:\n      4.0 = boost\n      0.5 = lambda\n      0.05 = collection probability\n"
+        ],
+        [
+          "hit",
+          "indexStop=false,queryStop=false",
+          "4",
+          "blue steel (missile)",
+          "5.4292",
+          "5.4292 = sum of:\n  1.4350845 = weight(body:british in 7) [LMJelinekMercerSimilarity], result of:\n    1.4350845 = score(LMJelinekMercerSimilarity, doc=7, freq=2.0), computed from:\n      0.5 = lambda\n      0.017857144 = collection probability\n  3.9941156 = weight(body:the in 7) [LMJelinekMercerSimilarity], result of:\n    3.9941156 = score(LMJelinekMercerSimilarity, doc=7, freq=3.0), computed from:\n      4.0 = boost\n      0.5 = lambda\n      0.05 = collection probability\n"
+        ],
+        [
+          "hit",
+          "indexStop=false,queryStop=false",
+          "5",
+          "body mass index",
+          "5.049124",
+          "5.0491242 = sum of:\n  2.0805995 = weight(body:in in 3) [LMJelinekMercerSimilarity], result of:\n    2.0805995 = score(LMJelinekMercerSimilarity, doc=3, freq=2.0), computed from:\n      2.0 = boost\n      0.5 = lambda\n      0.03214286 = collection probability\n  1.850494 = weight(body:the in 3) [LMJelinekMercerSimilarity], result of:\n    1.850494 = score(LMJelinekMercerSimilarity, doc=3, freq=1.0), computed from:\n      4.0 = boost\n      0.5 = lambda\n      0.05 = collection probability\n  1.1180304 = weight(body:of in 3) [LMJelinekMercerSimilarity], result of:\n    1.1180304 = score(LMJelinekMercerSimilarity, doc=3, freq=1.0), computed from:\n      0.5 = lambda\n      0.014285714 = collection probability\n"
+        ],
+        [
+          "hit",
+          "indexStop=false,queryStop=false",
+          "6",
+          "barry goldwater",
+          "4.782658",
+          "4.782658 = sum of:\n  1.2994694 = weight(body:in in 5) [LMJelinekMercerSimilarity], result of:\n    1.2994694 = score(LMJelinekMercerSimilarity, doc=5, freq=1.0), computed from:\n      2.0 = boost\n      0.5 = lambda\n      0.03214286 = collection probability\n  1.6326948 = weight(body:for in 5) [LMJelinekMercerSimilarity], result of:\n    1.6326948 = score(LMJelinekMercerSimilarity, doc=5, freq=1.0), computed from:\n      0.5 = lambda\n      0.007142857 = collection probability\n  1.850494 = weight(body:the in 5) [LMJelinekMercerSimilarity], result of:\n    1.850494 = score(LMJelinekMercerSimilarity, doc=5, freq=1.0), computed from:\n      4.0 = boost\n      0.5 = lambda\n      0.05 = collection probability\n"
+        ],
+        [
+          "hit",
+          "indexStop=false,queryStop=false",
+          "7",
+          "burwash hall",
+          "2.9352996",
+          "2.9352996 = sum of:\n  1.9075134 = weight(body:in in 2) [LMJelinekMercerSimilarity], result of:\n    1.9075134 = score(LMJelinekMercerSimilarity, doc=2, freq=2.0), computed from:\n      2.0 = boost\n      0.5 = lambda\n      0.03214286 = collection probability\n  1.0277863 = weight(body:of in 2) [LMJelinekMercerSimilarity], result of:\n    1.0277863 = score(LMJelinekMercerSimilarity, doc=2, freq=1.0), computed from:\n      0.5 = lambda\n      0.014285714 = collection probability\n"
+        ],
+        [
+          "query",
+          "indexStop=false,queryStop=true",
+          "body:made body:uk body:bsi body:publishes body:rules body:product body:quality body:uk body:hint body:two body:word body:answer body:begins body:british body:second body:word body:means body:agreed body:rules body:levels body:quality"
+        ],
+        [
+          "hit",
+          "indexStop=false,queryStop=true",
+          "1",
+          "british standards",
+          "3.460794",
+          "3.460794 = sum of:\n  1.822157 = weight(body:bsi in 0) [LMJelinekMercerSimilarity], result of:\n    1.822157 = score(LMJelinekMercerSimilarity, doc=0, freq=1.0), computed from:\n      0.5 = lambda\n      0.007142857 = collection probability\n  1.6386371 = weight(body:british in 0) [LMJelinekMercerSimilarity], result of:\n    1.6386371 = score(LMJelinekMercerSimilarity, doc=0, freq=2.0), computed from:\n      0.5 = lambda\n      0.017857144 = collection probability\n"
+        ],
+        [
+          "hit",
+          "indexStop=false,queryStop=true",
+          "2",
+          "blue steel (missile)",
+          "1.4350845",
+          "1.4350845 = sum of:\n  1.4350845 = weight(body:british in 7) [LMJelinekMercerSimilarity], result of:\n    1.4350845 = score(LMJelinekMercerSimilarity, doc=7, freq=2.0), computed from:\n      0.5 = lambda\n      0.017857144 = collection probability\n"
+        ],
+        [
+          "query",
+          "indexStop=true,queryStop=false",
+          "body:made body:in body:the body:uk body:bsi body:publishes body:these body:rules body:for body:product body:quality body:in body:the body:uk body:hint body:the body:two body:word body:answer body:begins body:with body:british body:the body:second body:word body:means body:agreed body:rules body:or body:levels body:of body:quality"
+        ],
+        [
+          "hit",
+          "indexStop=true,queryStop=false",
+          "1",
+          "british standards",
+          "3.3215144",
+          "3.3215144 = sum of:\n  1.7510885 = weight(body:bsi in 0) [LMJelinekMercerSimilarity], result of:\n    1.7510885 = score(LMJelinekMercerSimilarity, doc=0, freq=1.0), computed from:\n      0.5 = lambda\n      0.00913242 = collection probability\n  1.5704259 = weight(body:british in 0) [LMJelinekMercerSimilarity], result of:\n    1.5704259 = score(LMJelinekMercerSimilarity, doc=0, freq=2.0), computed from:\n      0.5 = lambda\n      0.02283105 = collection probability\n"
+        ],
+        [
+          "hit",
+          "indexStop=true,queryStop=false",
+          "2",
+          "blue steel (missile)",
+          "1.4179314",
+          "1.4179314 = sum of:\n  1.4179314 = weight(body:british in 7) [LMJelinekMercerSimilarity], result of:\n    1.4179314 = score(LMJelinekMercerSimilarity, doc=7, freq=2.0), computed from:\n      0.5 = lambda\n      0.02283105 = collection probability\n"
+        ],
+        [
+          "query",
+          "indexStop=true,queryStop=true",
+          "body:made body:uk body:bsi body:publishes body:rules body:product body:quality body:uk body:hint body:two body:word body:answer body:begins body:british body:second body:word body:means body:agreed body:rules body:levels body:quality"
+        ],
+        [
+          "hit",
+          "indexStop=true,queryStop=true",
+          "1",
+          "british standards",
+          "3.3215144",
+          "3.3215144 = sum of:\n  1.7510885 = weight(body:bsi in 0) [LMJelinekMercerSimilarity], result of:\n    1.7510885 = score(LMJelinekMercerSimilarity, doc=0, freq=1.0), computed from:\n      0.5 = lambda\n      0.00913242 = collection probability\n  1.5704259 = weight(body:british in 0) [LMJelinekMercerSimilarity], result of:\n    1.5704259 = score(LMJelinekMercerSimilarity, doc=0, freq=2.0), computed from:\n      0.5 = lambda\n      0.02283105 = collection probability\n"
+        ],
+        [
+          "hit",
+          "indexStop=true,queryStop=true",
+          "2",
+          "blue steel (missile)",
+          "1.4179314",
+          "1.4179314 = sum of:\n  1.4179314 = weight(body:british in 7) [LMJelinekMercerSimilarity], result of:\n    1.4179314 = score(LMJelinekMercerSimilarity, doc=7, freq=2.0), computed from:\n      0.5 = lambda\n      0.02283105 = collection probability\n"
+        ]
+      ]
+    },
+    "modern": {
+      "records": [
+        [
+          "runtime",
+          "10.6.0",
+          "4.6.0"
+        ],
+        [
+          "processed",
+          "made in the uk bsi publishes these rules for product quality in the uk . hint : the two - word answer begins with british ; the second word means agreed rules or levels of quality . "
+        ],
+        [
+          "stopwords",
+          "0"
+        ],
+        [
+          "analyzed",
+          "made in the uk bsi publishes these rules for product quality in the uk hint the two word answer begins with british the second word means agreed rules or levels of quality"
+        ],
+        [
+          "controlled-query-tokens",
+          "made in the uk bsi publishes these rules for product quality in the uk hint the two word answer begins with british the second word means agreed rules or levels of quality",
+          "made uk bsi publishes rules product quality uk hint two word answer begins british second word means agreed rules levels quality"
+        ],
+        [
+          "document",
+          "0",
+          "british standards",
+          "standards organizations , united kingdom",
+          "British Standards standards organizations , united kingdom  british standards are produced by bsi group , incorporated under a royal charter . products certified under designated schemes can carry the kitemark . ",
+          "british standards standards organizations united kingdom british standards are produced by bsi group incorporated under a royal charter products certified under designated schemes can carry the kitemark"
+        ],
+        [
+          "controlled-document-tokens",
+          "british standards",
+          "british standards standards organizations united kingdom british standards are produced by bsi group incorporated under a royal charter products certified under designated schemes can carry the kitemark",
+          "british standards standards organizations united kingdom british standards produced bsi group incorporated under royal charter products certified under designated schemes can carry kitemark"
+        ],
+        [
+          "norm",
+          "british standards",
+          "27"
+        ],
+        [
+          "document",
+          "1",
+          "building society",
+          "cooperatives , financial institutions",
+          "Building society cooperatives , financial institutions  a building society is a financial institution owned by its members as a mutual organisation . building societies offer banking services , especially mortgage lending and savings accounts . ",
+          "building society cooperatives financial institutions a building society is a financial institution owned by its members as a mutual organisation building societies offer banking services especially mortgage lending and savings accounts"
+        ],
+        [
+          "controlled-document-tokens",
+          "building society",
+          "building society cooperatives financial institutions a building society is a financial institution owned by its members as a mutual organisation building societies offer banking services especially mortgage lending and savings accounts",
+          "building society cooperatives financial institutions building society financial institution owned its members mutual organisation building societies offer banking services especially mortgage lending savings accounts"
+        ],
+        [
+          "norm",
+          "building society",
+          "31"
+        ],
+        [
+          "document",
+          "2",
+          "burwash hall",
+          "university of toronto buildings , gothic revival architecture",
+          "Burwash Hall university of toronto buildings , gothic revival architecture  burwash hall is a residence building at toronto 's victoria college . construction began in 1911 and finished in 1913 . architect henry sproatt designed its neo-gothic turrets , gargoyles and battlements . ",
+          "burwash hall university of toronto buildings gothic revival architecture burwash hall is a residence building at toronto s victoria college construction began in 1911 and finished in 1913 architect henry sproatt designed its neo gothic turrets gargoyles and battlements"
+        ],
+        [
+          "controlled-document-tokens",
+          "burwash hall",
+          "burwash hall university of toronto buildings gothic revival architecture burwash hall is a residence building at toronto s victoria college construction began in 1911 and finished in 1913 architect henry sproatt designed its neo gothic turrets gargoyles and battlements",
+          "burwash hall university toronto buildings gothic revival architecture burwash hall residence building toronto s victoria college construction began 1911 finished 1913 architect henry sproatt designed its neo gothic turrets gargoyles battlements"
+        ],
+        [
+          "norm",
+          "burwash hall",
+          "39"
+        ],
+        [
+          "document",
+          "3",
+          "body mass index",
+          "human body weight , nutrition",
+          "Body mass index human body weight , nutrition  body mass index , abbreviated bmi , relates a person 's mass to height . it is calculated by dividing mass in kilograms by the square of height in metres . ",
+          "body mass index human body weight nutrition body mass index abbreviated bmi relates a person s mass to height it is calculated by dividing mass in kilograms by the square of height in metres"
+        ],
+        [
+          "controlled-document-tokens",
+          "body mass index",
+          "body mass index human body weight nutrition body mass index abbreviated bmi relates a person s mass to height it is calculated by dividing mass in kilograms by the square of height in metres",
+          "body mass index human body weight nutrition body mass index abbreviated bmi relates person s mass height calculated dividing mass kilograms square height metres"
+        ],
+        [
+          "norm",
+          "body mass index",
+          "34"
+        ],
+        [
+          "document",
+          "4",
+          "behistun inscription",
+          "persian history , inscriptions",
+          "Behistun Inscription persian history , inscriptions  the behistun inscription records the story of darius the great . its parallel versions in old persian , elamite and babylonian helped scholars decipher cuneiform , much as the rosetta stone helped with egyptian hieroglyphs . ",
+          "behistun inscription persian history inscriptions the behistun inscription records the story of darius the great its parallel versions in old persian elamite and babylonian helped scholars decipher cuneiform much as the rosetta stone helped with egyptian hieroglyphs"
+        ],
+        [
+          "controlled-document-tokens",
+          "behistun inscription",
+          "behistun inscription persian history inscriptions the behistun inscription records the story of darius the great its parallel versions in old persian elamite and babylonian helped scholars decipher cuneiform much as the rosetta stone helped with egyptian hieroglyphs",
+          "behistun inscription persian history inscriptions behistun inscription records story darius great its parallel versions old persian elamite babylonian helped scholars decipher cuneiform much rosetta stone helped egyptian hieroglyphs"
+        ],
+        [
+          "norm",
+          "behistun inscription",
+          "37"
+        ],
+        [
+          "document",
+          "5",
+          "barry goldwater",
+          "united states senators from arizona",
+          "Barry Goldwater united states senators from arizona  barry goldwater served five terms as a united states senator from arizona . the republican party nominated him for president in 1964 . he was known as mr. conservative . ",
+          "barry goldwater united states senators from arizona barry goldwater served five terms as a united states senator from arizona the republican party nominated him for president in 1964 he was known as mr conservative"
+        ],
+        [
+          "controlled-document-tokens",
+          "barry goldwater",
+          "barry goldwater united states senators from arizona barry goldwater served five terms as a united states senator from arizona the republican party nominated him for president in 1964 he was known as mr conservative",
+          "barry goldwater united states senators from arizona barry goldwater served five terms united states senator from arizona republican party nominated him president 1964 he known mr conservative"
+        ],
+        [
+          "norm",
+          "barry goldwater",
+          "34"
+        ],
+        [
+          "document",
+          "6",
+          "bob young (businessman)",
+          "open source people , red hat people",
+          "Bob Young (businessman) open source people , red hat people  bob young was an entrepreneur associated with the open source software company red hat . he founded the self - publishing website lulu.com in 2002 and purchased the hamilton tiger - cats football team in 2003 . ",
+          "bob young businessman open source people red hat people bob young was an entrepreneur associated with the open source software company red hat he founded the self publishing website lulu.com in 2002 and purchased the hamilton tiger cats football team in 2003"
+        ],
+        [
+          "controlled-document-tokens",
+          "bob young (businessman)",
+          "bob young businessman open source people red hat people bob young was an entrepreneur associated with the open source software company red hat he founded the self publishing website lulu.com in 2002 and purchased the hamilton tiger cats football team in 2003",
+          "bob young businessman open source people red hat people bob young entrepreneur associated open source software company red hat he founded self publishing website lulu.com 2002 purchased hamilton tiger cats football team 2003"
+        ],
+        [
+          "norm",
+          "bob young (businessman)",
+          "41"
+        ],
+        [
+          "document",
+          "7",
+          "blue steel (missile)",
+          "british aviation history",
+          "Blue Steel (missile) british aviation history  the avro blue steel was a british air - launched nuclear stand - off missile built to arm the v bomber force . it preceded the royal navy 's polaris submarine deterrent . ",
+          "blue steel missile british aviation history the avro blue steel was a british air launched nuclear stand off missile built to arm the v bomber force it preceded the royal navy s polaris submarine deterrent"
+        ],
+        [
+          "controlled-document-tokens",
+          "blue steel (missile)",
+          "blue steel missile british aviation history the avro blue steel was a british air launched nuclear stand off missile built to arm the v bomber force it preceded the royal navy s polaris submarine deterrent",
+          "blue steel missile british aviation history avro blue steel british air launched nuclear stand off missile built arm v bomber force preceded royal navy s polaris submarine deterrent"
+        ],
+        [
+          "norm",
+          "blue steel (missile)",
+          "35"
+        ],
+        [
+          "query",
+          "native",
+          "body:made body:in body:the body:uk body:bsi body:publishes body:these body:rules body:for body:product body:quality body:in body:the body:uk body:hint body:the body:two body:word body:answer body:begins body:with body:british body:the body:second body:word body:means body:agreed body:rules body:or body:levels body:of body:quality"
+        ],
+        [
+          "hit",
+          "native",
+          "1",
+          "behistun inscription",
+          "8.146557",
+          "8.146557 = sum of:\n  1.0619109 = weight(body:of in 4) [LMJelinekMercerSimilarity], result of:\n    1.0619109 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.014285714 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      37.0 = dl, length of field\n      0.014285714 = collection probability\n  1.2204449 = weight(body:in in 4) [LMJelinekMercerSimilarity], result of:\n    1.2204449 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      2.0 = boost\n      0.5 = lambda\n      0.03214286 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      37.0 = dl, length of field\n      0.03214286 = collection probability\n  4.605024 = weight(body:the in 4) [LMJelinekMercerSimilarity], result of:\n    4.605024 = score(LMJelinekMercerSimilarity, freq=4.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      4.0 = boost\n      0.5 = lambda\n      0.05 = P, probability that the current term is generated by the collection\n      4.0 = freq, number of occurrences of term in the document\n      37.0 = dl, length of field\n      0.05 = collection probability\n  1.2591773 = weight(body:with in 4) [LMJelinekMercerSimilarity], result of:\n    1.2591773 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.010714286 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      37.0 = dl, length of field\n      0.010714286 = collection probability\n"
+        ],
+        [
+          "hit",
+          "native",
+          "2",
+          "bob young (businessman)",
+          "6.5369954",
+          "6.5369954 = sum of:\n  1.8177115 = weight(body:in in 6) [LMJelinekMercerSimilarity], result of:\n    1.8177115 = score(LMJelinekMercerSimilarity, freq=2.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      2.0 = boost\n      0.5 = lambda\n      0.03214286 = P, probability that the current term is generated by the collection\n      2.0 = freq, number of occurrences of term in the document\n      42.0 = dl, length of field\n      0.03214286 = collection probability\n  3.5492127 = weight(body:the in 6) [LMJelinekMercerSimilarity], result of:\n    3.5492127 = score(LMJelinekMercerSimilarity, freq=3.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      4.0 = boost\n      0.5 = lambda\n      0.05 = P, probability that the current term is generated by the collection\n      3.0 = freq, number of occurrences of term in the document\n      42.0 = dl, length of field\n      0.05 = collection probability\n  1.1700712 = weight(body:with in 6) [LMJelinekMercerSimilarity], result of:\n    1.1700712 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.010714286 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      42.0 = dl, length of field\n      0.010714286 = collection probability\n"
+        ],
+        [
+          "hit",
+          "native",
+          "3",
+          "british standards",
+          "5.6780367",
+          "5.6780367 = sum of:\n  1.8221569 = weight(body:bsi in 0) [LMJelinekMercerSimilarity], result of:\n    1.8221569 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.007142857 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      27.0 = dl, length of field\n      0.007142857 = collection probability\n  1.6386371 = weight(body:british in 0) [LMJelinekMercerSimilarity], result of:\n    1.6386371 = score(LMJelinekMercerSimilarity, freq=2.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.017857144 = P, probability that the current term is generated by the collection\n      2.0 = freq, number of occurrences of term in the document\n      27.0 = dl, length of field\n      0.017857144 = collection probability\n  2.217243 = weight(body:the in 0) [LMJelinekMercerSimilarity], result of:\n    2.217243 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      4.0 = boost\n      0.5 = lambda\n      0.05 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      27.0 = dl, length of field\n      0.05 = collection probability\n"
+        ],
+        [
+          "hit",
+          "native",
+          "4",
+          "blue steel (missile)",
+          "5.4292",
+          "5.4292 = sum of:\n  1.4350846 = weight(body:british in 7) [LMJelinekMercerSimilarity], result of:\n    1.4350846 = score(LMJelinekMercerSimilarity, freq=2.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.017857144 = P, probability that the current term is generated by the collection\n      2.0 = freq, number of occurrences of term in the document\n      35.0 = dl, length of field\n      0.017857144 = collection probability\n  3.9941154 = weight(body:the in 7) [LMJelinekMercerSimilarity], result of:\n    3.9941154 = score(LMJelinekMercerSimilarity, freq=3.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      4.0 = boost\n      0.5 = lambda\n      0.05 = P, probability that the current term is generated by the collection\n      3.0 = freq, number of occurrences of term in the document\n      35.0 = dl, length of field\n      0.05 = collection probability\n"
+        ],
+        [
+          "hit",
+          "native",
+          "5",
+          "body mass index",
+          "5.0491242",
+          "5.0491242 = sum of:\n  1.1180304 = weight(body:of in 3) [LMJelinekMercerSimilarity], result of:\n    1.1180304 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.014285714 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      34.0 = dl, length of field\n      0.014285714 = collection probability\n  2.0805995 = weight(body:in in 3) [LMJelinekMercerSimilarity], result of:\n    2.0805995 = score(LMJelinekMercerSimilarity, freq=2.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      2.0 = boost\n      0.5 = lambda\n      0.03214286 = P, probability that the current term is generated by the collection\n      2.0 = freq, number of occurrences of term in the document\n      34.0 = dl, length of field\n      0.03214286 = collection probability\n  1.8504941 = weight(body:the in 3) [LMJelinekMercerSimilarity], result of:\n    1.8504941 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      4.0 = boost\n      0.5 = lambda\n      0.05 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      34.0 = dl, length of field\n      0.05 = collection probability\n"
+        ],
+        [
+          "hit",
+          "native",
+          "6",
+          "barry goldwater",
+          "4.782658",
+          "4.782658 = sum of:\n  1.6326947 = weight(body:for in 5) [LMJelinekMercerSimilarity], result of:\n    1.6326947 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.007142857 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      34.0 = dl, length of field\n      0.007142857 = collection probability\n  1.2994694 = weight(body:in in 5) [LMJelinekMercerSimilarity], result of:\n    1.2994694 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      2.0 = boost\n      0.5 = lambda\n      0.03214286 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      34.0 = dl, length of field\n      0.03214286 = collection probability\n  1.8504941 = weight(body:the in 5) [LMJelinekMercerSimilarity], result of:\n    1.8504941 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      4.0 = boost\n      0.5 = lambda\n      0.05 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      34.0 = dl, length of field\n      0.05 = collection probability\n"
+        ],
+        [
+          "hit",
+          "native",
+          "7",
+          "burwash hall",
+          "2.9352996",
+          "2.9352996 = sum of:\n  1.0277863 = weight(body:of in 2) [LMJelinekMercerSimilarity], result of:\n    1.0277863 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.014285714 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      39.0 = dl, length of field\n      0.014285714 = collection probability\n  1.9075134 = weight(body:in in 2) [LMJelinekMercerSimilarity], result of:\n    1.9075134 = score(LMJelinekMercerSimilarity, freq=2.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      2.0 = boost\n      0.5 = lambda\n      0.03214286 = P, probability that the current term is generated by the collection\n      2.0 = freq, number of occurrences of term in the document\n      39.0 = dl, length of field\n      0.03214286 = collection probability\n"
+        ],
+        [
+          "query",
+          "indexStop=false,queryStop=false",
+          "body:made body:in body:the body:uk body:bsi body:publishes body:these body:rules body:for body:product body:quality body:in body:the body:uk body:hint body:the body:two body:word body:answer body:begins body:with body:british body:the body:second body:word body:means body:agreed body:rules body:or body:levels body:of body:quality"
+        ],
+        [
+          "hit",
+          "indexStop=false,queryStop=false",
+          "1",
+          "behistun inscription",
+          "8.146557",
+          "8.146557 = sum of:\n  1.0619109 = weight(body:of in 4) [LMJelinekMercerSimilarity], result of:\n    1.0619109 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.014285714 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      37.0 = dl, length of field\n      0.014285714 = collection probability\n  1.2204449 = weight(body:in in 4) [LMJelinekMercerSimilarity], result of:\n    1.2204449 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      2.0 = boost\n      0.5 = lambda\n      0.03214286 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      37.0 = dl, length of field\n      0.03214286 = collection probability\n  4.605024 = weight(body:the in 4) [LMJelinekMercerSimilarity], result of:\n    4.605024 = score(LMJelinekMercerSimilarity, freq=4.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      4.0 = boost\n      0.5 = lambda\n      0.05 = P, probability that the current term is generated by the collection\n      4.0 = freq, number of occurrences of term in the document\n      37.0 = dl, length of field\n      0.05 = collection probability\n  1.2591773 = weight(body:with in 4) [LMJelinekMercerSimilarity], result of:\n    1.2591773 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.010714286 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      37.0 = dl, length of field\n      0.010714286 = collection probability\n"
+        ],
+        [
+          "hit",
+          "indexStop=false,queryStop=false",
+          "2",
+          "bob young (businessman)",
+          "6.5369954",
+          "6.5369954 = sum of:\n  1.8177115 = weight(body:in in 6) [LMJelinekMercerSimilarity], result of:\n    1.8177115 = score(LMJelinekMercerSimilarity, freq=2.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      2.0 = boost\n      0.5 = lambda\n      0.03214286 = P, probability that the current term is generated by the collection\n      2.0 = freq, number of occurrences of term in the document\n      42.0 = dl, length of field\n      0.03214286 = collection probability\n  3.5492127 = weight(body:the in 6) [LMJelinekMercerSimilarity], result of:\n    3.5492127 = score(LMJelinekMercerSimilarity, freq=3.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      4.0 = boost\n      0.5 = lambda\n      0.05 = P, probability that the current term is generated by the collection\n      3.0 = freq, number of occurrences of term in the document\n      42.0 = dl, length of field\n      0.05 = collection probability\n  1.1700712 = weight(body:with in 6) [LMJelinekMercerSimilarity], result of:\n    1.1700712 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.010714286 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      42.0 = dl, length of field\n      0.010714286 = collection probability\n"
+        ],
+        [
+          "hit",
+          "indexStop=false,queryStop=false",
+          "3",
+          "british standards",
+          "5.6780367",
+          "5.6780367 = sum of:\n  1.8221569 = weight(body:bsi in 0) [LMJelinekMercerSimilarity], result of:\n    1.8221569 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.007142857 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      27.0 = dl, length of field\n      0.007142857 = collection probability\n  1.6386371 = weight(body:british in 0) [LMJelinekMercerSimilarity], result of:\n    1.6386371 = score(LMJelinekMercerSimilarity, freq=2.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.017857144 = P, probability that the current term is generated by the collection\n      2.0 = freq, number of occurrences of term in the document\n      27.0 = dl, length of field\n      0.017857144 = collection probability\n  2.217243 = weight(body:the in 0) [LMJelinekMercerSimilarity], result of:\n    2.217243 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      4.0 = boost\n      0.5 = lambda\n      0.05 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      27.0 = dl, length of field\n      0.05 = collection probability\n"
+        ],
+        [
+          "hit",
+          "indexStop=false,queryStop=false",
+          "4",
+          "blue steel (missile)",
+          "5.4292",
+          "5.4292 = sum of:\n  1.4350846 = weight(body:british in 7) [LMJelinekMercerSimilarity], result of:\n    1.4350846 = score(LMJelinekMercerSimilarity, freq=2.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.017857144 = P, probability that the current term is generated by the collection\n      2.0 = freq, number of occurrences of term in the document\n      35.0 = dl, length of field\n      0.017857144 = collection probability\n  3.9941154 = weight(body:the in 7) [LMJelinekMercerSimilarity], result of:\n    3.9941154 = score(LMJelinekMercerSimilarity, freq=3.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      4.0 = boost\n      0.5 = lambda\n      0.05 = P, probability that the current term is generated by the collection\n      3.0 = freq, number of occurrences of term in the document\n      35.0 = dl, length of field\n      0.05 = collection probability\n"
+        ],
+        [
+          "hit",
+          "indexStop=false,queryStop=false",
+          "5",
+          "body mass index",
+          "5.0491242",
+          "5.0491242 = sum of:\n  1.1180304 = weight(body:of in 3) [LMJelinekMercerSimilarity], result of:\n    1.1180304 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.014285714 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      34.0 = dl, length of field\n      0.014285714 = collection probability\n  2.0805995 = weight(body:in in 3) [LMJelinekMercerSimilarity], result of:\n    2.0805995 = score(LMJelinekMercerSimilarity, freq=2.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      2.0 = boost\n      0.5 = lambda\n      0.03214286 = P, probability that the current term is generated by the collection\n      2.0 = freq, number of occurrences of term in the document\n      34.0 = dl, length of field\n      0.03214286 = collection probability\n  1.8504941 = weight(body:the in 3) [LMJelinekMercerSimilarity], result of:\n    1.8504941 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      4.0 = boost\n      0.5 = lambda\n      0.05 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      34.0 = dl, length of field\n      0.05 = collection probability\n"
+        ],
+        [
+          "hit",
+          "indexStop=false,queryStop=false",
+          "6",
+          "barry goldwater",
+          "4.782658",
+          "4.782658 = sum of:\n  1.6326947 = weight(body:for in 5) [LMJelinekMercerSimilarity], result of:\n    1.6326947 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.007142857 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      34.0 = dl, length of field\n      0.007142857 = collection probability\n  1.2994694 = weight(body:in in 5) [LMJelinekMercerSimilarity], result of:\n    1.2994694 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      2.0 = boost\n      0.5 = lambda\n      0.03214286 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      34.0 = dl, length of field\n      0.03214286 = collection probability\n  1.8504941 = weight(body:the in 5) [LMJelinekMercerSimilarity], result of:\n    1.8504941 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      4.0 = boost\n      0.5 = lambda\n      0.05 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      34.0 = dl, length of field\n      0.05 = collection probability\n"
+        ],
+        [
+          "hit",
+          "indexStop=false,queryStop=false",
+          "7",
+          "burwash hall",
+          "2.9352996",
+          "2.9352996 = sum of:\n  1.0277863 = weight(body:of in 2) [LMJelinekMercerSimilarity], result of:\n    1.0277863 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.014285714 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      39.0 = dl, length of field\n      0.014285714 = collection probability\n  1.9075134 = weight(body:in in 2) [LMJelinekMercerSimilarity], result of:\n    1.9075134 = score(LMJelinekMercerSimilarity, freq=2.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      2.0 = boost\n      0.5 = lambda\n      0.03214286 = P, probability that the current term is generated by the collection\n      2.0 = freq, number of occurrences of term in the document\n      39.0 = dl, length of field\n      0.03214286 = collection probability\n"
+        ],
+        [
+          "query",
+          "indexStop=false,queryStop=true",
+          "body:made body:uk body:bsi body:publishes body:rules body:product body:quality body:uk body:hint body:two body:word body:answer body:begins body:british body:second body:word body:means body:agreed body:rules body:levels body:quality"
+        ],
+        [
+          "hit",
+          "indexStop=false,queryStop=true",
+          "1",
+          "british standards",
+          "3.460794",
+          "3.460794 = sum of:\n  1.8221569 = weight(body:bsi in 0) [LMJelinekMercerSimilarity], result of:\n    1.8221569 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.007142857 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      27.0 = dl, length of field\n      0.007142857 = collection probability\n  1.6386371 = weight(body:british in 0) [LMJelinekMercerSimilarity], result of:\n    1.6386371 = score(LMJelinekMercerSimilarity, freq=2.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.017857144 = P, probability that the current term is generated by the collection\n      2.0 = freq, number of occurrences of term in the document\n      27.0 = dl, length of field\n      0.017857144 = collection probability\n"
+        ],
+        [
+          "hit",
+          "indexStop=false,queryStop=true",
+          "2",
+          "blue steel (missile)",
+          "1.4350846",
+          "1.4350846 = sum of:\n  1.4350846 = weight(body:british in 7) [LMJelinekMercerSimilarity], result of:\n    1.4350846 = score(LMJelinekMercerSimilarity, freq=2.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.017857144 = P, probability that the current term is generated by the collection\n      2.0 = freq, number of occurrences of term in the document\n      35.0 = dl, length of field\n      0.017857144 = collection probability\n"
+        ],
+        [
+          "query",
+          "indexStop=true,queryStop=false",
+          "body:made body:in body:the body:uk body:bsi body:publishes body:these body:rules body:for body:product body:quality body:in body:the body:uk body:hint body:the body:two body:word body:answer body:begins body:with body:british body:the body:second body:word body:means body:agreed body:rules body:or body:levels body:of body:quality"
+        ],
+        [
+          "hit",
+          "indexStop=true,queryStop=false",
+          "1",
+          "british standards",
+          "3.3215141",
+          "3.3215141 = sum of:\n  1.7510884 = weight(body:bsi in 0) [LMJelinekMercerSimilarity], result of:\n    1.7510884 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.00913242 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      23.0 = dl, length of field\n      0.00913242 = collection probability\n  1.5704259 = weight(body:british in 0) [LMJelinekMercerSimilarity], result of:\n    1.5704259 = score(LMJelinekMercerSimilarity, freq=2.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.02283105 = P, probability that the current term is generated by the collection\n      2.0 = freq, number of occurrences of term in the document\n      23.0 = dl, length of field\n      0.02283105 = collection probability\n"
+        ],
+        [
+          "hit",
+          "indexStop=true,queryStop=false",
+          "2",
+          "blue steel (missile)",
+          "1.4179314",
+          "1.4179314 = sum of:\n  1.4179314 = weight(body:british in 7) [LMJelinekMercerSimilarity], result of:\n    1.4179314 = score(LMJelinekMercerSimilarity, freq=2.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.02283105 = P, probability that the current term is generated by the collection\n      2.0 = freq, number of occurrences of term in the document\n      28.0 = dl, length of field\n      0.02283105 = collection probability\n"
+        ],
+        [
+          "query",
+          "indexStop=true,queryStop=true",
+          "body:made body:uk body:bsi body:publishes body:rules body:product body:quality body:uk body:hint body:two body:word body:answer body:begins body:british body:second body:word body:means body:agreed body:rules body:levels body:quality"
+        ],
+        [
+          "hit",
+          "indexStop=true,queryStop=true",
+          "1",
+          "british standards",
+          "3.3215141",
+          "3.3215141 = sum of:\n  1.7510884 = weight(body:bsi in 0) [LMJelinekMercerSimilarity], result of:\n    1.7510884 = score(LMJelinekMercerSimilarity, freq=1.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.00913242 = P, probability that the current term is generated by the collection\n      1.0 = freq, number of occurrences of term in the document\n      23.0 = dl, length of field\n      0.00913242 = collection probability\n  1.5704259 = weight(body:british in 0) [LMJelinekMercerSimilarity], result of:\n    1.5704259 = score(LMJelinekMercerSimilarity, freq=2.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.02283105 = P, probability that the current term is generated by the collection\n      2.0 = freq, number of occurrences of term in the document\n      23.0 = dl, length of field\n      0.02283105 = collection probability\n"
+        ],
+        [
+          "hit",
+          "indexStop=true,queryStop=true",
+          "2",
+          "blue steel (missile)",
+          "1.4179314",
+          "1.4179314 = sum of:\n  1.4179314 = weight(body:british in 7) [LMJelinekMercerSimilarity], result of:\n    1.4179314 = score(LMJelinekMercerSimilarity, freq=2.0), computed as boost * log(1 + ((1 - lambda) * freq / dl) /(lambda * P)) from:\n      0.5 = lambda\n      0.02283105 = P, probability that the current term is generated by the collection\n      2.0 = freq, number of occurrences of term in the document\n      28.0 = dl, length of field\n      0.02283105 = collection probability\n"
+        ]
+      ]
+    }
+  }
+}

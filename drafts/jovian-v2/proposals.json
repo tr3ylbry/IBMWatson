@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "jovian-intake-demo",
+  "version": "1.0.1",
+  "topicId": "jovian-system",
+  "topic": "Jupiter moons",
+  "label": "Jovian System",
+  "description": "Revised Jovian authoring draft: source-supported article-title clues, provisional Standard level; no human approval or automatic activation.",
+  "subtopics": [
+    {
+      "id": "geology",
+      "label": "Geology"
+    },
+    {
+      "id": "magnetism",
+      "label": "Magnetism"
+    },
+    {
+      "id": "satellite-identities",
+      "label": "Satellite Identities"
+    },
+    {
+      "id": "orbital-dynamics",
+      "label": "Orbital Dynamics"
+    },
+    {
+      "id": "spacecraft",
+      "label": "Spacecraft"
+    }
+  ],
+  "authoring": {
+    "method": "operator-supplied",
+    "author": "Codex (implementing assistant), not an independent human author",
+    "createdOn": "2026-11-06",
+    "notes": "Codex assistant source/editorial revision of v1 on 2026-11-06. Removed Europa's answer-bearing designation from the question, clarified orbital-resonance wording and extended contextual support, and removed Juice's answer-revealing hint. All original source bytes and observed revision caveats retained. Existing aliases verified in context, not added or tuned from retrieval. No human review or difficulty calibration.",
+    "humanReviewer": null,
+    "humanReviewedOn": null
+  },
+  "clues": [
+    {
+      "id": "jovian-io-volcanism-01",
+      "factId": "io-tidal-volcanism",
+      "subtopicId": "geology",
+      "category": "Jovian Geology",
+      "text": "Tidal heating helps drive hundreds of active volcanoes on which Galilean moon?",
+      "hint": "It is the innermost of the four Galilean moons.",
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerPageId": 1051892,
+      "aliases": [
+        "Io (moon)",
+        "Io"
+      ],
+      "support": {
+        "pageId": 1051892,
+        "text": "With over 400 active volcanoes, Io is the most geologically active object in the Solar System. This extreme geologic activity results from tidal heating from friction generated within Io's interior as it is pulled between Jupiter and two other Galilean moons—Europa and Ganymede."
+      },
+      "reviewNotes": "Assistant recheck: original clue and innermost-Galilean hint are explicit in the complete saved Io lead. Io is its contextual astronomical short name, not acceptance of an unrelated mythological response. Wording, aliases and hint retained; no grading change."
+    },
+    {
+      "id": "jovian-ganymede-magnetism-01",
+      "factId": "ganymede-internal-field",
+      "subtopicId": "magnetism",
+      "category": "Moon Magnetism",
+      "text": "Which moon of Jupiter is the only natural satellite in the Solar System known to possess an internally generated magnetic field?",
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerPageId": 54211,
+      "aliases": [
+        "Ganymede (moon)",
+        "Ganymede"
+      ],
+      "support": {
+        "pageId": 54211,
+        "text": "Ganymede is the only natural satellite in the solar system to possess an internally generated magnetic field."
+      },
+      "reviewNotes": "Assistant recheck: saved lead and NASA Ganymede facts support the known internally generated field distinction. Ganymede is the short astronomical name in this moon-specific question. Retained qualifiers and aliases; scientific knowledge and difficulty remain provisional."
+    },
+    {
+      "id": "jovian-europa-identity-01",
+      "factId": "europa-jupiter-ii-smallest",
+      "subtopicId": "satellite-identities",
+      "category": "Satellite Identities",
+      "text": "Which is the smallest and least massive of Jupiter's four Galilean moons?",
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerPageId": 43127,
+      "aliases": [
+        "Europa (moon)",
+        "Europa",
+        "Jupiter II"
+      ],
+      "support": {
+        "pageId": 43127,
+        "text": "Europa ( ) or Jupiter II is the smallest and least massive of Jupiter's four Galilean moons."
+      },
+      "reviewNotes": "Assistant correction: removed Jupiter II from the question to stop presenting an accepted answer verbatim. The source explicitly identifies Europa/Jupiter II, so both existing names remain legitimate aliases in this moon-specific context. No new alias or scorer change. Empty pronunciation parentheses in source remain unedited. Standard label is provisional."
+    },
+    {
+      "id": "jovian-callisto-resonance-01",
+      "factId": "callisto-outside-resonance",
+      "subtopicId": "orbital-dynamics",
+      "category": "Orbital Dynamics",
+      "text": "Which Galilean moon does not share the orbital resonance, or repeating orbital timing pattern, that links Io, Europa, and Ganymede?",
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerPageId": 43126,
+      "aliases": [
+        "Callisto (moon)",
+        "Callisto"
+      ],
+      "support": {
+        "pageId": 43126,
+        "text": "Callisto ( kə-LIST-oh) is the second-largest moon of Jupiter, after Ganymede. It is also the third-largest moon in the Solar System, following Ganymede and Saturn's moon Titan, and nearly as large as the planet Mercury, but only about a third of that planet's mass. With a diameter of 4,821 km, Callisto is roughly a third larger than Earth's Moon and orbits Jupiter on average at a distance of 1.883 million km, which is about five times further out than the Moon orbiting Earth. It is the outermost of the four large Galilean moons of Jupiter, which were discovered in 1610 with one of the first telescopes, and is today visible from Earth with common binoculars.\nThe surface of Callisto is the oldest and most heavily cratered in the Solar System, with the surface almost completely covered with impact craters. It does not show any signatures of subsurface processes such as plate tectonics or volcanism, and is thought to have evolved predominantly under the influence of impacts. Prominent surface features include multi-ring structures, variously shaped impact craters, and chains of craters called catenae and associated scarps, ridges and deposits. At a small scale, the surface is varied and made up of small, sparkly frost deposits at the tips of high spots, surrounded by a low-lying, smooth blanket of dark material. This is thought to result from the sublimation-driven degradation of small landforms, which is supported by the general deficit of small impact craters and the presence of numerous small knobs, considered to be their remnants. The absolute ages of the landforms are not known.\nCallisto is composed of approximately equal amounts of rock and ice, with a density of about 1.83 g/cm3, the lowest density and surface gravity of Jupiter's major moons. Compounds detected spectroscopically on the surface include water ice, carbon dioxide, silicates and organic compounds. Investigation by the Galileo spacecraft revealed that Callisto may have a small silicate core and possibly a subsurface ocean of liquid water at depths greater than 100 km.\nIt is not in an orbital resonance like the three other Galilean satellites—Io, Europa and Ganymede—and is thus not appreciably tidally heated."
+      },
+      "reviewNotes": "Assistant correction: explained orbital resonance in plain language without supplying the answer. Extended the exact contiguous support from Callisto's named introduction through the non-resonance sentence so the pronoun has context. NASA Ganymede orbital section corroborates the repeating timing pattern and Callisto exclusion. Retained Standard provisionally; specialist vocabulary remains an advisory, not evidence for relabeling."
+    },
+    {
+      "id": "jovian-juice-mission-01",
+      "factId": "juice-launch-and-ganymede",
+      "subtopicId": "spacecraft",
+      "category": "Jupiter Missions",
+      "text": "Which ESA spacecraft launched from French Guiana on 14 April 2023 is intended to orbit Ganymede?",
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerPageId": 32657610,
+      "aliases": [
+        "Jupiter Icy Moons Explorer",
+        "Juice"
+      ],
+      "support": {
+        "pageId": 32657610,
+        "text": "The Jupiter Icy Moons Explorer (Juice, formerly JUICE) is an interplanetary spacecraft developed by the European Space Agency (ESA). It is on its way to orbit and study three icy moons of Jupiter: Ganymede, Callisto, and Europa. These planetary-mass moons are targets for study because they are thought to have significant bodies of liquid water beneath their frozen surfaces, which would make them potentially habitable for extraterrestrial life.\nJuice is the first interplanetary spacecraft to the outer Solar System planets not launched by the United States and the first intended to orbit a moon other than Earth's Moon. Launched by ESA, from Guiana Space Centre in French Guiana on 14 April 2023, with Airbus Defence and Space as the main contractor, it is expected to reach Jupiter in July 2031 after four gravity assists and eight years of travel. In December 2034, the spacecraft will enter orbit around Ganymede for its close-up science mission. Its period of operations will overlap with NASA's Europa Clipper mission, which was launched in October 2024."
+      },
+      "reviewNotes": "Assistant correction: removed the fruit-drink hint, which nearly supplied Juice. Expanded support to the full saved lead so the canonical title, short name, launch and intended Ganymede orbit are together. ESA factsheet corroborates the launch and planned orbital tour. Existing Juice alias retained; intended avoids claiming a future event has occurred. No unsupported aliases or retrieval tuning."
+    }
+  ]
+}

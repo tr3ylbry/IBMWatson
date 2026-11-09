@@ -1,0 +1,1 @@
+Body mass index, abbreviated BMI, relates a person's mass to height. It is calculated by dividing mass in kilograms by the square of height in metres.

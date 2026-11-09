@@ -1,0 +1,1413 @@
+{
+  "schemaVersion": 1,
+  "experimentId": "cluelab-retrieval-pilot",
+  "version": "1.0.0",
+  "mode": "test",
+  "measuredAt": "2026-11-06T04:44:40.142447Z",
+  "runtime": {
+    "java": "21.0.13",
+    "lucene": "10.6.0",
+    "corenlp": "4.6.0",
+    "indexSchema": "3"
+  },
+  "frozenSha256": "42bd844ea74516b29c3d420d61cd03fcddb779d80d6fac62969cbc5e13a56923",
+  "collectionSha256": "1002a0c3f9aaadfb785d74df02b89089f9cc9494389b93fd9229487a571f88f3",
+  "developmentSha256": "730efec27e0f36c108890126d04fba7afe16fa48e375828479db420a93463388",
+  "classification": "same-author-historical-source-pilot-not-general-accuracy",
+  "split": "held-out",
+  "heldOutSha256": "54381e40fd2d65150db777690726ed0925cf161178c9170c568d6c9cb99fe9d3",
+  "selectionSha256": "b5d335ceafdfb978c11f917c584dd69f59fd2dded8f8a1a233d71dc977bd6efe",
+  "selectedProfile": "baseline",
+  "reports": [
+    {
+      "profile": "baseline",
+      "index": {
+        "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/retrieval-lab-v1-lucene10-schema3/1_idxTypeNone",
+        "documents": 645,
+        "indexType": 1,
+        "scorer": 4,
+        "origin": "cluelab-rebuilt",
+        "commit": "segments_1",
+        "retrievalProfile": "baseline",
+        "runtime": {
+          "java": "21.0.13",
+          "lucene": "10.6.0",
+          "corenlp": "4.6.0",
+          "indexSchema": "3"
+        },
+        "metadata": {
+          "datasetVersion": "1.0.0",
+          "documents": "645",
+          "cluelab.schema": "3",
+          "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/corpus/retrieval-lab-v1",
+          "manifestSha256": "1002a0c3f9aaadfb785d74df02b89089f9cc9494389b93fd9229487a571f88f3",
+          "sourceSha256": "d3a7b91af2a83d1f61a2fc8b97cb6b5f67dead6fc40532a41619bd8e9d3c3d49",
+          "indexType": "1",
+          "sourceFiles": "1",
+          "builtAt": "2026-11-06T04:40:10.979865Z",
+          "norms": "BM25-lucene10",
+          "luceneVersion": "10.6.0",
+          "nlpVersion": "4.6.0",
+          "datasetId": "cluelab-wiki-shard-b"
+        }
+      },
+      "size": 20,
+      "correctFirst": 20,
+      "foundWithin10": 20,
+      "accuracy": 1,
+      "hitAt10": 1,
+      "mrrAt10": 1,
+      "timing": {
+        "samples": 100,
+        "warmupMs": 87.452042,
+        "minMs": 1.241625,
+        "medianMs": 2.629959,
+        "p95Ms": 5.285792,
+        "meanMs": 2.9441321,
+        "maxMs": 12.9175
+      },
+      "predictions": [
+        {
+          "id": "wiki-b-held-out-01",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Babylon 5",
+              "rawRetrievalScore": 31.69391441345215
+            },
+            {
+              "rank": 2,
+              "title": "Bill Mumy",
+              "rawRetrievalScore": 20.267196655273438
+            },
+            {
+              "rank": 3,
+              "title": "Ben Bova",
+              "rawRetrievalScore": 19.715984344482422
+            },
+            {
+              "rank": 4,
+              "title": "Bill Macy",
+              "rawRetrievalScore": 19.105878829956055
+            },
+            {
+              "rank": 5,
+              "title": "Chris Morris (satirist)",
+              "rawRetrievalScore": 18.756235122680664
+            },
+            {
+              "rank": 6,
+              "title": "Bill Bixby",
+              "rawRetrievalScore": 16.269227981567383
+            },
+            {
+              "rank": 7,
+              "title": "Citizen Kane",
+              "rawRetrievalScore": 16.15186882019043
+            },
+            {
+              "rank": 8,
+              "title": "Bagpuss",
+              "rawRetrievalScore": 15.353489875793457
+            },
+            {
+              "rank": 9,
+              "title": "Comic strip",
+              "rawRetrievalScore": 15.285101890563965
+            },
+            {
+              "rank": 10,
+              "title": "Banacek",
+              "rawRetrievalScore": 14.420355796813965
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0021",
+            "rawSha256": "ada3dcfe28afb5740b84b95ea71a9c4eff992016b57c0aafc39aea3d94f66906",
+            "quote": "a five-year story, a novel for television"
+          },
+          "opponentRetrieved": {
+            "title": "Babylon 5",
+            "text": "...releases Mastering problems See also References External links Babylon 5 is an American space opera television series created by writer and producer J. Michael Straczynski, under the Babylonian Productions label, in association with Straczynski's Synthetic Worlds Ltd. and Warner Bros. Domestic Television. After the successful airing of a backdoor pilot movie, Warner Bros. commissioned the series as part of the second-year schedule of programs provided by its Prime Time Entert...",
+            "source": "source.txt:934",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-held-out-02",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Biome",
+              "rawRetrievalScore": 45.5999755859375
+            },
+            {
+              "rank": 2,
+              "title": "Geography of Cape Verde",
+              "rawRetrievalScore": 22.707748413085938
+            },
+            {
+              "rank": 3,
+              "title": "Cucurbitales",
+              "rawRetrievalScore": 21.001548767089844
+            },
+            {
+              "rank": 4,
+              "title": "Community",
+              "rawRetrievalScore": 20.080787658691406
+            },
+            {
+              "rank": 5,
+              "title": "Cultural anthropology",
+              "rawRetrievalScore": 18.097497940063477
+            },
+            {
+              "rank": 6,
+              "title": "Columbia River",
+              "rawRetrievalScore": 16.569551467895508
+            },
+            {
+              "rank": 7,
+              "title": "Geography of Cameroon",
+              "rawRetrievalScore": 16.330245971679688
+            },
+            {
+              "rank": 8,
+              "title": "Biosphere",
+              "rawRetrievalScore": 16.32782745361328
+            },
+            {
+              "rank": 9,
+              "title": "Bipolar I disorder",
+              "rawRetrievalScore": 15.972835540771484
+            },
+            {
+              "rank": 10,
+              "title": "Geography of Croatia",
+              "rawRetrievalScore": 15.889227867126465
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0023",
+            "rawSha256": "e4699e5a00170e0b8ba1f961e960c246a570b3e2d1233d691b09750eea62245b",
+            "quote": "Biomes are defined by factors such as plant structures"
+          },
+          "opponentRetrieved": {
+            "title": "Biome",
+            "text": "... warm season growth habit.Pomeroy, Lawrence R. and James J. Alberts, editors. Concepts of Ecosystem Ecology. New York: Springer-Verlag, 1988. These findings help explain the categories used in Holdridge’s bioclassification scheme, which were then later simplified in Whittaker’s. The number of classification schemes and the variety of determinants used in those schemes, however, should be taken as strong indicators that biomes do not all fit perfectly into the classification s...",
+            "source": "source.txt:1181",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-held-out-03",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Balance of trade",
+              "rawRetrievalScore": 33.19828414916992
+            },
+            {
+              "rank": 2,
+              "title": "Economy of Cyprus",
+              "rawRetrievalScore": 23.094192504882812
+            },
+            {
+              "rank": 3,
+              "title": "Capitalism",
+              "rawRetrievalScore": 22.821149826049805
+            },
+            {
+              "rank": 4,
+              "title": "Central bank",
+              "rawRetrievalScore": 22.546432495117188
+            },
+            {
+              "rank": 5,
+              "title": "Economy of Canada",
+              "rawRetrievalScore": 21.983057022094727
+            },
+            {
+              "rank": 6,
+              "title": "Economy of Chile",
+              "rawRetrievalScore": 20.79570770263672
+            },
+            {
+              "rank": 7,
+              "title": "Economy of Croatia",
+              "rawRetrievalScore": 19.14549446105957
+            },
+            {
+              "rank": 8,
+              "title": "Foreign relations of Cape Verde",
+              "rawRetrievalScore": 18.452369689941406
+            },
+            {
+              "rank": 9,
+              "title": "Currency",
+              "rawRetrievalScore": 17.98919105529785
+            },
+            {
+              "rank": 10,
+              "title": "Economy of Cuba",
+              "rawRetrievalScore": 17.85708236694336
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0027",
+            "rawSha256": "7e9941844aa1548ff593f3277b4af6bd7f3884e5565278c51aec1175297fd65c",
+            "quote": "the difference between the monetary value of exports and imports"
+          },
+          "opponentRetrieved": {
+            "title": "Balance of trade",
+            "text": "...llivan|first = Arthur|authorlink = Arthur O'Sullivan (economist)|author2=Steven M. Sheffrin|title = Economics: Principles in action|publisher = Pearson Prentice Hall|year = 2003|location = Upper Saddle River, New Jersey 07458|pages = 462|doi = |isbn = 0-13-063085-3 A positive balance is known as a trade surplus if it consists of exporting more than is imported; a negative balance is referred to as a trade deficit or, informally, a trade gap. The balance of trade is sometimes ...",
+            "source": "source.txt:1478",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-held-out-04",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Balfour Declaration of 1926",
+              "rawRetrievalScore": 58.9420051574707
+            },
+            {
+              "rank": 2,
+              "title": "Battle of Actium",
+              "rawRetrievalScore": 19.475013732910156
+            },
+            {
+              "rank": 3,
+              "title": "Balfour Declaration",
+              "rawRetrievalScore": 19.405139923095703
+            },
+            {
+              "rank": 4,
+              "title": "History of Costa Rica",
+              "rawRetrievalScore": 17.939516067504883
+            },
+            {
+              "rank": 5,
+              "title": "Canada–United States relations",
+              "rawRetrievalScore": 17.88393783569336
+            },
+            {
+              "rank": 6,
+              "title": "Politics of Canada",
+              "rawRetrievalScore": 17.65467071533203
+            },
+            {
+              "rank": 7,
+              "title": "History of Cuba",
+              "rawRetrievalScore": 16.215917587280273
+            },
+            {
+              "rank": 8,
+              "title": "Constitution",
+              "rawRetrievalScore": 15.774209022521973
+            },
+            {
+              "rank": 9,
+              "title": "History of Cameroon",
+              "rawRetrievalScore": 15.733244895935059
+            },
+            {
+              "rank": 10,
+              "title": "Black and Tans",
+              "rawRetrievalScore": 15.636979103088379
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0031",
+            "rawSha256": "3a7f75b6d62891f7a1c64f22e44ac4f816460f4f2704f9bc90caaa3b777d3c70",
+            "quote": "The Declaration accepted the growing political and diplomatic independence of the Dominions"
+          },
+          "opponentRetrieved": {
+            "title": "Balfour Declaration of 1926",
+            "text": "...=Marshall |first=Sir Peter |date=September 2001 |title=The Balfour Formula and the Evolution of the Commonwealth |journal=The Round Table |volume=90 |issue=361 |pages=pp. 541–53 |url= |accessdate=20 December 2008 |quote= |doi=10.1080/00358530120082823 It was first proposed by South African Prime Minister J. B. M. Hertzog and Canada's Prime Minister at that time, William Lyon Mackenzie King. The Declaration accepted the growing political and diplomatic independence of the Domi...",
+            "source": "source.txt:1640",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-held-out-05",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Black Hand (Serbia)",
+              "rawRetrievalScore": 25.811721801757812
+            },
+            {
+              "rank": 2,
+              "title": "Balkan Wars",
+              "rawRetrievalScore": 15.555244445800781
+            },
+            {
+              "rank": 3,
+              "title": "Charles Babbage",
+              "rawRetrievalScore": 13.649395942687988
+            },
+            {
+              "rank": 4,
+              "title": "Constitution",
+              "rawRetrievalScore": 12.893452644348145
+            },
+            {
+              "rank": 5,
+              "title": "Bohdan Khmelnytsky",
+              "rawRetrievalScore": 11.741085052490234
+            },
+            {
+              "rank": 6,
+              "title": "Croatia",
+              "rawRetrievalScore": 11.227991104125977
+            },
+            {
+              "rank": 7,
+              "title": "History of Croatia",
+              "rawRetrievalScore": 10.862865447998047
+            },
+            {
+              "rank": 8,
+              "title": "Bolsheviks",
+              "rawRetrievalScore": 10.724706649780273
+            },
+            {
+              "rank": 9,
+              "title": "Demographics of Croatia",
+              "rawRetrievalScore": 10.644613265991211
+            },
+            {
+              "rank": 10,
+              "title": "Code",
+              "rawRetrievalScore": 10.564901351928711
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0033",
+            "rawSha256": "0bca0eed3b172edd3151a5b89d3c946a8cd4ab66c80d4fe2dddccf12d31d303b",
+            "quote": "unofficially known as the Black Hand"
+          },
+          "opponentRetrieved": {
+            "title": "Black Hand (Serbia)",
+            "text": "... in general. Long-existing tensions between Serbia and Austria-Hungary eventually drew in the other European powers and escalated into the beginning of First World War. The Serbians prevented Austria-Hungary from investigating in the assassination of the archduke. Towards the end of 1916, due to political intrigues, Serbian Prime Minister Pasic decided to destroy the leaders of the Black Hand and break up the organization. By the spring of 1917, many Black Hand leaders, inclu...",
+            "source": "source.txt:1752",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-held-out-06",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Biomedical engineering",
+              "rawRetrievalScore": 37.43171310424805
+            },
+            {
+              "rank": 2,
+              "title": "Cone (disambiguation)",
+              "rawRetrievalScore": 26.78529167175293
+            },
+            {
+              "rank": 3,
+              "title": "Computer science",
+              "rawRetrievalScore": 24.862882614135742
+            },
+            {
+              "rank": 4,
+              "title": "Computing",
+              "rawRetrievalScore": 23.94203758239746
+            },
+            {
+              "rank": 5,
+              "title": "Computer programming",
+              "rawRetrievalScore": 19.883785247802734
+            },
+            {
+              "rank": 6,
+              "title": "Chemist",
+              "rawRetrievalScore": 19.34229278564453
+            },
+            {
+              "rank": 7,
+              "title": "Calculus",
+              "rawRetrievalScore": 18.10455322265625
+            },
+            {
+              "rank": 8,
+              "title": "College",
+              "rawRetrievalScore": 14.263036727905273
+            },
+            {
+              "rank": 9,
+              "title": "Cognitive science",
+              "rawRetrievalScore": 14.087362289428711
+            },
+            {
+              "rank": 10,
+              "title": "Combinatorics",
+              "rawRetrievalScore": 13.603062629699707
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0038",
+            "rawSha256": "d6e5271ee090f94f619861eedcc7703073012ce76b1c01d87e1a31aa963a95c7",
+            "quote": "application of engineering principles and design concepts to medicine and biology for healthcare purposes"
+          },
+          "opponentRetrieved": {
+            "title": "Biomedical engineering",
+            "text": "Classification Tissue engineering Genetic engineering Neural engineering Pharmaceutical engineering Medical devices Medical imaging Implants Bionics Clinical engineering Regulatory issues RoHS II IEC 60601 Training and certification Education Licensure/certification Career Prospects Employment Job Outlook Earnings Important Advances Founding figures See also References Further reading External links Biomedical engineering (BME) is the application of engineering principles and...",
+            "source": "source.txt:2129",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-held-out-07",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Blood alcohol content",
+              "rawRetrievalScore": 27.872501373291016
+            },
+            {
+              "rank": 2,
+              "title": "Conversion of units",
+              "rawRetrievalScore": 15.469670295715332
+            },
+            {
+              "rank": 3,
+              "title": "Behavior",
+              "rawRetrievalScore": 15.13733196258545
+            },
+            {
+              "rank": 4,
+              "title": "Combustion",
+              "rawRetrievalScore": 14.453025817871094
+            },
+            {
+              "rank": 5,
+              "title": "Critical philosophy",
+              "rawRetrievalScore": 12.597982406616211
+            },
+            {
+              "rank": 6,
+              "title": "Benzodiazepine",
+              "rawRetrievalScore": 12.025893211364746
+            },
+            {
+              "rank": 7,
+              "title": "Computing",
+              "rawRetrievalScore": 10.913972854614258
+            },
+            {
+              "rank": 8,
+              "title": "Catatonia",
+              "rawRetrievalScore": 10.053767204284668
+            },
+            {
+              "rank": 9,
+              "title": "Body mass index",
+              "rawRetrievalScore": 9.889799118041992
+            },
+            {
+              "rank": 10,
+              "title": "Consciousness",
+              "rawRetrievalScore": 9.723024368286133
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0050",
+            "rawSha256": "31357af60f9ed9bef34511ab51fedc1fe963b37e91caabc43fede94951da12f4",
+            "quote": "most commonly used as a metric of alcohol intoxication"
+          },
+          "opponentRetrieved": {
+            "title": "Blood alcohol content",
+            "text": "...ohol Level Chart Estimated blood ethanol concentration (EBAC) Binge drinking Pleasure zone Units of measurement Legal limits Limits by country (BrAC: Breath Alcohol Content) Other limitation schemes Scientific definitions Test assumptions Metabolism and excretion Retrograde extrapolation Cases of high blood alcohol levels Highest recorded blood alcohol level/content References Notes Bibliography External links Blood alcohol content (BAC), also called blood alcohol concentrati...",
+            "source": "source.txt:2841",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-held-out-08",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Battle of Gettysburg",
+              "rawRetrievalScore": 26.745546340942383
+            },
+            {
+              "rank": 2,
+              "title": "Canada–United States relations",
+              "rawRetrievalScore": 19.58319664001465
+            },
+            {
+              "rank": 3,
+              "title": "Battle of Okinawa",
+              "rawRetrievalScore": 17.652111053466797
+            },
+            {
+              "rank": 4,
+              "title": "Barry Goldwater",
+              "rawRetrievalScore": 17.64451026916504
+            },
+            {
+              "rank": 5,
+              "title": "Battle of El Alamein",
+              "rawRetrievalScore": 17.344694137573242
+            },
+            {
+              "rank": 6,
+              "title": "History of Cuba",
+              "rawRetrievalScore": 17.091594696044922
+            },
+            {
+              "rank": 7,
+              "title": "Brigham Young",
+              "rawRetrievalScore": 16.77716636657715
+            },
+            {
+              "rank": 8,
+              "title": "Battle of Berestechko",
+              "rawRetrievalScore": 16.411563873291016
+            },
+            {
+              "rank": 9,
+              "title": "Ben Bova",
+              "rawRetrievalScore": 16.104719161987305
+            },
+            {
+              "rank": 10,
+              "title": "Boeing B-17 Flying Fortress",
+              "rawRetrievalScore": 15.906204223632812
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0053",
+            "rawSha256": "5031e10274bc3da098e3619aa8789f1e71a5280caa5d3a19fa2bc7c7f9d4797e",
+            "quote": "was fought July 1–3, 1863, in and around the town of Gettysburg, Pennsylvania"
+          },
+          "opponentRetrieved": {
+            "title": "Battle of Gettysburg",
+            "text": "... in and around the town of Gettysburg, Pennsylvania between Union and Confederate forces during the American Civil War. The battle involved the largest number of casualties of the entire warThe Battle of Antietam, the culmination of Lee's first invasion of the North, had the largest number of casualties in a single day, about 23,000. and is often described as the war's turning point.Rawley, p. 147; Sauers, p. 827; Gallagher, Lee and His Army, p. 83; McPherson, p. 665; Eicher,...",
+            "source": "source.txt:3103",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-held-out-09",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Bermuda Triangle",
+              "rawRetrievalScore": 34.26104736328125
+            },
+            {
+              "rank": 2,
+              "title": "Constellation",
+              "rawRetrievalScore": 18.239971160888672
+            },
+            {
+              "rank": 3,
+              "title": "Country music",
+              "rawRetrievalScore": 17.541593551635742
+            },
+            {
+              "rank": 4,
+              "title": "Christopher Columbus",
+              "rawRetrievalScore": 16.492233276367188
+            },
+            {
+              "rank": 5,
+              "title": "Central Europe",
+              "rawRetrievalScore": 15.765412330627441
+            },
+            {
+              "rank": 6,
+              "title": "Celtic music",
+              "rawRetrievalScore": 15.694806098937988
+            },
+            {
+              "rank": 7,
+              "title": "Cameroon",
+              "rawRetrievalScore": 15.56267261505127
+            },
+            {
+              "rank": 8,
+              "title": "Cocos (Keeling) Islands",
+              "rawRetrievalScore": 15.5598783493042
+            },
+            {
+              "rank": 9,
+              "title": "Cultural anthropology",
+              "rawRetrievalScore": 15.536090850830078
+            },
+            {
+              "rank": 10,
+              "title": "Cornwall",
+              "rawRetrievalScore": 15.282964706420898
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0056",
+            "rawSha256": "bbbe8649896707d5228574186e12b0a973ac6fbf5544a8b992ba7c9b13bc098b",
+            "quote": "a loosely defined region in the western part of the North Atlantic Ocean"
+          },
+          "opponentRetrieved": {
+            "title": "Bermuda Triangle",
+            "text": "...=USCG: Frequently Asked Questions |publisher=Uscg.mil |date=2008-07-22 |accessdate=20 November 2012 Popular culture has attributed various disappearances to the paranormal or activity by extraterrestrial beings. cite journal | last = Cochran-Smith | first = Marilyn | year = 2003 | title = Bermuda Triangle: dichotomy, mythology, and amnesia | journal = Journal of Teacher Education | volume = 54 | doi = 10.1177/0022487103256793 | page = 275 | issue = 4 Documented evidence indic...",
+            "source": "source.txt:3341",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-held-out-10",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Black metal",
+              "rawRetrievalScore": 54.290931701660156
+            },
+            {
+              "rank": 2,
+              "title": "Country music",
+              "rawRetrievalScore": 23.95135498046875
+            },
+            {
+              "rank": 3,
+              "title": "Cymbal",
+              "rawRetrievalScore": 17.722795486450195
+            },
+            {
+              "rank": 4,
+              "title": "Comedy film",
+              "rawRetrievalScore": 16.841188430786133
+            },
+            {
+              "rank": 5,
+              "title": "Cypress Hill",
+              "rawRetrievalScore": 16.77559471130371
+            },
+            {
+              "rank": 6,
+              "title": "Bob Wills",
+              "rawRetrievalScore": 16.260000228881836
+            },
+            {
+              "rank": 7,
+              "title": "Courtney Love",
+              "rawRetrievalScore": 14.572961807250977
+            },
+            {
+              "rank": 8,
+              "title": "Barney Bubbles",
+              "rawRetrievalScore": 14.26147174835205
+            },
+            {
+              "rank": 9,
+              "title": "Citizen Kane",
+              "rawRetrievalScore": 14.226600646972656
+            },
+            {
+              "rank": 10,
+              "title": "Bill Mumy",
+              "rawRetrievalScore": 14.19792366027832
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0071",
+            "rawSha256": "430fe21302ed1bb63c4eff14f29e5ba6af06483ee1590f34306761bb8bc06331",
+            "quote": "shrieked vocals, highly distorted guitars played with tremolo picking"
+          },
+          "opponentRetrieved": {
+            "title": "Black metal",
+            "text": "...media See also References Sources Further reading Black metal is an extreme subgenre of heavy metal music. Common traits include fast tempos, shrieked vocals, highly distorted guitars played with tremolo picking, blast beat drumming, raw (lo-fi) recording and unconventional song structures. During the 1980s, several thrash metal and death metal bands formed a prototype for black metal. This so-called \"first wave\" included bands such as Venom, Bathory, Hellhammer and Celtic Fr...",
+            "source": "source.txt:4763",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-held-out-11",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Background radiation",
+              "rawRetrievalScore": 32.476627349853516
+            },
+            {
+              "rank": 2,
+              "title": "Common descent",
+              "rawRetrievalScore": 17.373804092407227
+            },
+            {
+              "rank": 3,
+              "title": "Cyberpunk",
+              "rawRetrievalScore": 16.965251922607422
+            },
+            {
+              "rank": 4,
+              "title": "Biosphere",
+              "rawRetrievalScore": 14.430143356323242
+            },
+            {
+              "rank": 5,
+              "title": "Coast",
+              "rawRetrievalScore": 14.263280868530273
+            },
+            {
+              "rank": 6,
+              "title": "Computing",
+              "rawRetrievalScore": 14.181979179382324
+            },
+            {
+              "rank": 7,
+              "title": "Computer science",
+              "rawRetrievalScore": 14.025871276855469
+            },
+            {
+              "rank": 8,
+              "title": "Chemical element",
+              "rawRetrievalScore": 13.972126007080078
+            },
+            {
+              "rank": 9,
+              "title": "Californium",
+              "rawRetrievalScore": 13.895281791687012
+            },
+            {
+              "rank": 10,
+              "title": "Behavior",
+              "rawRetrievalScore": 13.451531410217285
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0077",
+            "rawSha256": "d43d16414471d92823a2216b351214460a04b2de07315554821ed2d5a5ae54bc",
+            "quote": "ubiquitous ionizing radiation that people on the planet Earth are exposed to"
+          },
+          "opponentRetrieved": {
+            "title": "Background radiation",
+            "text": "...Very high background radiation areas of Ramsar, Iran: preliminary biological studies|journal=Health physics|date=January 2002|volume=82|issue=1|pmid=11769138|url=http://www.probeinternational.org/Ramsar.pdf|accessdate=11 November 2012|quote=Our preliminary studies seem to indicate the presence of adaptive response in the cells of some Ramsar residents, but we do not claim to have seen hormetic effects in any of those studied. Given the apparent lack of ill effects among obser...",
+            "source": "source.txt:5212",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-held-out-12",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Beta sheet",
+              "rawRetrievalScore": 52.338539123535156
+            },
+            {
+              "rank": 2,
+              "title": "Chemistry",
+              "rawRetrievalScore": 17.64948272705078
+            },
+            {
+              "rank": 3,
+              "title": "Carbon",
+              "rawRetrievalScore": 16.458499908447266
+            },
+            {
+              "rank": 4,
+              "title": "Carbon nanotube",
+              "rawRetrievalScore": 13.634716987609863
+            },
+            {
+              "rank": 5,
+              "title": "Creutzfeldt–Jakob disease",
+              "rawRetrievalScore": 12.706862449645996
+            },
+            {
+              "rank": 6,
+              "title": "Zebrafish",
+              "rawRetrievalScore": 12.034214973449707
+            },
+            {
+              "rank": 7,
+              "title": "Common descent",
+              "rawRetrievalScore": 11.973406791687012
+            },
+            {
+              "rank": 8,
+              "title": "Biotite",
+              "rawRetrievalScore": 10.395384788513184
+            },
+            {
+              "rank": 9,
+              "title": "Biological membrane",
+              "rawRetrievalScore": 10.351482391357422
+            },
+            {
+              "rank": 10,
+              "title": "Physical cosmology",
+              "rawRetrievalScore": 10.210599899291992
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0095",
+            "rawSha256": "529067008300089095bc0f91c1877057c4e7daa07a9dcb7b8afe7c691f47faac",
+            "quote": "Beta sheets consist of beta strands connected laterally by at least two or three backbone hydrogen bonds"
+          },
+          "opponentRetrieved": {
+            "title": "Beta sheet",
+            "text": "...diverge significantly from the fully extended conformation (φ, ψ) = (–180°, 180°). cite book |title=Biochemistry |last=Voet |first=Donald |authorlink= |author2=Voet, Judith G. |year=2004 |edition=3rd |publisher=Wiley |location=Hoboken, NJ |isbn=0-471-19350-X |page= |pages=227–231 |url= The twist is often associated with alternating fluctuations in the dihedral angles to prevent the individual β strands in a larger sheet from splaying apart. A good example of a strongly twiste...",
+            "source": "source.txt:6216",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-held-out-13",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Ben Nevis",
+              "rawRetrievalScore": 23.79764175415039
+            },
+            {
+              "rank": 2,
+              "title": "Geography of Costa Rica",
+              "rawRetrievalScore": 16.90351676940918
+            },
+            {
+              "rank": 3,
+              "title": "Barbagia",
+              "rawRetrievalScore": 16.69122314453125
+            },
+            {
+              "rank": 4,
+              "title": "Geography of Cameroon",
+              "rawRetrievalScore": 15.621366500854492
+            },
+            {
+              "rank": 5,
+              "title": "Cornwall",
+              "rawRetrievalScore": 15.306966781616211
+            },
+            {
+              "rank": 6,
+              "title": "Colorado",
+              "rawRetrievalScore": 14.288840293884277
+            },
+            {
+              "rank": 7,
+              "title": "Channel Islands",
+              "rawRetrievalScore": 14.13348388671875
+            },
+            {
+              "rank": 8,
+              "title": "Geography of Canada",
+              "rawRetrievalScore": 14.06960678100586
+            },
+            {
+              "rank": 9,
+              "title": "Geography of Cyprus",
+              "rawRetrievalScore": 13.297138214111328
+            },
+            {
+              "rank": 10,
+              "title": "Columbia River",
+              "rawRetrievalScore": 13.14499568939209
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0102",
+            "rawSha256": "45742abeb0153cc6c292a015dd29f736b0d6fb7aee3c454915d0a924e1ed07b6",
+            "quote": "is the highest mountain in the British Isles."
+          },
+          "opponentRetrieved": {
+            "title": "Ben Nevis",
+            "text": "Etymology Geography Geology Climate History Ascent routes The summit Observatory Navigation and safety Climbing on Ben Nevis Ben Nevis Race Environmental issues Ben Nevis Distillery Other uses See also References External links Ben Nevis ( lang-gd|Beinn Nibheis , IPA-gd|peˈɲivəʃ|pron ) is the highest mountain in the British Isles. Standing at convert|1344|m above sea level, it is located at the western end of the Grampian Mountains in the Lochaber area of the Scottish Highlan...",
+            "source": "source.txt:6706",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-held-out-14",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Bunsen burner",
+              "rawRetrievalScore": 54.26137161254883
+            },
+            {
+              "rank": 2,
+              "title": "Combustion",
+              "rawRetrievalScore": 22.282081604003906
+            },
+            {
+              "rank": 3,
+              "title": "Curium",
+              "rawRetrievalScore": 17.89557456970215
+            },
+            {
+              "rank": 4,
+              "title": "Californium",
+              "rawRetrievalScore": 17.795196533203125
+            },
+            {
+              "rank": 5,
+              "title": "Benjamin D. Santer",
+              "rawRetrievalScore": 17.28377342224121
+            },
+            {
+              "rank": 6,
+              "title": "Claude Shannon",
+              "rawRetrievalScore": 17.24651527404785
+            },
+            {
+              "rank": 7,
+              "title": "Chemistry",
+              "rawRetrievalScore": 17.05915641784668
+            },
+            {
+              "rank": 8,
+              "title": "Chemical element",
+              "rawRetrievalScore": 16.81656837463379
+            },
+            {
+              "rank": 9,
+              "title": "Carbon nanotube",
+              "rawRetrievalScore": 16.675018310546875
+            },
+            {
+              "rank": 10,
+              "title": "Chlorine",
+              "rawRetrievalScore": 16.506818771362305
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0109",
+            "rawSha256": "55198bd876b96415ef640e6bfaae32b4d5932ced17f6cee7605273f12257b2e7",
+            "quote": "a common piece of laboratory equipment that produces a single open gas flame"
+          },
+          "opponentRetrieved": {
+            "title": "Bunsen burner",
+            "text": "...piry=2014-05-20 06:52:04|small=yes A Bunsen burner, named after Robert Bunsen, is a common piece of laboratory equipment that produces a single open gas flame, which is used for heating, sterilization, and combustion. cite journal |first=G. |last=Lockemann |year=1956 |title=The Centenary of the Bunsen Burner |journal=J. Chem. Ed. |volume=33 |pages=20–21 |doi= 10.1021/ed033p20|bibcode = 1956JChEd..33...20L cite book |first=A. J. |last=Rocke |year=2002 |chapter=Bunsen Burner |t...",
+            "source": "source.txt:6972",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-held-out-15",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Blue whale",
+              "rawRetrievalScore": 25.27035140991211
+            },
+            {
+              "rank": 2,
+              "title": "Cercopithecidae",
+              "rawRetrievalScore": 11.817581176757812
+            },
+            {
+              "rank": 3,
+              "title": "Cladistics",
+              "rawRetrievalScore": 10.085000991821289
+            },
+            {
+              "rank": 4,
+              "title": "Chordate",
+              "rawRetrievalScore": 9.649980545043945
+            },
+            {
+              "rank": 5,
+              "title": "Carl Linnaeus",
+              "rawRetrievalScore": 9.273857116699219
+            },
+            {
+              "rank": 6,
+              "title": "Chris Morris (satirist)",
+              "rawRetrievalScore": 8.028291702270508
+            },
+            {
+              "rank": 7,
+              "title": "Bodmin Moor",
+              "rawRetrievalScore": 7.217879772186279
+            },
+            {
+              "rank": 8,
+              "title": "Zebrafish",
+              "rawRetrievalScore": 7.136573314666748
+            },
+            {
+              "rank": 9,
+              "title": "Cannibalism",
+              "rawRetrievalScore": 6.668045997619629
+            },
+            {
+              "rank": 10,
+              "title": "Computer science",
+              "rawRetrievalScore": 6.51485013961792
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0110",
+            "rawSha256": "58719e0955a1de24fdd67fbeb14ff1d82da58498f7eb23d3d003fc1259ab3171",
+            "quote": "The blue whale (Balaenoptera musculus)"
+          },
+          "opponentRetrieved": {
+            "title": "Blue whale",
+            "text": "...a blue whale that had stranded in the Firth of Forth—a male convert|78|ft|m|abbr=on|disp=flip -long—which had \"black, horny plates\" and \"two large apertures approaching a pyramid in shape\". The specific name musculus is Latin and could mean \"muscle\", but it can also be interpreted as \"little mouse\". Carl Linnaeus, who named the species in his seminal Systema Naturae of 1758,[ref] la icon [/ref] would have known this and may have intended the ironic double meaning. Herman Melv...",
+            "source": "source.txt:7003",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-held-out-16",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Brass instrument",
+              "rawRetrievalScore": 41.180519104003906
+            },
+            {
+              "rank": 2,
+              "title": "Cymbal",
+              "rawRetrievalScore": 29.194904327392578
+            },
+            {
+              "rank": 3,
+              "title": "Bo Diddley",
+              "rawRetrievalScore": 21.333877563476562
+            },
+            {
+              "rank": 4,
+              "title": "Classical period (music)",
+              "rawRetrievalScore": 18.947107315063477
+            },
+            {
+              "rank": 5,
+              "title": "Country music",
+              "rawRetrievalScore": 18.895341873168945
+            },
+            {
+              "rank": 6,
+              "title": "Copyright",
+              "rawRetrievalScore": 18.63968849182129
+            },
+            {
+              "rank": 7,
+              "title": "Consonant",
+              "rawRetrievalScore": 18.62970542907715
+            },
+            {
+              "rank": 8,
+              "title": "Cypress Hill",
+              "rawRetrievalScore": 17.80298614501953
+            },
+            {
+              "rank": 9,
+              "title": "Bob Wills",
+              "rawRetrievalScore": 17.488096237182617
+            },
+            {
+              "rank": 10,
+              "title": "Card game",
+              "rawRetrievalScore": 17.370954513549805
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0120",
+            "rawSha256": "f766582ef92cf67865c55e8f1e2e3c35f6dfc822fe9f4afd78b5e723f97b2a81",
+            "quote": "should be defined by the way the sound is made, as above, and not by whether the instrument is actually made of brass"
+          },
+          "opponentRetrieved": {
+            "title": "Brass instrument",
+            "text": "... brass instruments Manufacture Ensembles See also References External links A brass instrument is a musical instrument that produces sound by sympathetic vibration of air in a tubular resonator in sympathy with the vibration of the player's lips. Brass instruments are also called labrosones, literally meaning \"lip-vibrated instruments\".[ref] </ref> There are several factors involved in producing different pitches on a brass instrument. Slides, valves, crooks, or keys are used...",
+            "source": "source.txt:7417",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-held-out-17",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Blue Angels",
+              "rawRetrievalScore": 29.266592025756836
+            },
+            {
+              "rank": 2,
+              "title": "Boeing B-17 Flying Fortress",
+              "rawRetrievalScore": 16.39862632751465
+            },
+            {
+              "rank": 3,
+              "title": "Rockwell B-1 Lancer",
+              "rawRetrievalScore": 13.919136047363281
+            },
+            {
+              "rank": 4,
+              "title": "Military of Ivory Coast",
+              "rawRetrievalScore": 13.723827362060547
+            },
+            {
+              "rank": 5,
+              "title": "Bermuda Triangle",
+              "rawRetrievalScore": 13.173662185668945
+            },
+            {
+              "rank": 6,
+              "title": "British Army",
+              "rawRetrievalScore": 12.447235107421875
+            },
+            {
+              "rank": 7,
+              "title": "Cocos (Keeling) Islands",
+              "rawRetrievalScore": 11.047981262207031
+            },
+            {
+              "rank": 8,
+              "title": "C. Northcote Parkinson",
+              "rawRetrievalScore": 10.695834159851074
+            },
+            {
+              "rank": 9,
+              "title": "Bronze Star Medal",
+              "rawRetrievalScore": 10.2267484664917
+            },
+            {
+              "rank": 10,
+              "title": "Battle of Okinawa",
+              "rawRetrievalScore": 9.351827621459961
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0127",
+            "rawSha256": "7718f7d0583326d2a3b348670dcf30666aeb3025492e211fb5ab09a51378ac55",
+            "quote": "The Blue Angels team was formed in 1946"
+          },
+          "opponentRetrieved": {
+            "title": "Blue Angels",
+            "text": "...ition team to boost Navy morale, demonstrate naval air power, and maintain public interest in naval aviation. However, an underlying mission was to help the Navy generate public and political support for a larger allocation of the shrinking defense budget. In April of that year, Rear Admiral Ralph Davison personally selected Lieutenant Commander Roy Marlin \"Butch\" Voris, a World War II fighter ace, to assemble and train a flight demonstration team, naming him Officer-in-Charg...",
+            "source": "source.txt:7917",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-held-out-18",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Bokken",
+              "rawRetrievalScore": 70.95604705810547
+            },
+            {
+              "rank": 2,
+              "title": "Crouching Tiger, Hidden Dragon",
+              "rawRetrievalScore": 20.369998931884766
+            },
+            {
+              "rank": 3,
+              "title": "Khmer architecture",
+              "rawRetrievalScore": 19.412382125854492
+            },
+            {
+              "rank": 4,
+              "title": "Cultural anthropology",
+              "rawRetrievalScore": 18.777353286743164
+            },
+            {
+              "rank": 5,
+              "title": "Bachelor",
+              "rawRetrievalScore": 18.682018280029297
+            },
+            {
+              "rank": 6,
+              "title": "Bagpuss",
+              "rawRetrievalScore": 17.27712631225586
+            },
+            {
+              "rank": 7,
+              "title": "College",
+              "rawRetrievalScore": 16.84721565246582
+            },
+            {
+              "rank": 8,
+              "title": "Category of being",
+              "rawRetrievalScore": 16.787931442260742
+            },
+            {
+              "rank": 9,
+              "title": "Cymbal",
+              "rawRetrievalScore": 15.94648265838623
+            },
+            {
+              "rank": 10,
+              "title": "Community college",
+              "rawRetrievalScore": 15.907415390014648
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0132",
+            "rawSha256": "1735e71600864ac7a6730a6196d0145b49059c04560b8f1e09b084c80eda1c89",
+            "quote": "a Japanese wooden sword used for training."
+          },
+          "opponentRetrieved": {
+            "title": "Bokken",
+            "text": "...e lethal weapons themselves in the hands of trained experts.Secrets of the samurai: a survey of the martial arts of feudal Japan, Authors Oscar Ratti, Adele Westbrook, Contributor Adele, Westbrook Edition reprint, illustrated, Publisher Tuttle Publishing, 1991, ISBN 0-8048-1684-0, ISBN 978-0-8048-1684-7 P.272 Miyamoto Musashi, a kenjutsu master, was renowned for fighting fully armed foes with only one or two bokken. In a famous legend, he defeated Sasaki Kojiro with a bokken ...",
+            "source": "source.txt:8540",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-held-out-19",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Bovril",
+              "rawRetrievalScore": 44.6813850402832
+            },
+            {
+              "rank": 2,
+              "title": "Berkeley, California",
+              "rawRetrievalScore": 13.70324420928955
+            },
+            {
+              "rank": 3,
+              "title": "Calculus",
+              "rawRetrievalScore": 13.668649673461914
+            },
+            {
+              "rank": 4,
+              "title": "Cooking",
+              "rawRetrievalScore": 13.429740905761719
+            },
+            {
+              "rank": 5,
+              "title": "Ben Nevis",
+              "rawRetrievalScore": 11.859061241149902
+            },
+            {
+              "rank": 6,
+              "title": "Cyprus",
+              "rawRetrievalScore": 11.812575340270996
+            },
+            {
+              "rank": 7,
+              "title": "Crokinole",
+              "rawRetrievalScore": 11.135231018066406
+            },
+            {
+              "rank": 8,
+              "title": "Bliss bibliographic classification",
+              "rawRetrievalScore": 10.929793357849121
+            },
+            {
+              "rank": 9,
+              "title": "Cannibalism",
+              "rawRetrievalScore": 10.886109352111816
+            },
+            {
+              "rank": 10,
+              "title": "History of Cameroon",
+              "rawRetrievalScore": 10.735145568847656
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0136",
+            "rawSha256": "ff55b941e11f37d087ce23a148e07f222746959f6e33e0921abb79c16582df2d",
+            "quote": "a thick, salty meat extract, developed in the 1870s by Canadian John Lawson Johnston"
+          },
+          "opponentRetrieved": {
+            "title": "Bovril",
+            "text": "...tent00thomiala| accessdate=2009-08-05 cite web | title=Bovril| url=http://www.unilever.co.uk/brands/foodbrands/bovril.aspx| work=Unilever.co.uk| accessdate=10 April 2012 In 1870, in the Franco-Prussian War, Napoleon III ordered one million cans of beef to feed his troops. The task of providing all this beef went to a Scotsman living in Canada named John Lawson Johnston. Large quantities of beef were available across the British Dominions and South America, but its transport a...",
+            "source": "source.txt:8778",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-held-out-20",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Brezhnev Doctrine",
+              "rawRetrievalScore": 51.01123046875
+            },
+            {
+              "rank": 2,
+              "title": "Cold War (1947–53)",
+              "rawRetrievalScore": 23.617631912231445
+            },
+            {
+              "rank": 3,
+              "title": "Czechoslovakia",
+              "rawRetrievalScore": 21.30594253540039
+            },
+            {
+              "rank": 4,
+              "title": "History of Cuba",
+              "rawRetrievalScore": 20.727928161621094
+            },
+            {
+              "rank": 5,
+              "title": "Foreign relations of Cuba",
+              "rawRetrievalScore": 19.912364959716797
+            },
+            {
+              "rank": 6,
+              "title": "Czech Republic",
+              "rawRetrievalScore": 17.019367218017578
+            },
+            {
+              "rank": 7,
+              "title": "Brigham Young",
+              "rawRetrievalScore": 16.97600555419922
+            },
+            {
+              "rank": 8,
+              "title": "Foreign relations of Chad",
+              "rawRetrievalScore": 16.76477813720703
+            },
+            {
+              "rank": 9,
+              "title": "Canada–United States relations",
+              "rawRetrievalScore": 16.36849594116211
+            },
+            {
+              "rank": 10,
+              "title": "Balkans",
+              "rawRetrievalScore": 15.790258407592773
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0155",
+            "rawSha256": "bbb3e8cb77a2acc408004627a25a4e31cbd89d5d7b0d9ea706a6f814ec404138",
+            "quote": "announced to retroactively justify the Soviet invasion of Czechoslovakia in August 1968 that ended the Prague Spring"
+          },
+          "opponentRetrieved": {
+            "title": "Brezhnev Doctrine",
+            "text": "...ng the 1980–1981 crisis,Wilfried Loth. Moscow, Prague and Warsaw: Overcoming the Brezhnev Doctrine. Cold War History 1, no. 2 (2001): 103–118. and the later unwillingness of Mikhail Gorbachev to use military force when Poland held free elections in 1989 and Solidarity defeated the Communist Party.Hunt 2009, p. 945 It was superseded by the facetiously named Sinatra Doctrine in 1989, alluding to the Frank Sinatra song \"My Way\".LAT, \"'Sinatra Doctrine' at Work in Warsaw Pact, So...",
+            "source": "source.txt:10303",
+            "kind": "source-excerpt"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "cluelab-triviaqa-external",
+  "version": "1.0.0",
+  "archiveSha256": "7f0c94207fd0a1eb7bba3d52cdfe0735c98de850b9e5aa4e75f2776ef9a531d0",
+  "hashes": {
+    "plan.json": "4cc50cde60bdef0beaa45c04b2589cfdcecbc06a1634888f0d3ee806ad8f78aa",
+    "collection.json": "e246984d9f79b6f0c02b25eac4a7e13f1dbbddd9733479b3e4f976ffbb357115",
+    "private/development.json": "3e0cf362956ce8a696f3a4019b9d5a8aba32a5ace54e92148d7241d67298b90b",
+    "private/test.json": "767fc540a75c7c7e6beebced4d09e15da0666a061a936b773ce662397719cd8f",
+    "exclusions.json": "9b4d0ad85f237d4f22a4d3dbe7ae24a34909f086266b7e5efc2effbf572355e9",
+    "selection.json": "6b475f85a20504f7b1e64defbd278e1c65b0e328abe9218b4ea8eb029a41e987",
+    "LICENSE-TriviaQA.txt": "5cc548335f22310a53877044624711ac3e20e5ed1117617c1fd3fc462c54330e",
+    "UPSTREAM-README.txt": "fc87003e7e659d0571ff472545a43202e338ef18a3df1b6124c8c83a5ebfe6cd"
+  },
+  "indexType": 1,
+  "scorer": 4,
+  "profile": "baseline",
+  "analysisPolicy": "standard-no-stopwords-v1",
+  "repetitions": 3,
+  "normalization": "Existing Evaluation.normalize: String.trim, Locale.ROOT lowercase, collapse default Java ASCII whitespace runs to one space. No punctuation/article stripping, fuzzy matching, wrapper removal or new alias invention. Upstream aliases/value/matched entity name are projected mechanically to article-title labels and deduplicated under that normalization.",
+  "sourceScope": "coursework-all-shards@1.0.0",
+  "runtime": {
+    "lucene": "10.6.0",
+    "corenlp": "4.6.0",
+    "indexSchema": "3"
+  },
+  "humanApproved": false
+}

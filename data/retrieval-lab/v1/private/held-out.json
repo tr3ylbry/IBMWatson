@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 1,
+  "id": "cluelab-wiki-b-held-out",
+  "version": "1.0.0",
+  "collectionId": "cluelab-wiki-shard-b",
+  "collectionVersion": "1.0.0",
+  "construction": "Manually authored by Codex from the frozen historical source before retrieval experiments. Assistant excerpt-checked, not independently human-approved. No automatic generation pipeline.",
+  "split": "held-out",
+  "cases": [
+    {
+      "id": "wiki-b-held-out-01",
+      "category": "TELEVISION",
+      "clue": "Which space-opera television series did J. Michael Straczynski create as a five-year story?",
+      "answerType": "article-title",
+      "aliases": [
+        "Babylon 5",
+        "Babylon Five"
+      ],
+      "answerDocumentId": "wiki-b-0021",
+      "support": {
+        "documentId": "wiki-b-0021",
+        "rawSha256": "ada3dcfe28afb5740b84b95ea71a9c4eff992016b57c0aafc39aea3d94f66906",
+        "quote": "a five-year story, a novel for television"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Babylon_5",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-held-out-02",
+      "category": "ECOLOGY",
+      "clue": "What major habitat type is defined by climate and vegetation patterns rather than taxonomic or historical similarities?",
+      "answerType": "article-title",
+      "aliases": [
+        "Biome"
+      ],
+      "answerDocumentId": "wiki-b-0023",
+      "support": {
+        "documentId": "wiki-b-0023",
+        "rawSha256": "e4699e5a00170e0b8ba1f961e960c246a570b3e2d1233d691b09750eea62245b",
+        "quote": "Biomes are defined by factors such as plant structures"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Biome",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-held-out-03",
+      "category": "ECONOMICS",
+      "clue": "What economic measure is the difference between the monetary value of a nation's exports and imports?",
+      "answerType": "article-title",
+      "aliases": [
+        "Balance of trade",
+        "Trade balance",
+        "Net exports"
+      ],
+      "answerDocumentId": "wiki-b-0027",
+      "support": {
+        "documentId": "wiki-b-0027",
+        "rawSha256": "7e9941844aa1548ff593f3277b4af6bd7f3884e5565278c51aec1175297fd65c",
+        "quote": "the difference between the monetary value of exports and imports"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Balance_of_trade",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-held-out-04",
+      "category": "COMMONWEALTH HISTORY",
+      "clue": "Which declaration was issued by the 1926 Imperial Conference and accepted the Dominions' growing political independence?",
+      "answerType": "article-title",
+      "aliases": [
+        "Balfour Declaration of 1926",
+        "1926 Balfour Declaration"
+      ],
+      "answerDocumentId": "wiki-b-0031",
+      "support": {
+        "documentId": "wiki-b-0031",
+        "rawSha256": "3a7f75b6d62891f7a1c64f22e44ac4f816460f4f2704f9bc90caaa3b777d3c70",
+        "quote": "The Declaration accepted the growing political and diplomatic independence of the Dominions"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Balfour_Declaration_of_1926",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-held-out-05",
+      "category": "EUROPEAN HISTORY",
+      "clue": "What secret Serbian military society was also called Unification or Death?",
+      "answerType": "article-title",
+      "aliases": [
+        "Black Hand (Serbia)",
+        "Black Hand",
+        "Unification or Death"
+      ],
+      "answerDocumentId": "wiki-b-0033",
+      "support": {
+        "documentId": "wiki-b-0033",
+        "rawSha256": "0bca0eed3b172edd3151a5b89d3c946a8cd4ab66c80d4fe2dddccf12d31d303b",
+        "quote": "unofficially known as the Black Hand"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Black_Hand_(Serbia)",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-held-out-06",
+      "category": "ENGINEERING",
+      "clue": "Which discipline applies engineering design and problem solving to medicine and biology for healthcare?",
+      "answerType": "article-title",
+      "aliases": [
+        "Biomedical engineering",
+        "BME"
+      ],
+      "answerDocumentId": "wiki-b-0038",
+      "support": {
+        "documentId": "wiki-b-0038",
+        "rawSha256": "d6e5271ee090f94f619861eedcc7703073012ce76b1c01d87e1a31aa963a95c7",
+        "quote": "application of engineering principles and design concepts to medicine and biology for healthcare purposes"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Biomedical_engineering",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-held-out-07",
+      "category": "MEASUREMENT",
+      "clue": "What measure, abbreviated BAC, is commonly used to quantify alcohol intoxication?",
+      "answerType": "article-title",
+      "aliases": [
+        "Blood alcohol content",
+        "Blood alcohol concentration",
+        "BAC"
+      ],
+      "answerDocumentId": "wiki-b-0050",
+      "support": {
+        "documentId": "wiki-b-0050",
+        "rawSha256": "31357af60f9ed9bef34511ab51fedc1fe963b37e91caabc43fede94951da12f4",
+        "quote": "most commonly used as a metric of alcohol intoxication"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Blood_alcohol_content",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-held-out-08",
+      "category": "AMERICAN HISTORY",
+      "clue": "Which American Civil War battle was fought in Pennsylvania on July 1 to 3, 1863?",
+      "answerType": "article-title",
+      "aliases": [
+        "Battle of Gettysburg",
+        "Gettysburg"
+      ],
+      "answerDocumentId": "wiki-b-0053",
+      "support": {
+        "documentId": "wiki-b-0053",
+        "rawSha256": "5031e10274bc3da098e3619aa8789f1e71a5280caa5d3a19fa2bc7c7f9d4797e",
+        "quote": "was fought July 1–3, 1863, in and around the town of Gettysburg, Pennsylvania"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Battle_of_Gettysburg",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-held-out-09",
+      "category": "POPULAR CULTURE",
+      "clue": "Name the western North Atlantic region associated in popular culture with supposedly mysterious ship and aircraft disappearances.",
+      "answerType": "article-title",
+      "aliases": [
+        "Bermuda Triangle",
+        "The Bermuda Triangle",
+        "Devil's Triangle"
+      ],
+      "answerDocumentId": "wiki-b-0056",
+      "support": {
+        "documentId": "wiki-b-0056",
+        "rawSha256": "bbbe8649896707d5228574186e12b0a973ac6fbf5544a8b992ba7c9b13bc098b",
+        "quote": "a loosely defined region in the western part of the North Atlantic Ocean"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Bermuda_Triangle",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-held-out-10",
+      "category": "MUSIC",
+      "clue": "Which extreme heavy-metal subgenre is associated with shrieked vocals, tremolo picking and an early Norwegian scene including Mayhem and Darkthrone?",
+      "answerType": "article-title",
+      "aliases": [
+        "Black metal"
+      ],
+      "answerDocumentId": "wiki-b-0071",
+      "support": {
+        "documentId": "wiki-b-0071",
+        "rawSha256": "430fe21302ed1bb63c4eff14f29e5ba6af06483ee1590f34306761bb8bc06331",
+        "quote": "shrieked vocals, highly distorted guitars played with tremolo picking"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Black_metal",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-held-out-11",
+      "category": "PHYSICS",
+      "clue": "What term describes the ubiquitous ionizing exposure from natural and artificial sources surrounding people on Earth?",
+      "answerType": "article-title",
+      "aliases": [
+        "Background radiation"
+      ],
+      "answerDocumentId": "wiki-b-0077",
+      "support": {
+        "documentId": "wiki-b-0077",
+        "rawSha256": "d43d16414471d92823a2216b351214460a04b2de07315554821ed2d5a5ae54bc",
+        "quote": "ubiquitous ionizing radiation that people on the planet Earth are exposed to"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Background_radiation",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-held-out-12",
+      "category": "BIOCHEMISTRY",
+      "clue": "Which pleated protein secondary structure consists of strands joined laterally by backbone hydrogen bonds?",
+      "answerType": "article-title",
+      "aliases": [
+        "Beta sheet",
+        "Beta-pleated sheet",
+        "β sheet",
+        "β-pleated sheet"
+      ],
+      "answerDocumentId": "wiki-b-0095",
+      "support": {
+        "documentId": "wiki-b-0095",
+        "rawSha256": "529067008300089095bc0f91c1877057c4e7daa07a9dcb7b8afe7c691f47faac",
+        "quote": "Beta sheets consist of beta strands connected laterally by at least two or three backbone hydrogen bonds"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Beta_sheet",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-held-out-13",
+      "category": "GEOGRAPHY",
+      "clue": "Which mountain near Fort William is the highest in the British Isles?",
+      "answerType": "article-title",
+      "aliases": [
+        "Ben Nevis"
+      ],
+      "answerDocumentId": "wiki-b-0102",
+      "support": {
+        "documentId": "wiki-b-0102",
+        "rawSha256": "45742abeb0153cc6c292a015dd29f736b0d6fb7aee3c454915d0a924e1ed07b6",
+        "quote": "is the highest mountain in the British Isles."
+      },
+      "reference": "https://en.wikipedia.org/wiki/Ben_Nevis",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-held-out-14",
+      "category": "LABORATORY EQUIPMENT",
+      "clue": "Which laboratory device named for Robert produces an open gas flame for heating and sterilization?",
+      "answerType": "article-title",
+      "aliases": [
+        "Bunsen burner"
+      ],
+      "answerDocumentId": "wiki-b-0109",
+      "support": {
+        "documentId": "wiki-b-0109",
+        "rawSha256": "55198bd876b96415ef640e6bfaae32b4d5932ced17f6cee7605273f12257b2e7",
+        "quote": "a common piece of laboratory equipment that produces a single open gas flame"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Bunsen_burner",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-held-out-15",
+      "category": "ZOOLOGY",
+      "clue": "Which baleen whale has the scientific name Balaenoptera musculus?",
+      "answerType": "article-title",
+      "aliases": [
+        "Blue whale"
+      ],
+      "answerDocumentId": "wiki-b-0110",
+      "support": {
+        "documentId": "wiki-b-0110",
+        "rawSha256": "58719e0955a1de24fdd67fbeb14ff1d82da58498f7eb23d3d003fc1259ab3171",
+        "quote": "The blue whale (Balaenoptera musculus)"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Blue_whale",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-held-out-16",
+      "category": "MUSIC",
+      "clue": "What instrument family produces sound through the player's vibrating lips rather than being defined by the material it is made from?",
+      "answerType": "article-title",
+      "aliases": [
+        "Brass instrument",
+        "Brass instruments"
+      ],
+      "answerDocumentId": "wiki-b-0120",
+      "support": {
+        "documentId": "wiki-b-0120",
+        "rawSha256": "f766582ef92cf67865c55e8f1e2e3c35f6dfc822fe9f4afd78b5e723f97b2a81",
+        "quote": "should be defined by the way the sound is made, as above, and not by whether the instrument is actually made of brass"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Brass_instrument",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-held-out-17",
+      "category": "AVIATION",
+      "clue": "Which US Navy flight-demonstration squadron was formed in 1946?",
+      "answerType": "article-title",
+      "aliases": [
+        "Blue Angels",
+        "The Blue Angels"
+      ],
+      "answerDocumentId": "wiki-b-0127",
+      "support": {
+        "documentId": "wiki-b-0127",
+        "rawSha256": "7718f7d0583326d2a3b348670dcf30666aeb3025492e211fb5ab09a51378ac55",
+        "quote": "The Blue Angels team was formed in 1946"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Blue_Angels",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-held-out-18",
+      "category": "MARTIAL ARTS",
+      "clue": "What Japanese wooden training sword is usually shaped like a katana and should not be confused with a bamboo shinai?",
+      "answerType": "article-title",
+      "aliases": [
+        "Bokken",
+        "Bokuto",
+        "Bokutō"
+      ],
+      "answerDocumentId": "wiki-b-0132",
+      "support": {
+        "documentId": "wiki-b-0132",
+        "rawSha256": "1735e71600864ac7a6730a6196d0145b49059c04560b8f1e09b084c80eda1c89",
+        "quote": "a Japanese wooden sword used for training."
+      },
+      "reference": "https://en.wikipedia.org/wiki/Bokken",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-held-out-19",
+      "category": "FOOD HISTORY",
+      "clue": "Which salty meat extract was developed in the 1870s by John Lawson Johnston?",
+      "answerType": "article-title",
+      "aliases": [
+        "Bovril"
+      ],
+      "answerDocumentId": "wiki-b-0136",
+      "support": {
+        "documentId": "wiki-b-0136",
+        "rawSha256": "ff55b941e11f37d087ce23a148e07f222746959f6e33e0921abb79c16582df2d",
+        "quote": "a thick, salty meat extract, developed in the 1870s by Canadian John Lawson Johnston"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Bovril",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    },
+    {
+      "id": "wiki-b-held-out-20",
+      "category": "COLD WAR HISTORY",
+      "clue": "What Soviet foreign-policy doctrine was announced to justify intervention ending the Prague Spring?",
+      "answerType": "article-title",
+      "aliases": [
+        "Brezhnev Doctrine",
+        "The Brezhnev Doctrine"
+      ],
+      "answerDocumentId": "wiki-b-0155",
+      "support": {
+        "documentId": "wiki-b-0155",
+        "rawSha256": "bbb3e8cb77a2acc408004627a25a4e31cbd89d5d7b0d9ea706a6f814ec404138",
+        "quote": "announced to retroactively justify the Soviet invasion of Czechoslovakia in August 1968 that ended the Prague Spring"
+      },
+      "reference": "https://en.wikipedia.org/wiki/Brezhnev_Doctrine",
+      "revisionId": null,
+      "reviewStatus": "assistant-excerpt-checked-not-human-approved"
+    }
+  ]
+}

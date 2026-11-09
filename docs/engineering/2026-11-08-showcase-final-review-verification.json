@@ -1,0 +1,456 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-11-08-showcase-final-review-verification",
+  "date": "2026-11-08",
+  "timezone": "America/Phoenix",
+  "classification": "Assistant source/editorial checking and scripted local software/media verification; not independent human review, player study, calibrated difficulty, legal clearance or publication approval",
+  "baseline": {
+    "java": 305,
+    "node": 14,
+    "allowedLocalRun": "/tmp/cluelab-final-review-baseline-local.log",
+    "finishedAt": "2026-11-08T00:38:08-07:00",
+    "initialRestrictedAttempt": {
+      "log": "/tmp/cluelab-final-review-baseline.log",
+      "result": "Failed: local-server binds denied; also exposed one asynchronous THINKING/READY whole-object assertion race. Not represented as a passed run."
+    }
+  },
+  "final": {
+    "java": 308,
+    "node": 14,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "command": "env CLUELAB_ASSISTANCE_ENABLED=false mvn -o clean verify",
+    "log": "/tmp/cluelab-final-review-final.log",
+    "finishedAt": "2026-11-08T00:45:17-07:00",
+    "newJavaTests": 3,
+    "newDependencies": 0,
+    "changes": [
+      "Optional bounded source-advisory review metadata; snapshots/upstream identity/search fields unchanged",
+      "Three review/index/stale-plan regressions",
+      "Existing game retry test now asserts stable identity rather than racing THINKING/READY snapshot equality"
+    ],
+    "jar": {
+      "entries": 100,
+      "sha256": "3e7271b689fc832ff17085ed2c435159ee1fbfcd9824a2f0aa28961347155be7",
+      "privateEntries": []
+    }
+  },
+  "candidate": {
+    "root": "drafts/local/showcase-final-review-2026-11-08",
+    "config": "isolated/game.json",
+    "port": 8797,
+    "packId": "kanye-albums-collaborators-clues",
+    "packVersion": "1.0.3",
+    "packSha256": "4d9c7bcaf7ba2492eba079d352affb68a80a6ccde421db60d5bd887d687e6184",
+    "sourceScope": "kanye-albums-collaborators-sources@1.0.3",
+    "collectionDigest": "ff33f615c7e0321627a8b8e7d0c020b6eca1b62d16b3d26f92bab0a43f6c0b6a",
+    "collectionSha256": "5efa3d31fdbd75a6e1439345be2621e2532d395ddf2ed060a9ea7d9608206a64",
+    "documents": 9,
+    "sourceUtf8Bytes": 25582,
+    "sourceQuotationChanges": 0,
+    "retainedContextDocuments": 4,
+    "standard": 5,
+    "easy": 0,
+    "hard": 0,
+    "catalogVersion": "1.0.2",
+    "catalogSha256": "ffcd2edb3e1291525d519ded245e65eef36289af72106aaddec8490b54fda114",
+    "planId": "3757bed366f9d19ba94ae2a22a2a8d3765219975130c55f63dd235a85de535fd",
+    "planSha256": "95af4ef6f790a17182ab4ddff780a06705c41fa114f5c339d633572d4157aa4f",
+    "planInspectedBeforeActivation": true,
+    "activation": "Only fresh isolated target, retained launchable/indexed. Original1.0.1 and normal1.0.0 unchanged.",
+    "reviewStatus": "source-checked",
+    "assistantReview": "5/5",
+    "humanFactualReview": "0/5",
+    "humanPlaytesting": "0/5;0 participants",
+    "calibratedDifficulty": "0/5;Standard provisional"
+  },
+  "content": {
+    "supportedAlternativeAlias": true,
+    "fuzzyGrading": false,
+    "sourceChartClaim": "Known inconsistency flagged by explicit new metadata advisory and primary context; original quotation not rewritten",
+    "optionalClarityRevisions": 2,
+    "supportUtf16Units": [
+      573,
+      314,
+      507,
+      812,
+      240
+    ],
+    "candidateSourceAssociationsVerified": 9,
+    "starterContentChanged": false,
+    "externalContext": "Eight new reference-only primary/specialist/distributor pages plus official licensing and all nine available page footers; full saved leads read. Current/cached web contexts not immutable old-revision captures.",
+    "rightsClearance": false
+  },
+  "evaluation": {
+    "packId": "kanye-albums-collaborators-clues",
+    "packVersion": "1.0.3",
+    "packSha256": "4d9c7bcaf7ba2492eba079d352affb68a80a6ccde421db60d5bd887d687e6184",
+    "topicId": "kanye-albums-collaborators",
+    "sourceScope": "kanye-albums-collaborators-sources@1.0.3",
+    "collectionDigest": "ff33f615c7e0321627a8b8e7d0c020b6eca1b62d16b3d26f92bab0a43f6c0b6a",
+    "documents": 9,
+    "indexType": 1,
+    "scorer": 4,
+    "indexProvenance": {
+      "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/drafts/local/showcase-final-review-2026-11-08/indexes/lucene-10.6.0-nlp-4.6.0-schema-3/kanye-albums-collaborators-sources-1.0.3/1_idxTypeNone",
+      "documents": 9,
+      "indexType": 1,
+      "scorer": 4,
+      "origin": "cluelab-rebuilt",
+      "commit": "segments_1",
+      "retrievalProfile": "baseline",
+      "runtime": {
+        "java": "21.0.13",
+        "lucene": "10.6.0",
+        "corenlp": "4.6.0",
+        "indexSchema": "3"
+      },
+      "metadata": {
+        "builtAt": "2026-11-08T07:44:01.354056Z",
+        "cluelab.schema": "3",
+        "collectionDigest": "ff33f615c7e0321627a8b8e7d0c020b6eca1b62d16b3d26f92bab0a43f6c0b6a",
+        "collectionId": "kanye-albums-collaborators-sources",
+        "collectionVersion": "1.0.3",
+        "documents": "9",
+        "indexType": "1",
+        "luceneVersion": "10.6.0",
+        "nlpVersion": "4.6.0",
+        "norms": "BM25-lucene10"
+      }
+    },
+    "indexOrigin": "fresh-source-collection-not-coursework-archive",
+    "classification": "Five inspected assistant-authored development clues; not held out. Inputs frozen before measurement; no post-result tuning.",
+    "hintPolicy": "public-to-both",
+    "metrics": {
+      "size": 5,
+      "correctFirst": 3,
+      "foundWithin10": 5,
+      "accuracy": 0.6,
+      "hitAt10": 1,
+      "mrrAt10": 0.8
+    },
+    "byDifficulty": {
+      "standard": {
+        "size": 5,
+        "correctFirst": 3,
+        "foundWithin10": 5,
+        "accuracy": 0.6,
+        "hitAt10": 1,
+        "mrrAt10": 0.8
+      }
+    },
+    "predictions": [
+      {
+        "clueId": "kanye-debut-singles-01",
+        "difficulty": "standard",
+        "acceptedRank": 1,
+        "prediction": "The College Dropout"
+      },
+      {
+        "clueId": "kanye-brion-ensemble-01",
+        "difficulty": "standard",
+        "acceptedRank": 2,
+        "prediction": "Kanye West albums discography"
+      },
+      {
+        "clueId": "kanye-martin-singles-01",
+        "difficulty": "standard",
+        "acceptedRank": 1,
+        "prediction": "Graduation (album)"
+      },
+      {
+        "clueId": "kanye-honolulu-guests-01",
+        "difficulty": "standard",
+        "acceptedRank": 1,
+        "prediction": "My Beautiful Dark Twisted Fantasy"
+      },
+      {
+        "clueId": "kanye-ty-debut-01",
+        "difficulty": "standard",
+        "acceptedRank": 2,
+        "prediction": "Kanye West albums discography"
+      }
+    ],
+    "inputFreeze": "evaluation/freeze.json",
+    "comparisonPlan": "evaluation/plan.json",
+    "previous": {
+      "version": "1.0.1",
+      "first": "4/5",
+      "hitAt10": "5/5",
+      "mrrAt10": 0.9,
+      "rerun": false
+    },
+    "explanation": "Revised Brion clue and collaborative album each rank accepted title2, predicting the broader discography; clearer wording adds one miss. No scorer or source-text changes."
+  },
+  "directChecks": {
+    "passed": true,
+    "packVersion": "1.0.3",
+    "sourceVersion": "1.0.3",
+    "preservedSources": 9,
+    "preservedReferences": 9,
+    "gradingCases": 24,
+    "supports": [
+      {
+        "clueId": "kanye-debut-singles-01",
+        "utf16Units": 573
+      },
+      {
+        "clueId": "kanye-brion-ensemble-01",
+        "utf16Units": 314
+      },
+      {
+        "clueId": "kanye-martin-singles-01",
+        "utf16Units": 507
+      },
+      {
+        "clueId": "kanye-honolulu-guests-01",
+        "utf16Units": 812
+      },
+      {
+        "clueId": "kanye-ty-debut-01",
+        "utf16Units": 240
+      }
+    ]
+  },
+  "browser": {
+    "lostResponseFocusReplay": {
+      "passed": true,
+      "gameId": "51323902-599f-4bc9-ac47-b23942adfa74",
+      "score": [
+        0,
+        300
+      ],
+      "polling": [
+        {
+          "before": "clue",
+          "after": "clue"
+        },
+        {
+          "before": "clue",
+          "after": "clue"
+        },
+        {
+          "before": "clue",
+          "after": "clue"
+        }
+      ],
+      "links": 40,
+      "replayId": "344fa46a-5e66-454a-a5b9-119541ffae72",
+      "privateBeforeReveal": true,
+      "oldReceiptUnchanged": true,
+      "mobileWidth": 320
+    },
+    "grading": {
+      "passed": true,
+      "cases": [
+        {
+          "points": 100,
+          "gameId": "ee84e9a3-b699-4f3a-a61b-918e6eabb241",
+          "roundId": "248b2229-24f6-4d45-8a43-cfb7e3e5c92d",
+          "immutableDuplicate": true
+        },
+        {
+          "points": 0,
+          "gameId": "5b98a099-155a-4cd5-97e9-7decb8c5be5c",
+          "roundId": "5d88adb3-e3ec-40f3-b07f-91e96b3ac89c",
+          "immutableDuplicate": true
+        },
+        {
+          "points": 0,
+          "gameId": "3687c870-5ec7-4ed8-9b13-ba8749c6ffd5",
+          "roundId": "e137b6bc-9102-460b-bd35-4f02fb983cac",
+          "immutableDuplicate": true
+        },
+        {
+          "points": 0,
+          "gameId": "19ff313f-6450-4c10-8071-f7d7ba5b5894",
+          "roundId": "9bd08e40-aee5-4df1-b26a-c10c10a9bf27",
+          "immutableDuplicate": true
+        }
+      ],
+      "privatePathProbes": 4,
+      "mobileWidth": 320,
+      "reviewLinks": 40
+    },
+    "actualNavigation": {
+      "passed": true,
+      "links": [
+        {
+          "id": "curated-link",
+          "expected": "https://en.wikipedia.org/wiki/Graduation_%28album%29",
+          "actual": "https://en.wikipedia.org/wiki/Graduation_%28album%29",
+          "title": "Graduation (album) - Wikipedia"
+        },
+        {
+          "id": "curated-history-link",
+          "expected": "https://en.wikipedia.org/w/index.php?title=Graduation+%28album%29&action=history",
+          "actual": "https://en.wikipedia.org/w/index.php?title=Graduation+%28album%29&action=history",
+          "title": "Graduation (album): Revision history - Wikipedia"
+        },
+        {
+          "id": "curated-revision-link",
+          "expected": "https://en.wikipedia.org/w/index.php?title=Graduation+%28album%29&oldid=1384000473",
+          "actual": "https://en.wikipedia.org/w/index.php?title=Graduation+%28album%29&oldid=1384000473",
+          "title": "Graduation (album) - Wikipedia"
+        },
+        {
+          "id": "curated-license-link",
+          "expected": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "actual": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "title": "Deed - Attribution-ShareAlike 4.0 International - Creative Commons"
+        }
+      ]
+    },
+    "realSameGameRestart": {
+      "gameId": "1e83bd7c-2f8f-4196-a2dc-6cb0ebea48b0",
+      "wholeState": {
+        "before": "5fd1322d5ff5906df0f71b1cc62ad4435986e5958351bea725ddb55f7c338393",
+        "after": "5fd1322d5ff5906df0f71b1cc62ad4435986e5958351bea725ddb55f7c338393",
+        "unchanged": true
+      },
+      "samePublicSnapshot": true,
+      "phase": "Second clue READY after first scored",
+      "finalScore": [
+        400,
+        300
+      ]
+    },
+    "limits": "Scripted Chromium keyboard/touch390px/reflow320px; no physical device, screen-reader, cross-browser or human-usability sign-off.",
+    "harnessCorrection": "An initial new private browser script incorrectly read game.round after completion; corrected to the final retained round and reran all four cases successfully. Not an application defect."
+  },
+  "validation": {
+    "normalIndexes": true,
+    "originalCandidateIndexes": true,
+    "revisedCandidateIndexes": true,
+    "draftReconstruction": true,
+    "sourceKeyEvidenceSeparation": true
+  },
+  "media": {
+    "bytes": 41486513,
+    "sha256": "eb983a6083d27ba8b62036aa4144587399d78061501dd4d3b649a06c55f1a4b0",
+    "durationSeconds": 177.72,
+    "rawSha256": "0f02e58bada5837a313ded95f9e0f3a20b253277a6f311dc76ef08ff79d02045",
+    "path": "media/v1.0.3/cluelab-final-review-1.0.3.webm",
+    "verification": {
+      "encodedPlaybackEnded": true,
+      "playbackRate": 4,
+      "duration": 177.72,
+      "width": 1280,
+      "height": 900,
+      "cues": 24,
+      "maxLines": 2,
+      "maxCps": 19.015846538782306,
+      "allCaptionBoundsValid": true,
+      "sceneFrames": 24,
+      "contactSheets": 6,
+      "creditsCheck": "Nine rows/40 safe links, keyboard link focus and390px no overflow passed before metadata-only timing/hash update"
+    },
+    "all24SceneFramesReviewed": true,
+    "captionTranscriptEquivalent": true,
+    "edit": "Same continuous real game/restart,45-second idle trim and three1.3-second Next Clue reading holds. Original take and earlier cut retained; no outcome alteration or incompatible-version splicing.",
+    "privacy": "Viewport/project UI only; no credentials/cookies/saves/terminal/private paths/unrelated screens/music/lyrics/artwork/portraits/external article screenshots. Answer-bearing material stays private/unpublished.",
+    "status": "Prepared final-review cut; not approved or published"
+  },
+  "publicationSubset": {
+    "media/v1.0.3/cluelab-final-review-1.0.3.webm": {
+      "sha256": "eb983a6083d27ba8b62036aa4144587399d78061501dd4d3b649a06c55f1a4b0",
+      "bytes": 41486513
+    },
+    "media/v1.0.3/cluelab-final-review-1.0.3.vtt": {
+      "sha256": "88b7d73101f8cdfc5912fdde56f88ee09ee555d2c61a174e0812f38db6bfaeeb",
+      "bytes": 3725
+    },
+    "media/v1.0.3/ACCESSIBLE-TRANSCRIPT.md": {
+      "sha256": "86e4231f9608f71a1f032d3cc5685a180c7b3f30809ddc7946b1b00d8e02fc7d",
+      "bytes": 19140
+    },
+    "review-packet/credits.html": {
+      "sha256": "57794a75f71c5d9c04a02f1bb249147568b2dda2792ace928d1ff0669c73094a",
+      "bytes": 10515
+    },
+    "review-packet/LABS-COPY.md": {
+      "sha256": "1266f031eccc13f0ff3d6880d937218560449d7e5caa594f0bc63b4aaa2f40f4",
+      "bytes": 1109
+    }
+  },
+  "rights": {
+    "ledger": "review-packet/rights-ledger.json",
+    "inventory": 9,
+    "newSearchableSources": 0,
+    "visibleBodySourcesConfirmed": 2,
+    "allNineCredited": true,
+    "officialTermsCheckedOn": "2026-11-08",
+    "status": "Pending authorized content/rights/naming/final-cut decisions; not blanket clearance",
+    "codeModelsBinariesOrPublicApp": "Not proposed; separate future scope"
+  },
+  "preservation": {
+    "referenceCount": 189,
+    "changed": [],
+    "candidate": {
+      "count": 453,
+      "sha256": "3f4b5f45725028efc901d379f4632b4b10769c64f00c603af88922e1d7841bd7"
+    },
+    "assessment": {
+      "count": 10,
+      "sha256": "b1b85254b948759cb5436fc5eb7a23e01a41a08e9a35525f550b5a423c3efdd4"
+    },
+    "focused": {
+      "count": 29,
+      "sha256": "7f1742a8d0e8ee05fd6de5d011e0e0b3a36cb82b8740d08ddb1fbc4aae02b913"
+    },
+    "ledger": "10fb1271e0dba37ca6174c81fcc68bc18763503a066f5d2de524b3631fce0b02",
+    "jar": {
+      "entries": 100,
+      "sha256": "3e7271b689fc832ff17085ed2c435159ee1fbfcd9824a2f0aa28961347155be7",
+      "privateEntries": []
+    },
+    "before": {
+      "referenceCount": 189,
+      "changed": [],
+      "candidate": {
+        "count": 453,
+        "sha256": "3f4b5f45725028efc901d379f4632b4b10769c64f00c603af88922e1d7841bd7"
+      },
+      "assessment": {
+        "count": 10,
+        "sha256": "b1b85254b948759cb5436fc5eb7a23e01a41a08e9a35525f550b5a423c3efdd4"
+      },
+      "focused": {
+        "count": 29,
+        "sha256": "7f1742a8d0e8ee05fd6de5d011e0e0b3a36cb82b8740d08ddb1fbc4aae02b913"
+      },
+      "ledger": "10fb1271e0dba37ca6174c81fcc68bc18763503a066f5d2de524b3631fce0b02"
+    },
+    "all189ReferencesMatch": true,
+    "all453OriginalCandidateFilesMatch": true,
+    "all10PriorAssessmentFilesMatch": true,
+    "all29PriorFocusedMediaAndHistoryFilesMatch": true,
+    "sharedRequestLedgerUnchanged": true,
+    "normalCatalogVersion": "1.0.0",
+    "historicalMeasurementsRerun": false,
+    "archiveOrHistoricalIndexWrites": false,
+    "originalMediaCaptionsReceiptsChanged": false,
+    "transientReadinessLeases": "Only owned target registration/close metadata changed"
+  },
+  "operations": {
+    "assistanceEnabled": false,
+    "modelOrPaidCalls": 0,
+    "keySetup": false,
+    "budgetChanges": false,
+    "globalEnvironmentChanged": false,
+    "workshopServerStarted": false,
+    "ownedPlayerPort": 8797,
+    "ownedPlayerStopped": true,
+    "normalServerRestarted": false,
+    "normalCatalogActivated": false,
+    "published": false,
+    "deployed": false
+  },
+  "notion": {
+    "project": "https://app.notion.com/p/40879c71a87e81bdbeb7c4971883c906",
+    "roadmap": "https://app.notion.com/p/40879c71a87e811d8c30d5f12ced0d1b",
+    "updated": true
+  }
+}
+

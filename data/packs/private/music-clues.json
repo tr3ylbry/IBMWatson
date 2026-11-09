@@ -1,0 +1,389 @@
+{
+  "schemaVersion": 1,
+  "id": "music-clues",
+  "version": "1.0.0",
+  "topicId": "music",
+  "label": "Music",
+  "description": "15 distinct practice clues, five per level. Source-checked by an assistant; independent human review and difficulty calibration pending.",
+  "language": "en",
+  "collectionId": "music-sources",
+  "collectionVersion": "1.0.0",
+  "subtopics": [
+    {
+      "id": "keyboard-instruments",
+      "label": "Keyboard Instruments"
+    },
+    {
+      "id": "composers",
+      "label": "Composers"
+    },
+    {
+      "id": "jazz-performers",
+      "label": "Jazz Performers"
+    },
+    {
+      "id": "pop-groups",
+      "label": "Pop Groups"
+    },
+    {
+      "id": "string-instruments",
+      "label": "String Instruments"
+    },
+    {
+      "id": "musical-traditions",
+      "label": "Musical Traditions"
+    },
+    {
+      "id": "jazz-composers",
+      "label": "Jazz Composers"
+    },
+    {
+      "id": "singers-and-pianists",
+      "label": "Singers and Pianists"
+    },
+    {
+      "id": "indian-instruments",
+      "label": "Indian Instruments"
+    },
+    {
+      "id": "baroque-works",
+      "label": "Baroque Works"
+    },
+    {
+      "id": "romantic-composers",
+      "label": "Romantic Composers"
+    },
+    {
+      "id": "indonesian-ensembles",
+      "label": "Indonesian Ensembles"
+    },
+    {
+      "id": "middle-eastern-instruments",
+      "label": "Middle Eastern Instruments"
+    },
+    {
+      "id": "medieval-music",
+      "label": "Medieval Music"
+    },
+    {
+      "id": "ragtime",
+      "label": "Ragtime"
+    }
+  ],
+  "review": {
+    "status": "source-checked",
+    "reviewer": "Codex (AI assistant); not an independent human reviewer",
+    "reviewedOn": "2026-11-04",
+    "factualNotes": "Each clue's distinguishing fact checked against the cited institutional source text returned by web retrieval. Short excerpt snapshots retained; not full page archives. See docs/PACK-REVIEW.md.",
+    "editorialNotes": "Distinct canonical answers and facts across levels; checked for clear answer type, reasonable aliases and subtopic variety. Difficulty labels are provisional editorial choices.",
+    "limitations": "No independent human sign-off or player testing. Tiny answer-aligned collections are development sets, not held-out benchmarks. Rights assessment before public redistribution remains required."
+  },
+  "clues": [
+    {
+      "id": "music-piano-01",
+      "topicId": "music",
+      "subtopicId": "keyboard-instruments",
+      "category": "Keyboard Instruments",
+      "text": "Which keyboard instrument's full Italian name combines the words for soft and loud?",
+      "hint": "Its keys operate little hammers.",
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "music-piano",
+      "aliases": [
+        "Piano",
+        "Pianoforte"
+      ],
+      "support": {
+        "sourceId": "music-piano",
+        "start": 0,
+        "end": 109
+      }
+    },
+    {
+      "id": "music-beethoven-01",
+      "topicId": "music",
+      "subtopicId": "composers",
+      "category": "Composers",
+      "text": "Who incorporated Friedrich Schiller's 'Ode to Joy' poem into his Ninth Symphony?",
+      "hint": null,
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "music-beethoven",
+      "aliases": [
+        "Ludwig van Beethoven",
+        "Beethoven",
+        "Ludwig Beethoven"
+      ],
+      "support": {
+        "sourceId": "music-beethoven",
+        "start": 0,
+        "end": 90
+      }
+    },
+    {
+      "id": "music-armstrong-01",
+      "topicId": "music",
+      "subtopicId": "jazz-performers",
+      "category": "Jazz Performers",
+      "text": "Which jazz musician was nicknamed Satchmo?",
+      "hint": null,
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "music-armstrong",
+      "aliases": [
+        "Louis Armstrong",
+        "Armstrong",
+        "Louis Daniel Armstrong"
+      ],
+      "support": {
+        "sourceId": "music-armstrong",
+        "start": 0,
+        "end": 51
+      }
+    },
+    {
+      "id": "music-beatles-01",
+      "topicId": "music",
+      "subtopicId": "pop-groups",
+      "category": "Pop Groups",
+      "text": "Which band featured John, Paul, George and Ringo?",
+      "hint": "A Liverpool group with an insect-inspired name.",
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "music-beatles",
+      "aliases": [
+        "The Beatles",
+        "Beatles"
+      ],
+      "support": {
+        "sourceId": "music-beatles",
+        "start": 0,
+        "end": 150
+      }
+    },
+    {
+      "id": "music-violin-01",
+      "topicId": "music",
+      "subtopicId": "string-instruments",
+      "category": "String Instruments",
+      "text": "Which modern four-string orchestral instrument is generally traced to northern Italy around 1550?",
+      "hint": null,
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "music-violin",
+      "aliases": [
+        "Violin",
+        "The Violin",
+        "Fiddle"
+      ],
+      "support": {
+        "sourceId": "music-violin",
+        "start": 0,
+        "end": 102
+      }
+    },
+    {
+      "id": "music-jazz-01",
+      "topicId": "music",
+      "subtopicId": "musical-traditions",
+      "category": "Musical Traditions",
+      "text": "Which musical style, celebrated by a national historical park in New Orleans, is distinguished by improvisation and freedom?",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "music-jazz",
+      "aliases": [
+        "Jazz"
+      ],
+      "support": {
+        "sourceId": "music-jazz",
+        "start": 0,
+        "end": 107
+      }
+    },
+    {
+      "id": "music-ellington-01",
+      "topicId": "music",
+      "subtopicId": "jazz-composers",
+      "category": "Jazz Composers",
+      "text": "Which bandleader, born Edward Kennedy, rose to fame at Harlem's Cotton Club in the late 1920s?",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "music-ellington",
+      "aliases": [
+        "Duke Ellington",
+        "Edward Kennedy Ellington",
+        "Ellington"
+      ],
+      "support": {
+        "sourceId": "music-ellington",
+        "start": 0,
+        "end": 113
+      }
+    },
+    {
+      "id": "music-simone-01",
+      "topicId": "music",
+      "subtopicId": "singers-and-pianists",
+      "category": "Singers and Pianists",
+      "text": "By what professional name is Eunice Kathleen Waymon known?",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "music-simone",
+      "aliases": [
+        "Nina Simone",
+        "Simone"
+      ],
+      "support": {
+        "sourceId": "music-simone",
+        "start": 0,
+        "end": 141
+      }
+    },
+    {
+      "id": "music-sitar-01",
+      "topicId": "music",
+      "subtopicId": "indian-instruments",
+      "category": "Indian Instruments",
+      "text": "Which Indian instrument did George Harrison help popularize in the West while studying with Ravi Shankar?",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "music-sitar",
+      "aliases": [
+        "Sitar",
+        "The Sitar"
+      ],
+      "support": {
+        "sourceId": "music-sitar",
+        "start": 0,
+        "end": 138
+      }
+    },
+    {
+      "id": "music-four-seasons-01",
+      "topicId": "music",
+      "subtopicId": "baroque-works",
+      "category": "Baroque Works",
+      "text": "What collective title is given to Vivaldi's concertos depicting Spring, Summer, Autumn and Winter?",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "music-four-seasons",
+      "aliases": [
+        "The Four Seasons",
+        "Four Seasons",
+        "Le quattro stagioni"
+      ],
+      "support": {
+        "sourceId": "music-four-seasons",
+        "start": 0,
+        "end": 71
+      }
+    },
+    {
+      "id": "music-clara-schumann-01",
+      "topicId": "music",
+      "subtopicId": "romantic-composers",
+      "category": "Romantic Composers",
+      "text": "Which pianist-composer, born Wieck, completed her Piano Concerto in A minor while still a teenager?",
+      "hint": null,
+      "difficulty": "hard",
+      "answerType": "article-title",
+      "answerSourceId": "music-clara-schumann",
+      "aliases": [
+        "Clara Schumann",
+        "Clara Wieck",
+        "Clara Wieck Schumann"
+      ],
+      "support": {
+        "sourceId": "music-clara-schumann",
+        "start": 0,
+        "end": 109
+      }
+    },
+    {
+      "id": "music-gamelan-01",
+      "topicId": "music",
+      "subtopicId": "indonesian-ensembles",
+      "category": "Indonesian Ensembles",
+      "text": "What term names both a traditional Indonesian percussion orchestra and its set of instruments?",
+      "hint": null,
+      "difficulty": "hard",
+      "answerType": "article-title",
+      "answerSourceId": "music-gamelan",
+      "aliases": [
+        "Gamelan"
+      ],
+      "support": {
+        "sourceId": "music-gamelan",
+        "start": 0,
+        "end": 109
+      }
+    },
+    {
+      "id": "music-oud-01",
+      "topicId": "music",
+      "subtopicId": "middle-eastern-instruments",
+      "category": "Middle Eastern Instruments",
+      "text": "Which traditional lute-type instrument played in Iran and Syria has a pear-shaped sound box?",
+      "hint": null,
+      "difficulty": "hard",
+      "answerType": "article-title",
+      "answerSourceId": "music-oud",
+      "aliases": [
+        "Oud",
+        "The Oud",
+        "Ud"
+      ],
+      "support": {
+        "sourceId": "music-oud",
+        "start": 0,
+        "end": 115
+      }
+    },
+    {
+      "id": "music-hildegard-01",
+      "topicId": "music",
+      "subtopicId": "medieval-music",
+      "category": "Medieval Music",
+      "text": "Which medieval abbess composed Ordo virtutum?",
+      "hint": null,
+      "difficulty": "hard",
+      "answerType": "article-title",
+      "answerSourceId": "music-hildegard",
+      "aliases": [
+        "Hildegard of Bingen",
+        "Hildegard von Bingen",
+        "Hildegard"
+      ],
+      "support": {
+        "sourceId": "music-hildegard",
+        "start": 0,
+        "end": 63
+      }
+    },
+    {
+      "id": "music-joplin-01",
+      "topicId": "music",
+      "subtopicId": "ragtime",
+      "category": "Ragtime",
+      "text": "Who composed Maple Leaf Rag, copyrighted in 1899 while he lived in Sedalia, Missouri?",
+      "hint": null,
+      "difficulty": "hard",
+      "answerType": "article-title",
+      "answerSourceId": "music-joplin",
+      "aliases": [
+        "Scott Joplin",
+        "Joplin"
+      ],
+      "support": {
+        "sourceId": "music-joplin",
+        "start": 0,
+        "end": 94
+      }
+    }
+  ]
+}

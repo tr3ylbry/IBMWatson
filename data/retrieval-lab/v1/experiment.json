@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "cluelab-retrieval-pilot",
+  "version": "1.0.0",
+  "frozenOn": "2026-11-05",
+  "timezone": "America/Phoenix",
+  "collectionSha256": "1002a0c3f9aaadfb785d74df02b89089f9cc9494389b93fd9229487a571f88f3",
+  "developmentSha256": "730efec27e0f36c108890126d04fba7afe16fa48e375828479db420a93463388",
+  "heldOutSha256": "54381e40fd2d65150db777690726ed0925cf161178c9170c568d6c9cb99fe9d3",
+  "indexType": 1,
+  "scorer": 4,
+  "repetitions": 5,
+  "trials": [
+    {
+      "id": "baseline",
+      "query": "literal category + clue; original combined body field",
+      "bodyBoost": 1
+    },
+    {
+      "id": "title-category",
+      "bodyBoost": 1,
+      "titleBoost": 2,
+      "categoryBoost": 1.5
+    },
+    {
+      "id": "coverage",
+      "candidateWindow": 30,
+      "ranking": "descending distinct non-stopword query coverage, raw retrieval score, then document ID"
+    }
+  ],
+  "selectionRule": "Highest development MRR@10, then accuracy, then Hit@10; exact ties prefer baseline, then title-category, then coverage. Held-out labels are not consulted.",
+  "promotionPolicy": "Trials are operator-only. This same-author 20-case held-out pilot cannot by itself establish a generally better game opponent. Keep the stable game default.",
+  "limitations": [
+    "Whole first available shard, not a random or representative Wikipedia sample; many B titles and redirects.",
+    "605 documents are not labeled answers; they are not exhaustively judged nonrelevant.",
+    "Development and held-out answer document IDs are disjoint, but related entities and shared authoring style remain.",
+    "Closed-world historical-source support checks are not current factual approval or a human difficulty study.",
+    "Held-out means withheld from configuration selection, not independent authorship or a permanently unseen dataset after this run."
+  ]
+}

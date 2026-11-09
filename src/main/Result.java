@@ -5,6 +5,10 @@ import org.apache.lucene.document.Document;
 public class Result {
     public Document docName;
     public double docScore;
+    private int documentId;
+
+    public int getDocumentId() { return documentId; }
+    public void setDocumentId(int documentId) { this.documentId = documentId; }
 
     public Document getDocName() {
         return this.docName;
