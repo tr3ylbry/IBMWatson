@@ -86,6 +86,12 @@ Action configuration follows the official [checkout](https://github.com/actions/
 
 ## Migration and Distribution Boundaries
 
+- F1 follow-up centralizes tagged runtime identity checks for reads and rebuilds.
+  [The read policy](MODERNIZATION.md#runtime-read-policy-f1-follow-up) defines
+  missing/partial declarations, the retained unverified native legacy format and
+  the separate diagnostic procedure. `RuntimeReadCompatibilityTest` uses real
+  native indexes and file/commit fingerprints to cover CLI/profile rejection,
+  matching reads, untagged evidence and strict collection behavior.
 - Modern Lucene 10/CoreNLP 4 indexes use a runtime/schema namespace. Rebuild from
   trusted sources into a new base; never upgrade historical segments in place.
   The isolated [legacy CLI](../legacy-baseline/README.md) retains old dependencies

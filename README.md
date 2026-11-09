@@ -274,6 +274,13 @@ Only explicit indexing commands write an index. The legacy `index` command reads
 
 The full Wikipedia collection and generated indexes are deliberately excluded from Git (`corpus/`, `indexes/`, the original `src/resources/`, and named index folders). Put extracted collection files in a separate directory. Archived Lucene 7 indexes require the isolated `legacy-baseline` CLI; the default Lucene 10 runtime rejects them and refuses to overwrite them even with `--rebuild`. Pack indexes use a new runtime/schema namespace. Never use the coursework archive as an output base. See [upgrade, rollback and reproduction](docs/MODERNIZATION.md). Allow several GB of free disk for a full rebuild; `MAVEN_OPTS=-Xmx2g` is a useful full-collection JVM budget.
 
+Tagged index reads require complete, matching schema/processing/Lucene/CoreNLP
+identities; partial or mismatched metadata fails with declared-versus-running
+details. Fully untagged native-format legacy reads remain explicitly unverified,
+never assigned current build provenance or accepted as verified collections.
+There is no runtime-mismatch bypass. See the [runtime read policy and explicit
+diagnostic procedure](docs/MODERNIZATION.md#runtime-read-policy-f1-follow-up).
+
 For a complete collection or archived indexes:
 
 ```sh

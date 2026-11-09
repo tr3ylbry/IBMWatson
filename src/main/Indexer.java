@@ -229,11 +229,8 @@ public class Indexer implements AutoCloseable {
         if (!DirectoryReader.indexExists(directory)) return;
         try (DirectoryReader reader = DirectoryReader.open(directory)) {
             Map<String, String> metadata = reader.getIndexCommit().getUserData();
-            if (!RuntimeInfo.INDEX_SCHEMA.equals(metadata.get("cluelab.schema"))
-                    || !RuntimeInfo.lucene().equals(metadata.get("luceneVersion"))
-                    || !RuntimeInfo.nlp().equals(metadata.get("nlpVersion"))) {
-                throw new IOException("Refusing to replace an index from another runtime. Build into a separate index base; preserve the original: " + dataPath);
-            }
+            try { RuntimeInfo.requireIndexIdentity(metadata, iType, false); }
+            catch (IOException error) { throw new IOException("Refusing to replace this index. " + error.getMessage(), error); }
         } catch (org.apache.lucene.index.IndexFormatTooOldException error) {
             throw new IOException("Refusing to replace a historical index, even with --rebuild. Choose a new index base; use legacy-baseline for read-only reproduction.", error);
         }

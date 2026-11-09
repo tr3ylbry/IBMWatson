@@ -93,6 +93,39 @@ clearance or proof of a missing production defect.
 
 ## Index Compatibility, Upgrade and Rollback
 
+### Runtime Read Policy (F1 Follow-Up)
+
+Added 2026-11-09; the dated measurements below remain historical evidence.
+
+Normal `QueryEngine` reads now share the rebuild identity policy: if an index
+declares any of `cluelab.schema`, `indexType`, `luceneVersion` or `nlpVersion`,
+all four must be present and exactly match the requested processing and running
+schema/Lucene/CoreNLP versions. Empty, malformed, partial and mismatched values
+fail before querying, with declared-versus-running details and a separate-base
+rebuild/matching-runtime instruction. CLI `ask`/`evaluate`, all retrieval profiles,
+and game callers use this same boundary. No automatic compatibility fallback or
+configuration/environment bypass is provided. Checking an index never updates
+its metadata, contents or commit.
+
+The existing trusted **native-format untagged compatibility path** is retained
+only when all four identity keys are absent. It remains `legacy-unverified`, with
+no inferred build versions; `runtime` describes the query process, not the
+unknown index build. Stored legacy bodies remain `processed-index-text`.
+Untagged indexes cannot be rebuilt by the modern writer or used as verified pack,
+pilot or external-challenge indexes. Removing just a schema/runtime key from a
+tagged index is an error, not a fallback. Lucene codec checks still apply: this
+does not let the modern runtime open archived Lucene 7 indexes.
+
+There is no cross-runtime override in the application. For deliberate component
+diagnosis, explicitly run `node tools/diagnose-modernization.mjs` using the two
+separate compiled classpaths documented below. Its operator-only probe replays
+source fields into fresh native-codec scratch indexes and controls analysis
+there; it does not relax `QueryEngine` or point modern queries at historical
+segments. Keep the isolated legacy CLI for actual archived-index reproduction.
+No scorer, grading, source, alias or guided-demo 7/8 policy/result changed.
+
+### Preserved Compatibility Evidence
+
 Lucene 7 files were **tested**, not assumed compatible: the modern CLI rejected
 a freshly built legacy index, while the isolated legacy CLI read it. A modern
 `--rebuild` against that old index was also rejected and every file fingerprint

@@ -76,12 +76,7 @@ public class QueryEngine implements AutoCloseable {
         }
         try {
             Map<String, String> metadata = ((DirectoryReader) reader).getIndexCommit().getUserData();
-            if (metadata.containsKey("cluelab.schema") && !RuntimeInfo.INDEX_SCHEMA.equals(metadata.get("cluelab.schema"))) {
-                throw new IOException("Unsupported ClueLab index schema: " + metadata.get("cluelab.schema"));
-            }
-            if (metadata.containsKey("indexType") && !Integer.toString(indexType).equals(metadata.get("indexType"))) {
-                throw new IOException("Index processing metadata does not match the requested index type.");
-            }
+            RuntimeInfo.requireIndexIdentity(metadata, indexType, true);
         } catch (IOException | RuntimeException error) {
             try { close(); }
             catch (IOException closeError) { error.addSuppressed(closeError); }
