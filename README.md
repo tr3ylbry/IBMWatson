@@ -177,6 +177,11 @@ The original Java source remains under `src/main`; Maven now explicitly compiles
 
 ## Build and test
 
+For a review order, clean-checkout verification commands, intentionally tracked
+fixtures and remaining release gates, see the [implementation review guide](docs/IMPLEMENTATION-REVIEW.md).
+The [CI workflow](.github/workflows/verify.yml) runs the default suite and tracked-demo
+checks with live assistance disabled, no provider secrets and no artifact uploads.
+
 ```sh
 mvn clean verify
 ```
