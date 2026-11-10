@@ -1,0 +1,15 @@
+{
+  "capturedFrom": "feat/retrieval-foundation working tree after Stage 2B preparation",
+  "capturedOn": "2026-11-05",
+  "purpose": "CLI-only Lucene 7 historical reproduction; no HTTP server",
+  "sha256": {
+    "src/main/java/main/Indexer.java": "e3ce9bb9aabf1d00254cf114154996e43f8f6a831a0bde2d0a7e8ee27e555cf3",
+    "src/main/java/main/QueryEngine.java": "2f6152ca283270811081c902d7d8a2ad03d62adacd841cb48b69863edda8cb26",
+    "src/main/java/main/Result.java": "37676f83a847f3d1bcca3ce48870258e7fbb26e4cc7876ae0c40b7dddce12f6d",
+    "src/main/java/main/QueryResponse.java": "b835e330e76603f4ba6d83444600d0973d8b9a2a042486c9b67fd502d89100a5",
+    "src/main/java/main/Evaluation.java": "ec33c1d8bd4502ce2be911ff92ff3554e73749294a1c158c58dbfbce938b6dc1",
+    "src/main/java/main/Watson.java": "3320f66367a2877a1a176419d8ab06e37b6c41b92bd45b81e813a187c6d4adcf",
+    "src/main/java/main/Benchmark.java": "b0ebd45d85561bd2a03b3f47adf302a6b37c7e1d0cd588102832e15460c2a0a5",
+    "src/main/java/main/ScoringDiagnostics.java": "69080f4d39aa54c72d3dd6e81af5fb0a8d9d41e789806d75b5bb33ea622538ed"
+  }
+}

@@ -1,0 +1,796 @@
+{
+  "measuredOn": "2026-11-04",
+  "environment": "Temurin JDK 21.0.13; Maven 3.9.16; Lucene 7.7.1; Stanford CoreNLP 3.9.2",
+  "command": "mvn -o -q exec:java -Dexec.mainClass=main.PackTool -Dexec.args='evaluate data/game.json'",
+  "note": "Fresh source-collection indexes; small curated development packs, not held-out or coursework-archive results. No scorer tuning. Public hints included for both participants.",
+  "packs": [
+    {
+      "packId": "general-knowledge-clues",
+      "packVersion": "1.0.0",
+      "packSha256": "7f3dab23af084e9f1833e5ebe475267df0522542a36b98e2a458cd53effbb5c5",
+      "topicId": "general-knowledge",
+      "sourceScope": "general-knowledge-sources@1.0.0",
+      "collectionDigest": "bdc631273ae49de8317dfca52bb2d30c352b8d59d53df4b1bbe32a574cbd9cdf",
+      "documents": 15,
+      "indexType": 1,
+      "scorer": 4,
+      "indexProvenance": {
+        "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/packs/general-knowledge-sources-1.0.0/1_idxTypeNone",
+        "documents": 15,
+        "indexType": 1,
+        "scorer": 4,
+        "origin": "cluelab-rebuilt",
+        "commit": "segments_1",
+        "metadata": {
+          "builtAt": "2026-11-04T17:41:04.932906Z",
+          "cluelab.schema": "1",
+          "collectionDigest": "bdc631273ae49de8317dfca52bb2d30c352b8d59d53df4b1bbe32a574cbd9cdf",
+          "collectionId": "general-knowledge-sources",
+          "collectionVersion": "1.0.0",
+          "documents": "15",
+          "indexType": "1",
+          "norms": "BM25-lucene7"
+        }
+      },
+      "indexOrigin": "fresh-source-collection-not-coursework-archive",
+      "classification": "small-curated-development-pack-not-held-out",
+      "hintPolicy": "public-to-both",
+      "metrics": {
+        "size": 15,
+        "correctFirst": 15,
+        "foundWithin10": 15,
+        "accuracy": 1,
+        "hitAt10": 1,
+        "mrrAt10": 1
+      },
+      "byDifficulty": {
+        "easy": {
+          "size": 5,
+          "correctFirst": 5,
+          "foundWithin10": 5,
+          "accuracy": 1,
+          "hitAt10": 1,
+          "mrrAt10": 1
+        },
+        "standard": {
+          "size": 5,
+          "correctFirst": 5,
+          "foundWithin10": 5,
+          "accuracy": 1,
+          "hitAt10": 1,
+          "mrrAt10": 1
+        },
+        "hard": {
+          "size": 5,
+          "correctFirst": 5,
+          "foundWithin10": 5,
+          "accuracy": 1,
+          "hitAt10": 1,
+          "mrrAt10": 1
+        }
+      },
+      "predictions": [
+        {
+          "clueId": "general-knowledge-sun-01",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Sun"
+        },
+        {
+          "clueId": "general-knowledge-moon-01",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Moon"
+        },
+        {
+          "clueId": "general-knowledge-mars-01",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Mars"
+        },
+        {
+          "clueId": "general-knowledge-dna-01",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "DNA"
+        },
+        {
+          "clueId": "general-knowledge-braille-01",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Braille"
+        },
+        {
+          "clueId": "general-knowledge-gutenberg-bible-01",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Gutenberg Bible"
+        },
+        {
+          "clueId": "general-knowledge-iss-01",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "International Space Station"
+        },
+        {
+          "clueId": "general-knowledge-seismograph-01",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Seismograph"
+        },
+        {
+          "clueId": "general-knowledge-mitochondria-01",
+          "difficulty": "hard",
+          "acceptedRank": 1,
+          "prediction": "Mitochondria"
+        },
+        {
+          "clueId": "general-knowledge-periodic-table-01",
+          "difficulty": "hard",
+          "acceptedRank": 1,
+          "prediction": "Periodic Table"
+        },
+        {
+          "clueId": "general-knowledge-hubble-01",
+          "difficulty": "hard",
+          "acceptedRank": 1,
+          "prediction": "Hubble Space Telescope"
+        },
+        {
+          "clueId": "general-knowledge-suez-canal-01",
+          "difficulty": "hard",
+          "acceptedRank": 1,
+          "prediction": "Suez Canal"
+        },
+        {
+          "clueId": "general-knowledge-antikythera-01",
+          "difficulty": "hard",
+          "acceptedRank": 1,
+          "prediction": "Antikythera Mechanism"
+        },
+        {
+          "clueId": "general-knowledge-photosynthesis-01",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Photosynthesis"
+        },
+        {
+          "clueId": "general-knowledge-penicillin-01",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Penicillin"
+        }
+      ]
+    },
+    {
+      "packId": "world-history-clues",
+      "packVersion": "1.0.0",
+      "packSha256": "0f39f5b2082962c087b779c1ce1459fa16e99a36029a005351769eae1a02632d",
+      "topicId": "world-history",
+      "sourceScope": "world-history-sources@1.0.0",
+      "collectionDigest": "754605f70412aee334ad65e412f4ba18e1d7a3ef0db704ee1670f39078fcd645",
+      "documents": 15,
+      "indexType": 1,
+      "scorer": 4,
+      "indexProvenance": {
+        "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/packs/world-history-sources-1.0.0/1_idxTypeNone",
+        "documents": 15,
+        "indexType": 1,
+        "scorer": 4,
+        "origin": "cluelab-rebuilt",
+        "commit": "segments_1",
+        "metadata": {
+          "builtAt": "2026-11-04T17:41:04.974290Z",
+          "cluelab.schema": "1",
+          "collectionDigest": "754605f70412aee334ad65e412f4ba18e1d7a3ef0db704ee1670f39078fcd645",
+          "collectionId": "world-history-sources",
+          "collectionVersion": "1.0.0",
+          "documents": "15",
+          "indexType": "1",
+          "norms": "BM25-lucene7"
+        }
+      },
+      "indexOrigin": "fresh-source-collection-not-coursework-archive",
+      "classification": "small-curated-development-pack-not-held-out",
+      "hintPolicy": "public-to-both",
+      "metrics": {
+        "size": 15,
+        "correctFirst": 15,
+        "foundWithin10": 15,
+        "accuracy": 1,
+        "hitAt10": 1,
+        "mrrAt10": 1
+      },
+      "byDifficulty": {
+        "easy": {
+          "size": 5,
+          "correctFirst": 5,
+          "foundWithin10": 5,
+          "accuracy": 1,
+          "hitAt10": 1,
+          "mrrAt10": 1
+        },
+        "standard": {
+          "size": 5,
+          "correctFirst": 5,
+          "foundWithin10": 5,
+          "accuracy": 1,
+          "hitAt10": 1,
+          "mrrAt10": 1
+        },
+        "hard": {
+          "size": 5,
+          "correctFirst": 5,
+          "foundWithin10": 5,
+          "accuracy": 1,
+          "hitAt10": 1,
+          "mrrAt10": 1
+        }
+      },
+      "predictions": [
+        {
+          "clueId": "world-history-mandela-01",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Nelson Mandela"
+        },
+        {
+          "clueId": "world-history-apollo-eleven-01",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Apollo 11"
+        },
+        {
+          "clueId": "world-history-magna-carta-01",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Magna Carta"
+        },
+        {
+          "clueId": "world-history-great-wall-01",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Great Wall of China"
+        },
+        {
+          "clueId": "world-history-great-pyramid-01",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Great Pyramid of Giza"
+        },
+        {
+          "clueId": "world-history-hatshepsut-01",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Hatshepsut"
+        },
+        {
+          "clueId": "world-history-rosetta-stone-01",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Rosetta Stone"
+        },
+        {
+          "clueId": "world-history-silk-roads-01",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Silk Roads"
+        },
+        {
+          "clueId": "world-history-versailles-01",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Treaty of Versailles"
+        },
+        {
+          "clueId": "world-history-mali-empire-01",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Mali Empire"
+        },
+        {
+          "clueId": "world-history-hammurabi-01",
+          "difficulty": "hard",
+          "acceptedRank": 1,
+          "prediction": "Code of Hammurabi"
+        },
+        {
+          "clueId": "world-history-abbasid-01",
+          "difficulty": "hard",
+          "acceptedRank": 1,
+          "prediction": "Abbasid Caliphate"
+        },
+        {
+          "clueId": "world-history-tokugawa-yoshinobu-01",
+          "difficulty": "hard",
+          "acceptedRank": 1,
+          "prediction": "Tokugawa Yoshinobu"
+        },
+        {
+          "clueId": "world-history-great-zimbabwe-01",
+          "difficulty": "hard",
+          "acceptedRank": 1,
+          "prediction": "Great Zimbabwe"
+        },
+        {
+          "clueId": "world-history-lanse-aux-meadows-01",
+          "difficulty": "hard",
+          "acceptedRank": 1,
+          "prediction": "L'Anse aux Meadows"
+        }
+      ]
+    },
+    {
+      "packId": "geography-clues",
+      "packVersion": "1.0.0",
+      "packSha256": "8c3b9881ce8458816dc018a9dc5d2ae90518beffc039e8fd9bc6df5cdbea8ec2",
+      "topicId": "geography",
+      "sourceScope": "geography-sources@1.0.0",
+      "collectionDigest": "c58da9d6a6e2324df06487ee9eb8aeaff35e00340fe14e8bec6eadea0c69d99e",
+      "documents": 15,
+      "indexType": 1,
+      "scorer": 4,
+      "indexProvenance": {
+        "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/packs/geography-sources-1.0.0/1_idxTypeNone",
+        "documents": 15,
+        "indexType": 1,
+        "scorer": 4,
+        "origin": "cluelab-rebuilt",
+        "commit": "segments_1",
+        "metadata": {
+          "builtAt": "2026-11-04T17:41:04.998930Z",
+          "cluelab.schema": "1",
+          "collectionDigest": "c58da9d6a6e2324df06487ee9eb8aeaff35e00340fe14e8bec6eadea0c69d99e",
+          "collectionId": "geography-sources",
+          "collectionVersion": "1.0.0",
+          "documents": "15",
+          "indexType": "1",
+          "norms": "BM25-lucene7"
+        }
+      },
+      "indexOrigin": "fresh-source-collection-not-coursework-archive",
+      "classification": "small-curated-development-pack-not-held-out",
+      "hintPolicy": "public-to-both",
+      "metrics": {
+        "size": 15,
+        "correctFirst": 14,
+        "foundWithin10": 15,
+        "accuracy": 0.9333333333333333,
+        "hitAt10": 1,
+        "mrrAt10": 0.9666666666666667
+      },
+      "byDifficulty": {
+        "easy": {
+          "size": 5,
+          "correctFirst": 5,
+          "foundWithin10": 5,
+          "accuracy": 1,
+          "hitAt10": 1,
+          "mrrAt10": 1
+        },
+        "standard": {
+          "size": 5,
+          "correctFirst": 4,
+          "foundWithin10": 5,
+          "accuracy": 0.8,
+          "hitAt10": 1,
+          "mrrAt10": 0.9
+        },
+        "hard": {
+          "size": 5,
+          "correctFirst": 5,
+          "foundWithin10": 5,
+          "accuracy": 1,
+          "hitAt10": 1,
+          "mrrAt10": 1
+        }
+      },
+      "predictions": [
+        {
+          "clueId": "geography-amazon-01",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Amazon River"
+        },
+        {
+          "clueId": "geography-sahara-01",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Sahara"
+        },
+        {
+          "clueId": "geography-everest-01",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Mount Everest"
+        },
+        {
+          "clueId": "geography-antarctica-01",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Antarctica"
+        },
+        {
+          "clueId": "geography-pacific-01",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Pacific Ocean"
+        },
+        {
+          "clueId": "geography-baikal-01",
+          "difficulty": "standard",
+          "acceptedRank": 2,
+          "prediction": "Lake Tanganyika"
+        },
+        {
+          "clueId": "geography-galapagos-01",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Galapagos Islands"
+        },
+        {
+          "clueId": "geography-gibraltar-01",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Strait of Gibraltar"
+        },
+        {
+          "clueId": "geography-andes-01",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Andes"
+        },
+        {
+          "clueId": "geography-dead-sea-01",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Dead Sea"
+        },
+        {
+          "clueId": "geography-tanganyika-01",
+          "difficulty": "hard",
+          "acceptedRank": 1,
+          "prediction": "Lake Tanganyika"
+        },
+        {
+          "clueId": "geography-okavango-01",
+          "difficulty": "hard",
+          "acceptedRank": 1,
+          "prediction": "Okavango Delta"
+        },
+        {
+          "clueId": "geography-danube-delta-01",
+          "difficulty": "hard",
+          "acceptedRank": 1,
+          "prediction": "Danube Delta"
+        },
+        {
+          "clueId": "geography-socotra-01",
+          "difficulty": "hard",
+          "acceptedRank": 1,
+          "prediction": "Socotra Archipelago"
+        },
+        {
+          "clueId": "geography-wadden-sea-01",
+          "difficulty": "hard",
+          "acceptedRank": 1,
+          "prediction": "Wadden Sea"
+        }
+      ]
+    },
+    {
+      "packId": "music-clues",
+      "packVersion": "1.0.0",
+      "packSha256": "99a227381bfef63f4374555c59236a5dac2812452475fb24e64bc129e6749b1f",
+      "topicId": "music",
+      "sourceScope": "music-sources@1.0.0",
+      "collectionDigest": "067ab02ffbdfc6332ce672b86dc5342d8a2bd6e0ac55eb40995ae48f635fca4e",
+      "documents": 15,
+      "indexType": 1,
+      "scorer": 4,
+      "indexProvenance": {
+        "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/packs/music-sources-1.0.0/1_idxTypeNone",
+        "documents": 15,
+        "indexType": 1,
+        "scorer": 4,
+        "origin": "cluelab-rebuilt",
+        "commit": "segments_1",
+        "metadata": {
+          "builtAt": "2026-11-04T17:41:05.024943Z",
+          "cluelab.schema": "1",
+          "collectionDigest": "067ab02ffbdfc6332ce672b86dc5342d8a2bd6e0ac55eb40995ae48f635fca4e",
+          "collectionId": "music-sources",
+          "collectionVersion": "1.0.0",
+          "documents": "15",
+          "indexType": "1",
+          "norms": "BM25-lucene7"
+        }
+      },
+      "indexOrigin": "fresh-source-collection-not-coursework-archive",
+      "classification": "small-curated-development-pack-not-held-out",
+      "hintPolicy": "public-to-both",
+      "metrics": {
+        "size": 15,
+        "correctFirst": 15,
+        "foundWithin10": 15,
+        "accuracy": 1,
+        "hitAt10": 1,
+        "mrrAt10": 1
+      },
+      "byDifficulty": {
+        "easy": {
+          "size": 5,
+          "correctFirst": 5,
+          "foundWithin10": 5,
+          "accuracy": 1,
+          "hitAt10": 1,
+          "mrrAt10": 1
+        },
+        "standard": {
+          "size": 5,
+          "correctFirst": 5,
+          "foundWithin10": 5,
+          "accuracy": 1,
+          "hitAt10": 1,
+          "mrrAt10": 1
+        },
+        "hard": {
+          "size": 5,
+          "correctFirst": 5,
+          "foundWithin10": 5,
+          "accuracy": 1,
+          "hitAt10": 1,
+          "mrrAt10": 1
+        }
+      },
+      "predictions": [
+        {
+          "clueId": "music-piano-01",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Piano"
+        },
+        {
+          "clueId": "music-beethoven-01",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Ludwig van Beethoven"
+        },
+        {
+          "clueId": "music-armstrong-01",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Louis Armstrong"
+        },
+        {
+          "clueId": "music-beatles-01",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "The Beatles"
+        },
+        {
+          "clueId": "music-violin-01",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Violin"
+        },
+        {
+          "clueId": "music-jazz-01",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Jazz"
+        },
+        {
+          "clueId": "music-ellington-01",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Duke Ellington"
+        },
+        {
+          "clueId": "music-simone-01",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Nina Simone"
+        },
+        {
+          "clueId": "music-sitar-01",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Sitar"
+        },
+        {
+          "clueId": "music-four-seasons-01",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "The Four Seasons"
+        },
+        {
+          "clueId": "music-clara-schumann-01",
+          "difficulty": "hard",
+          "acceptedRank": 1,
+          "prediction": "Clara Schumann"
+        },
+        {
+          "clueId": "music-gamelan-01",
+          "difficulty": "hard",
+          "acceptedRank": 1,
+          "prediction": "Gamelan"
+        },
+        {
+          "clueId": "music-oud-01",
+          "difficulty": "hard",
+          "acceptedRank": 1,
+          "prediction": "Oud"
+        },
+        {
+          "clueId": "music-hildegard-01",
+          "difficulty": "hard",
+          "acceptedRank": 1,
+          "prediction": "Hildegard of Bingen"
+        },
+        {
+          "clueId": "music-joplin-01",
+          "difficulty": "hard",
+          "acceptedRank": 1,
+          "prediction": "Scott Joplin"
+        }
+      ]
+    },
+    {
+      "packId": "coursework-demo-clues",
+      "packVersion": "1.0.0",
+      "packSha256": "02dfc91dcc7e5335222d1cefafd1f8d8cdbca046252305d1e30165a8cfdb6d3a",
+      "topicId": "coursework-demo",
+      "sourceScope": "coursework-demo-sources@1.0.0",
+      "collectionDigest": "3ba4108ab569518d0164d7e30345a962524e6dab829ba252a2c6c9a8bf4fe3b3",
+      "documents": 8,
+      "indexType": 1,
+      "scorer": 4,
+      "indexProvenance": {
+        "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/packs/coursework-demo-sources-1.0.0/1_idxTypeNone",
+        "documents": 8,
+        "indexType": 1,
+        "scorer": 4,
+        "origin": "cluelab-rebuilt",
+        "commit": "segments_1",
+        "metadata": {
+          "builtAt": "2026-11-04T17:41:05.041999Z",
+          "cluelab.schema": "1",
+          "collectionDigest": "3ba4108ab569518d0164d7e30345a962524e6dab829ba252a2c6c9a8bf4fe3b3",
+          "collectionId": "coursework-demo-sources",
+          "collectionVersion": "1.0.0",
+          "documents": "8",
+          "indexType": "1",
+          "norms": "BM25-lucene7"
+        }
+      },
+      "indexOrigin": "fresh-source-collection-not-coursework-archive",
+      "classification": "small-curated-development-pack-not-held-out",
+      "hintPolicy": "public-to-both",
+      "metrics": {
+        "size": 16,
+        "correctFirst": 16,
+        "foundWithin10": 16,
+        "accuracy": 1,
+        "hitAt10": 1,
+        "mrrAt10": 1
+      },
+      "byDifficulty": {
+        "easy": {
+          "size": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "accuracy": 1,
+          "hitAt10": 1,
+          "mrrAt10": 1
+        },
+        "standard": {
+          "size": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "accuracy": 1,
+          "hitAt10": 1,
+          "mrrAt10": 1
+        }
+      },
+      "predictions": [
+        {
+          "clueId": "demo-easy-01",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Body mass index"
+        },
+        {
+          "clueId": "demo-easy-02",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "British Standards"
+        },
+        {
+          "clueId": "demo-easy-03",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Building society"
+        },
+        {
+          "clueId": "demo-easy-04",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Barry Goldwater"
+        },
+        {
+          "clueId": "demo-easy-05",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Bob Young (businessman)"
+        },
+        {
+          "clueId": "demo-easy-06",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Blue Steel (missile)"
+        },
+        {
+          "clueId": "demo-easy-07",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Burwash Hall"
+        },
+        {
+          "clueId": "demo-easy-08",
+          "difficulty": "easy",
+          "acceptedRank": 1,
+          "prediction": "Behistun Inscription"
+        },
+        {
+          "clueId": "demo-standard-01",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "British Standards"
+        },
+        {
+          "clueId": "demo-standard-02",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Building society"
+        },
+        {
+          "clueId": "demo-standard-03",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Burwash Hall"
+        },
+        {
+          "clueId": "demo-standard-04",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Body mass index"
+        },
+        {
+          "clueId": "demo-standard-05",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Behistun Inscription"
+        },
+        {
+          "clueId": "demo-standard-06",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Barry Goldwater"
+        },
+        {
+          "clueId": "demo-standard-07",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Bob Young (businessman)"
+        },
+        {
+          "clueId": "demo-standard-08",
+          "difficulty": "standard",
+          "acceptedRank": 1,
+          "prediction": "Blue Steel (missile)"
+        }
+      ]
+    }
+  ]
+}

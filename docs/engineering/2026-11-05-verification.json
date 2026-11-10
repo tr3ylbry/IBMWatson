@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-05",
+  "timezone": "America/Phoenix",
+  "classification": "assistant-operated-software-verification-not-human-playtesting",
+  "startingSuite": {
+    "tests": 108,
+    "failures": 1,
+    "recordedEarlierPassCount": 108,
+    "reason": "Modern-runtime guided-demo ranking invalidated a perfect-opponent test assumption; awards now follow the actual independently committed answer."
+  },
+  "finalSuite": {
+    "command": "mvn -B -ntp clean verify",
+    "cleanRuns": 2,
+    "testsPerRun": 120,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "jarSha256": "fb144dc662b36af3b19b14353136efd2da8dcccfdb2a679c29963334c1878ca8",
+    "identicalJarAcrossBothRuns": true
+  },
+  "validation": {
+    "collections": 5,
+    "playableSourceDocuments": 68,
+    "playableClues": 76,
+    "retrievalDocuments": 645,
+    "developmentCases": 20,
+    "heldOutCases": 20,
+    "supportQuotesChecked": 40,
+    "privateFilesNotNeededForIndexing": true
+  },
+  "browser": {
+    "main": {
+      "softwareQAOnly": true,
+      "gamesCompleted": 2,
+      "correctIncorrectAlias": true,
+      "lostStartAnswerAdvanceCompletionRecovered": true,
+      "duplicateAndLateRequestsStable": true,
+      "replay": true,
+      "exportExact": true,
+      "unavailableChoiceDisabled": true,
+      "layout": [
+        {
+          "width": 390,
+          "client": 375,
+          "content": 375
+        },
+        {
+          "width": 320,
+          "client": 305,
+          "content": 305
+        }
+      ]
+    },
+    "missingIndex": {
+      "softwareQAOnly": true,
+      "realMissingIndexGameCompleted": true,
+      "rounds": 5,
+      "humanScore": 500,
+      "computerScore": 0,
+      "noFabricatedEvidence": true,
+      "touchEmulation": true,
+      "hintsOpened": 3,
+      "reloadStable": true
+    },
+    "legacySingleClue": {
+      "softwareQAOnly": true,
+      "legacySingleRoundMode": true,
+      "alias": 100,
+      "computer": 100,
+      "duplicateAndReloadStable": true
+    }
+  },
+  "preservation": {
+    "historicalQuestionsSamplePdfsAndMeasurementsUnchanged": true,
+    "existingCatalogPrivatePacksAndSourceMetadataUnchanged": true,
+    "legacySourcePomAndSnapshotUnchanged": true,
+    "frozenCollectionAndSplitsUnchanged": true,
+    "missingIndexPathNotCreated": true,
+    "generatedIndexesAndLargeSourceIgnored": true,
+    "ownedPreviewServersStopped": true
+  },
+  "humanStarterCoverage": {
+    "reviewed": 0,
+    "playtested": 0,
+    "calibrated": 0,
+    "total": 60,
+    "status": "deferred"
+  },
+  "notPerformed": [
+    "Full historical 100-question rerun",
+    "Modern full-Wikipedia rebuild",
+    "Comprehensive advisory-database or exploit audit",
+    "Physical-device, screen-reader or cross-browser audit",
+    "Human study or independent human content approval"
+  ]
+}

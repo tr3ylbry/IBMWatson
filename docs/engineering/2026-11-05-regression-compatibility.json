@@ -1,0 +1,2182 @@
+{
+  "schemaVersion": 1,
+  "id": "cluelab-runtime-compatibility-v1",
+  "measuredAt": "2026-11-06T06:14:47.800Z",
+  "classification": "identical-small-fixture-runtime-comparison-not-general-accuracy",
+  "corpusSha256": "5b2809ee4dced4c9c06dd00701949e4024ac0d958b735487359bd911960003f1",
+  "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+  "guidedSha256": "f4b143d342f68096f2f912ee270c254e98ae49b9fecfd3418ad73dab9054099b",
+  "reports": {
+    "legacy": {
+      "matrix": [
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/legacy/1_idxTypeNone",
+            "documents": 8,
+            "indexType": 1,
+            "scorer": 1,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:43.523317Z",
+              "cluelab.schema": "1",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "1",
+              "norms": "BM25-lucene7",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        },
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/legacy/1_idxTypeNone",
+            "documents": 8,
+            "indexType": 1,
+            "scorer": 2,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:43.523317Z",
+              "cluelab.schema": "1",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "1",
+              "norms": "BM25-lucene7",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        },
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/legacy/1_idxTypeNone",
+            "documents": 8,
+            "indexType": 1,
+            "scorer": 3,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:43.523317Z",
+              "cluelab.schema": "1",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "1",
+              "norms": "BM25-lucene7",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        },
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/legacy/1_idxTypeNone",
+            "documents": 8,
+            "indexType": 1,
+            "scorer": 4,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:43.523317Z",
+              "cluelab.schema": "1",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "1",
+              "norms": "BM25-lucene7",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        },
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/legacy/2_idxTypeLemma",
+            "documents": 8,
+            "indexType": 2,
+            "scorer": 1,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:44.101139Z",
+              "cluelab.schema": "1",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "2",
+              "norms": "BM25-lucene7",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        },
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/legacy/2_idxTypeLemma",
+            "documents": 8,
+            "indexType": 2,
+            "scorer": 2,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:44.101139Z",
+              "cluelab.schema": "1",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "2",
+              "norms": "BM25-lucene7",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        },
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/legacy/2_idxTypeLemma",
+            "documents": 8,
+            "indexType": 2,
+            "scorer": 3,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:44.101139Z",
+              "cluelab.schema": "1",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "2",
+              "norms": "BM25-lucene7",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        },
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/legacy/2_idxTypeLemma",
+            "documents": 8,
+            "indexType": 2,
+            "scorer": 4,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:44.101139Z",
+              "cluelab.schema": "1",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "2",
+              "norms": "BM25-lucene7",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        },
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/legacy/3_idxTypeStem",
+            "documents": 8,
+            "indexType": 3,
+            "scorer": 1,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:44.336743Z",
+              "cluelab.schema": "1",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "3",
+              "norms": "BM25-lucene7",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        },
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/legacy/3_idxTypeStem",
+            "documents": 8,
+            "indexType": 3,
+            "scorer": 2,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:44.336743Z",
+              "cluelab.schema": "1",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "3",
+              "norms": "BM25-lucene7",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        },
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/legacy/3_idxTypeStem",
+            "documents": 8,
+            "indexType": 3,
+            "scorer": 3,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:44.336743Z",
+              "cluelab.schema": "1",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "3",
+              "norms": "BM25-lucene7",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        },
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/legacy/3_idxTypeStem",
+            "documents": 8,
+            "indexType": 3,
+            "scorer": 4,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:44.336743Z",
+              "cluelab.schema": "1",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "3",
+              "norms": "BM25-lucene7",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        }
+      ],
+      "guided": {
+        "index": {
+          "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/legacy/1_idxTypeNone",
+          "documents": 8,
+          "indexType": 1,
+          "scorer": 4,
+          "origin": "cluelab-rebuilt",
+          "commit": "segments_1",
+          "metadata": {
+            "builtAt": "2026-11-06T06:14:43.523317Z",
+            "cluelab.schema": "1",
+            "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+            "documents": "8",
+            "indexType": "1",
+            "norms": "BM25-lucene7",
+            "sourceFiles": "1"
+          }
+        },
+        "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/easy-questions.txt",
+        "questionsSha256": "f4b143d342f68096f2f912ee270c254e98ae49b9fecfd3418ad73dab9054099b",
+        "total": 8,
+        "correctFirst": 8,
+        "foundWithin10": 8,
+        "topOneAccuracy": 1,
+        "hitRateAt10": 1,
+        "mrrAt10": 1,
+        "predictions": [
+          {
+            "question": 1,
+            "predicted": "body mass index",
+            "acceptedAnswers": "BMI|Body mass index",
+            "acceptedRank": 1
+          },
+          {
+            "question": 2,
+            "predicted": "british standards",
+            "acceptedAnswers": "British Standards",
+            "acceptedRank": 1
+          },
+          {
+            "question": 3,
+            "predicted": "building society",
+            "acceptedAnswers": "Building society",
+            "acceptedRank": 1
+          },
+          {
+            "question": 4,
+            "predicted": "barry goldwater",
+            "acceptedAnswers": "Barry Goldwater",
+            "acceptedRank": 1
+          },
+          {
+            "question": 5,
+            "predicted": "bob young (businessman)",
+            "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+            "acceptedRank": 1
+          },
+          {
+            "question": 6,
+            "predicted": "blue steel (missile)",
+            "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+            "acceptedRank": 1
+          },
+          {
+            "question": 7,
+            "predicted": "burwash hall",
+            "acceptedAnswers": "Burwash Hall",
+            "acceptedRank": 1
+          },
+          {
+            "question": 8,
+            "predicted": "behistun inscription",
+            "acceptedAnswers": "Behistun Inscription",
+            "acceptedRank": 1
+          }
+        ]
+      }
+    },
+    "modern": {
+      "matrix": [
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/modern/1_idxTypeNone",
+            "documents": 8,
+            "indexType": 1,
+            "scorer": 1,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "retrievalProfile": "baseline",
+            "runtime": {
+              "java": "21.0.13",
+              "lucene": "10.6.0",
+              "corenlp": "4.6.0",
+              "indexSchema": "3"
+            },
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:45.424911Z",
+              "cluelab.schema": "3",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "1",
+              "luceneVersion": "10.6.0",
+              "nlpVersion": "4.6.0",
+              "norms": "BM25-lucene10",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        },
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/modern/1_idxTypeNone",
+            "documents": 8,
+            "indexType": 1,
+            "scorer": 2,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "retrievalProfile": "baseline",
+            "runtime": {
+              "java": "21.0.13",
+              "lucene": "10.6.0",
+              "corenlp": "4.6.0",
+              "indexSchema": "3"
+            },
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:45.424911Z",
+              "cluelab.schema": "3",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "1",
+              "luceneVersion": "10.6.0",
+              "nlpVersion": "4.6.0",
+              "norms": "BM25-lucene10",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        },
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/modern/1_idxTypeNone",
+            "documents": 8,
+            "indexType": 1,
+            "scorer": 3,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "retrievalProfile": "baseline",
+            "runtime": {
+              "java": "21.0.13",
+              "lucene": "10.6.0",
+              "corenlp": "4.6.0",
+              "indexSchema": "3"
+            },
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:45.424911Z",
+              "cluelab.schema": "3",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "1",
+              "luceneVersion": "10.6.0",
+              "nlpVersion": "4.6.0",
+              "norms": "BM25-lucene10",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        },
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/modern/1_idxTypeNone",
+            "documents": 8,
+            "indexType": 1,
+            "scorer": 4,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "retrievalProfile": "baseline",
+            "runtime": {
+              "java": "21.0.13",
+              "lucene": "10.6.0",
+              "corenlp": "4.6.0",
+              "indexSchema": "3"
+            },
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:45.424911Z",
+              "cluelab.schema": "3",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "1",
+              "luceneVersion": "10.6.0",
+              "nlpVersion": "4.6.0",
+              "norms": "BM25-lucene10",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        },
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/modern/2_idxTypeLemma",
+            "documents": 8,
+            "indexType": 2,
+            "scorer": 1,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "retrievalProfile": "baseline",
+            "runtime": {
+              "java": "21.0.13",
+              "lucene": "10.6.0",
+              "corenlp": "4.6.0",
+              "indexSchema": "3"
+            },
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:46.040890Z",
+              "cluelab.schema": "3",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "2",
+              "luceneVersion": "10.6.0",
+              "nlpVersion": "4.6.0",
+              "norms": "BM25-lucene10",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        },
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/modern/2_idxTypeLemma",
+            "documents": 8,
+            "indexType": 2,
+            "scorer": 2,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "retrievalProfile": "baseline",
+            "runtime": {
+              "java": "21.0.13",
+              "lucene": "10.6.0",
+              "corenlp": "4.6.0",
+              "indexSchema": "3"
+            },
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:46.040890Z",
+              "cluelab.schema": "3",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "2",
+              "luceneVersion": "10.6.0",
+              "nlpVersion": "4.6.0",
+              "norms": "BM25-lucene10",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        },
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/modern/2_idxTypeLemma",
+            "documents": 8,
+            "indexType": 2,
+            "scorer": 3,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "retrievalProfile": "baseline",
+            "runtime": {
+              "java": "21.0.13",
+              "lucene": "10.6.0",
+              "corenlp": "4.6.0",
+              "indexSchema": "3"
+            },
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:46.040890Z",
+              "cluelab.schema": "3",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "2",
+              "luceneVersion": "10.6.0",
+              "nlpVersion": "4.6.0",
+              "norms": "BM25-lucene10",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        },
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/modern/2_idxTypeLemma",
+            "documents": 8,
+            "indexType": 2,
+            "scorer": 4,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "retrievalProfile": "baseline",
+            "runtime": {
+              "java": "21.0.13",
+              "lucene": "10.6.0",
+              "corenlp": "4.6.0",
+              "indexSchema": "3"
+            },
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:46.040890Z",
+              "cluelab.schema": "3",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "2",
+              "luceneVersion": "10.6.0",
+              "nlpVersion": "4.6.0",
+              "norms": "BM25-lucene10",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        },
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/modern/3_idxTypeStem",
+            "documents": 8,
+            "indexType": 3,
+            "scorer": 1,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "retrievalProfile": "baseline",
+            "runtime": {
+              "java": "21.0.13",
+              "lucene": "10.6.0",
+              "corenlp": "4.6.0",
+              "indexSchema": "3"
+            },
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:46.321609Z",
+              "cluelab.schema": "3",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "3",
+              "luceneVersion": "10.6.0",
+              "nlpVersion": "4.6.0",
+              "norms": "BM25-lucene10",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        },
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/modern/3_idxTypeStem",
+            "documents": 8,
+            "indexType": 3,
+            "scorer": 2,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "retrievalProfile": "baseline",
+            "runtime": {
+              "java": "21.0.13",
+              "lucene": "10.6.0",
+              "corenlp": "4.6.0",
+              "indexSchema": "3"
+            },
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:46.321609Z",
+              "cluelab.schema": "3",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "3",
+              "luceneVersion": "10.6.0",
+              "nlpVersion": "4.6.0",
+              "norms": "BM25-lucene10",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        },
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/modern/3_idxTypeStem",
+            "documents": 8,
+            "indexType": 3,
+            "scorer": 3,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "retrievalProfile": "baseline",
+            "runtime": {
+              "java": "21.0.13",
+              "lucene": "10.6.0",
+              "corenlp": "4.6.0",
+              "indexSchema": "3"
+            },
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:46.321609Z",
+              "cluelab.schema": "3",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "3",
+              "luceneVersion": "10.6.0",
+              "nlpVersion": "4.6.0",
+              "norms": "BM25-lucene10",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        },
+        {
+          "index": {
+            "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/modern/3_idxTypeStem",
+            "documents": 8,
+            "indexType": 3,
+            "scorer": 4,
+            "origin": "cluelab-rebuilt",
+            "commit": "segments_1",
+            "retrievalProfile": "baseline",
+            "runtime": {
+              "java": "21.0.13",
+              "lucene": "10.6.0",
+              "corenlp": "4.6.0",
+              "indexSchema": "3"
+            },
+            "metadata": {
+              "builtAt": "2026-11-06T06:14:46.321609Z",
+              "cluelab.schema": "3",
+              "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+              "documents": "8",
+              "indexType": "3",
+              "luceneVersion": "10.6.0",
+              "nlpVersion": "4.6.0",
+              "norms": "BM25-lucene10",
+              "sourceFiles": "1"
+            }
+          },
+          "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/questions.txt",
+          "questionsSha256": "b193c91af0e5b546335abaff46dbbe91c24218816d51a0c2660cdb1666d2453c",
+          "total": 8,
+          "correctFirst": 8,
+          "foundWithin10": 8,
+          "topOneAccuracy": 1,
+          "hitRateAt10": 1,
+          "mrrAt10": 1,
+          "predictions": [
+            {
+              "question": 1,
+              "predicted": "british standards",
+              "acceptedAnswers": "British Standards",
+              "acceptedRank": 1
+            },
+            {
+              "question": 2,
+              "predicted": "building society",
+              "acceptedAnswers": "Building society",
+              "acceptedRank": 1
+            },
+            {
+              "question": 3,
+              "predicted": "burwash hall",
+              "acceptedAnswers": "Burwash Hall",
+              "acceptedRank": 1
+            },
+            {
+              "question": 4,
+              "predicted": "body mass index",
+              "acceptedAnswers": "BMI|Body mass index",
+              "acceptedRank": 1
+            },
+            {
+              "question": 5,
+              "predicted": "behistun inscription",
+              "acceptedAnswers": "Behistun Inscription",
+              "acceptedRank": 1
+            },
+            {
+              "question": 6,
+              "predicted": "barry goldwater",
+              "acceptedAnswers": "Barry Goldwater",
+              "acceptedRank": 1
+            },
+            {
+              "question": 7,
+              "predicted": "bob young (businessman)",
+              "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+              "acceptedRank": 1
+            },
+            {
+              "question": 8,
+              "predicted": "blue steel (missile)",
+              "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+              "acceptedRank": 1
+            }
+          ]
+        }
+      ],
+      "guided": {
+        "index": {
+          "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/modern/1_idxTypeNone",
+          "documents": 8,
+          "indexType": 1,
+          "scorer": 4,
+          "origin": "cluelab-rebuilt",
+          "commit": "segments_1",
+          "retrievalProfile": "baseline",
+          "runtime": {
+            "java": "21.0.13",
+            "lucene": "10.6.0",
+            "corenlp": "4.6.0",
+            "indexSchema": "3"
+          },
+          "metadata": {
+            "builtAt": "2026-11-06T06:14:45.424911Z",
+            "cluelab.schema": "3",
+            "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+            "documents": "8",
+            "indexType": "1",
+            "luceneVersion": "10.6.0",
+            "nlpVersion": "4.6.0",
+            "norms": "BM25-lucene10",
+            "sourceFiles": "1"
+          }
+        },
+        "questionsPath": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/easy-questions.txt",
+        "questionsSha256": "f4b143d342f68096f2f912ee270c254e98ae49b9fecfd3418ad73dab9054099b",
+        "total": 8,
+        "correctFirst": 7,
+        "foundWithin10": 8,
+        "topOneAccuracy": 0.875,
+        "hitRateAt10": 1,
+        "mrrAt10": 0.9166666666666666,
+        "predictions": [
+          {
+            "question": 1,
+            "predicted": "body mass index",
+            "acceptedAnswers": "BMI|Body mass index",
+            "acceptedRank": 1
+          },
+          {
+            "question": 2,
+            "predicted": "behistun inscription",
+            "acceptedAnswers": "British Standards",
+            "acceptedRank": 3
+          },
+          {
+            "question": 3,
+            "predicted": "building society",
+            "acceptedAnswers": "Building society",
+            "acceptedRank": 1
+          },
+          {
+            "question": 4,
+            "predicted": "barry goldwater",
+            "acceptedAnswers": "Barry Goldwater",
+            "acceptedRank": 1
+          },
+          {
+            "question": 5,
+            "predicted": "bob young (businessman)",
+            "acceptedAnswers": "Bob Young|Bob Young (businessman)",
+            "acceptedRank": 1
+          },
+          {
+            "question": 6,
+            "predicted": "blue steel (missile)",
+            "acceptedAnswers": "Blue Steel|Blue Steel (missile)",
+            "acceptedRank": 1
+          },
+          {
+            "question": 7,
+            "predicted": "burwash hall",
+            "acceptedAnswers": "Burwash Hall",
+            "acceptedRank": 1
+          },
+          {
+            "question": 8,
+            "predicted": "behistun inscription",
+            "acceptedAnswers": "Behistun Inscription",
+            "acceptedRank": 1
+          }
+        ]
+      }
+    }
+  },
+  "compatibility": {
+    "modernRead": {
+      "status": 1,
+      "stdout": "",
+      "stderr": "WARNING: A restricted method in java.lang.foreign.Linker has been called\nWARNING: java.lang.foreign.Linker::downcallHandle has been called by the unnamed module\nWARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for this module\n\nNov 05, 2026 11:14:47 PM org.apache.lucene.internal.vectorization.VectorizationProvider lookup\nWARNING: Java vector incubator module is not readable. For optimal vector performance, pass '--add-modules jdk.incubator.vector' to enable Vector API.\nError: Historical index format: use the isolated legacy-baseline CLI, or build a new modern index in a separate directory. The old index was not changed."
+    },
+    "modernRebuild": {
+      "status": 1,
+      "stdout": "",
+      "stderr": "WARNING: A restricted method in java.lang.foreign.Linker has been called\nWARNING: java.lang.foreign.Linker::downcallHandle has been called by the unnamed module\nWARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for this module\n\nNov 05, 2026 11:14:47 PM org.apache.lucene.internal.vectorization.VectorizationProvider lookup\nWARNING: Java vector incubator module is not readable. For optimal vector performance, pass '--add-modules jdk.incubator.vector' to enable Vector API.\nError: Refusing to replace a historical index, even with --rebuild. Choose a new index base; use legacy-baseline for read-only reproduction."
+    },
+    "legacyIndexUnchanged": true,
+    "legacyRead": {
+      "query": "Henry Sproatt gargoyles turrets",
+      "responseTimeMs": 88.297208,
+      "index": {
+        "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/compatibility-FwxoDx/legacy/1_idxTypeNone",
+        "documents": 8,
+        "indexType": 1,
+        "scorer": 4,
+        "origin": "cluelab-rebuilt",
+        "commit": "segments_1",
+        "metadata": {
+          "builtAt": "2026-11-06T06:14:43.523317Z",
+          "cluelab.schema": "1",
+          "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/data/demo/corpus",
+          "documents": "8",
+          "indexType": "1",
+          "norms": "BM25-lucene7",
+          "sourceFiles": "1"
+        }
+      },
+      "candidates": [
+        {
+          "rank": 1,
+          "title": "Burwash Hall",
+          "score": 6.044881343841553,
+          "evidence": "Burwash Hall is a residence building at Toronto's Victoria College. Construction began in 1911 and finished in 1913. Architect Henry Sproatt designed its Neo-Gothic turrets, gargoyles and battlements.",
+          "evidenceKind": "source-excerpt",
+          "source": "articles.txt:9"
+        }
+      ]
+    }
+  }
+}

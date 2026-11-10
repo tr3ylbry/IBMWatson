@@ -1,0 +1,389 @@
+{
+  "schemaVersion": 1,
+  "id": "coursework-demo-clues",
+  "version": "1.0.0",
+  "topicId": "coursework-demo",
+  "label": "Original Demo",
+  "description": "The original eight-article demonstration, with eight guided and eight original clues. No Hard clues.",
+  "language": "en",
+  "collectionId": "coursework-demo-sources",
+  "collectionVersion": "1.0.0",
+  "subtopics": [
+    {
+      "id": "everyday-health",
+      "label": "EVERYDAY HEALTH"
+    },
+    {
+      "id": "made-in-the-uk",
+      "label": "MADE IN THE UK"
+    },
+    {
+      "id": "saving-for-a-home",
+      "label": "SAVING FOR A HOME"
+    },
+    {
+      "id": "arizona-politics",
+      "label": "ARIZONA POLITICS"
+    },
+    {
+      "id": "software-people",
+      "label": "SOFTWARE PEOPLE"
+    },
+    {
+      "id": "aviation-history",
+      "label": "AVIATION HISTORY"
+    },
+    {
+      "id": "campus-buildings",
+      "label": "CAMPUS BUILDINGS"
+    },
+    {
+      "id": "ancient-writing",
+      "label": "ANCIENT WRITING"
+    },
+    {
+      "id": "certification",
+      "label": "CERTIFICATION"
+    },
+    {
+      "id": "mutual-finance",
+      "label": "MUTUAL FINANCE"
+    },
+    {
+      "id": "campus-architecture",
+      "label": "CAMPUS ARCHITECTURE"
+    },
+    {
+      "id": "measurements",
+      "label": "MEASUREMENTS"
+    },
+    {
+      "id": "arizona-history",
+      "label": "ARIZONA HISTORY"
+    },
+    {
+      "id": "open-source",
+      "label": "OPEN SOURCE"
+    }
+  ],
+  "review": {
+    "status": "legacy-preserved",
+    "reviewer": "Codex (AI assistant); not an independent human reviewer",
+    "reviewedOn": "2026-11-04",
+    "factualNotes": "Clue text, hints, aliases and article text preserved from data/demo. Historical source accuracy was not re-established.",
+    "editorialNotes": "Original Easy and Standard labels retained.",
+    "limitations": "Historical Wikipedia revision IDs unavailable; no new factual review. Original summary adaptations retain CC BY-SA 3.0 attribution."
+  },
+  "clues": [
+    {
+      "id": "demo-easy-01",
+      "topicId": "coursework-demo",
+      "subtopicId": "everyday-health",
+      "category": "EVERYDAY HEALTH",
+      "text": "This three-letter measure compares a person's weight with their height.",
+      "hint": "its initials start with B, and it often appears on height-and-weight charts.",
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "demo-body-mass-index",
+      "aliases": [
+        "BMI",
+        "Body mass index"
+      ],
+      "support": {
+        "sourceId": "demo-body-mass-index",
+        "start": 0,
+        "end": 150
+      }
+    },
+    {
+      "id": "demo-easy-02",
+      "topicId": "coursework-demo",
+      "subtopicId": "made-in-the-uk",
+      "category": "MADE IN THE UK",
+      "text": "BSI publishes these rules for product quality in the UK.",
+      "hint": "the two-word answer begins with British; the second word means agreed rules or levels of quality.",
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "demo-british-standards",
+      "aliases": [
+        "British Standards"
+      ],
+      "support": {
+        "sourceId": "demo-british-standards",
+        "start": 0,
+        "end": 148
+      }
+    },
+    {
+      "id": "demo-easy-03",
+      "topicId": "coursework-demo",
+      "subtopicId": "saving-for-a-home",
+      "category": "SAVING FOR A HOME",
+      "text": "In Britain, this member-owned alternative to a bank offers mortgages and savings accounts.",
+      "hint": "its two-word name suggests constructing homes and a group of people.",
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "demo-building-society",
+      "aliases": [
+        "Building society"
+      ],
+      "support": {
+        "sourceId": "demo-building-society",
+        "start": 0,
+        "end": 185
+      }
+    },
+    {
+      "id": "demo-easy-04",
+      "topicId": "coursework-demo",
+      "subtopicId": "arizona-politics",
+      "category": "ARIZONA POLITICS",
+      "text": "This Arizona senator, whose first name was Barry, ran for US president in 1964.",
+      "hint": "his surname combines a precious metal with what you drink.",
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "demo-barry-goldwater",
+      "aliases": [
+        "Barry Goldwater"
+      ],
+      "support": {
+        "sourceId": "demo-barry-goldwater",
+        "start": 0,
+        "end": 166
+      }
+    },
+    {
+      "id": "demo-easy-05",
+      "topicId": "coursework-demo",
+      "subtopicId": "software-people",
+      "category": "SOFTWARE PEOPLE",
+      "text": "This Red Hat entrepreneur, whose first name is Bob, also founded Lulu.com.",
+      "hint": "his surname is the opposite of old.",
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "demo-bob-young-businessman",
+      "aliases": [
+        "Bob Young",
+        "Bob Young (businessman)"
+      ],
+      "support": {
+        "sourceId": "demo-bob-young-businessman",
+        "start": 0,
+        "end": 204
+      }
+    },
+    {
+      "id": "demo-easy-06",
+      "topicId": "coursework-demo",
+      "subtopicId": "aviation-history",
+      "category": "AVIATION HISTORY",
+      "text": "Avro made this British missile for the V bomber force.",
+      "hint": "its two-word name combines the colour of a clear sky with a metal used in construction.",
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "demo-blue-steel-missile",
+      "aliases": [
+        "Blue Steel",
+        "Blue Steel (missile)"
+      ],
+      "support": {
+        "sourceId": "demo-blue-steel-missile",
+        "start": 0,
+        "end": 163
+      }
+    },
+    {
+      "id": "demo-easy-07",
+      "topicId": "coursework-demo",
+      "subtopicId": "campus-buildings",
+      "category": "CAMPUS BUILDINGS",
+      "text": "This Victoria College residence in Toronto was designed by Henry Sproatt and finished in 1913.",
+      "hint": "its two-word name begins with Burwash and ends with a word for a large room or building.",
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "demo-burwash-hall",
+      "aliases": [
+        "Burwash Hall"
+      ],
+      "support": {
+        "sourceId": "demo-burwash-hall",
+        "start": 0,
+        "end": 200
+      }
+    },
+    {
+      "id": "demo-easy-08",
+      "topicId": "coursework-demo",
+      "subtopicId": "ancient-writing",
+      "category": "ANCIENT WRITING",
+      "text": "This record of Darius the Great helped scholars decode cuneiform.",
+      "hint": "its name begins with Behistun and ends with a word for writing carved into stone.",
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "demo-behistun-inscription",
+      "aliases": [
+        "Behistun Inscription"
+      ],
+      "support": {
+        "sourceId": "demo-behistun-inscription",
+        "start": 0,
+        "end": 220
+      }
+    },
+    {
+      "id": "demo-standard-01",
+      "topicId": "coursework-demo",
+      "subtopicId": "certification",
+      "category": "CERTIFICATION",
+      "text": "BSI Group awards this family of standards; certified products may bear a Kitemark.",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "demo-british-standards",
+      "aliases": [
+        "British Standards"
+      ],
+      "support": {
+        "sourceId": "demo-british-standards",
+        "start": 0,
+        "end": 148
+      }
+    },
+    {
+      "id": "demo-standard-02",
+      "topicId": "coursework-demo",
+      "subtopicId": "mutual-finance",
+      "category": "MUTUAL FINANCE",
+      "text": "Members own this institution offering mortgage lending and savings accounts.",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "demo-building-society",
+      "aliases": [
+        "Building society"
+      ],
+      "support": {
+        "sourceId": "demo-building-society",
+        "start": 0,
+        "end": 185
+      }
+    },
+    {
+      "id": "demo-standard-03",
+      "topicId": "coursework-demo",
+      "subtopicId": "campus-architecture",
+      "category": "CAMPUS ARCHITECTURE",
+      "text": "Henry Sproatt designed this Victoria College residence with gargoyles and turrets.",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "demo-burwash-hall",
+      "aliases": [
+        "Burwash Hall"
+      ],
+      "support": {
+        "sourceId": "demo-burwash-hall",
+        "start": 0,
+        "end": 200
+      }
+    },
+    {
+      "id": "demo-standard-04",
+      "topicId": "coursework-demo",
+      "subtopicId": "measurements",
+      "category": "MEASUREMENTS",
+      "text": "Calculate this by dividing kilograms by the square of height in metres.",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "demo-body-mass-index",
+      "aliases": [
+        "BMI",
+        "Body mass index"
+      ],
+      "support": {
+        "sourceId": "demo-body-mass-index",
+        "start": 0,
+        "end": 150
+      }
+    },
+    {
+      "id": "demo-standard-05",
+      "topicId": "coursework-demo",
+      "subtopicId": "ancient-writing",
+      "category": "ANCIENT WRITING",
+      "text": "Old Persian, Elamite and Babylonian versions of this record helped decipher cuneiform.",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "demo-behistun-inscription",
+      "aliases": [
+        "Behistun Inscription"
+      ],
+      "support": {
+        "sourceId": "demo-behistun-inscription",
+        "start": 0,
+        "end": 220
+      }
+    },
+    {
+      "id": "demo-standard-06",
+      "topicId": "coursework-demo",
+      "subtopicId": "arizona-history",
+      "category": "ARIZONA HISTORY",
+      "text": "This five-term senator became the Republican presidential nominee in 1964.",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "demo-barry-goldwater",
+      "aliases": [
+        "Barry Goldwater"
+      ],
+      "support": {
+        "sourceId": "demo-barry-goldwater",
+        "start": 0,
+        "end": 166
+      }
+    },
+    {
+      "id": "demo-standard-07",
+      "topicId": "coursework-demo",
+      "subtopicId": "open-source",
+      "category": "OPEN SOURCE",
+      "text": "This Red Hat entrepreneur founded Lulu.com in 2002.",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "demo-bob-young-businessman",
+      "aliases": [
+        "Bob Young",
+        "Bob Young (businessman)"
+      ],
+      "support": {
+        "sourceId": "demo-bob-young-businessman",
+        "start": 0,
+        "end": 204
+      }
+    },
+    {
+      "id": "demo-standard-08",
+      "topicId": "coursework-demo",
+      "subtopicId": "aviation-history",
+      "category": "AVIATION HISTORY",
+      "text": "Avro built this stand-off missile for Britain's V bomber force before Polaris.",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "demo-blue-steel-missile",
+      "aliases": [
+        "Blue Steel",
+        "Blue Steel (missile)"
+      ],
+      "support": {
+        "sourceId": "demo-blue-steel-missile",
+        "start": 0,
+        "end": 163
+      }
+    }
+  ]
+}

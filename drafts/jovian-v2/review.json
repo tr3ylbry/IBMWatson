@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "jovian-v2-assistant-review",
+  "kind": "assistant-source-editorial",
+  "status": "source-checked",
+  "reviewer": "Codex (AI assistant), not an independent human reviewer",
+  "reviewedOn": "2026-11-06",
+  "draftManifestSha256": "b13687b1804799d7a223177974b492ea4a40d762f53377b4d05611730fe84606",
+  "candidateVersion": "1.0.2",
+  "limitations": "Local assistant source/editorial checks only; human reviewed/playtested/calibrated 0/5 and starter coverage remains 0/60 deferred. Standard difficulty provisional and uneven; no player evidence for relabeling. Latest TextExtracts leads are not guaranteed immutable-revision renders or complete articles; existing unknown revision IDs remain null. Rights/third-party conditions require separate public-distribution review. Astronomy familiarity and Callisto terminology can affect difficulty; scientific knowledge and mission plans can change. No benchmark accuracy, provider or deployment approval.",
+  "humanReviewer": null,
+  "humanReviewedOn": null,
+  "clues": [
+    {
+      "clueId": "jovian-io-volcanism-01",
+      "checks": {
+        "factualSupport": "Saved Io lead explicitly supports tidal heating and hundreds of active volcanoes. Rechecked NASA Io facts https://science.nasa.gov/jupiter/jupiter-moons/io/facts/ for the mechanism and scale.",
+        "wording": "Assistant recheck: original clue and innermost-Galilean hint are explicit in the complete saved Io lead. Io is its contextual astronomical short name, not acceptance of an unrelated mythological response. Wording, aliases and hint retained; no grading change.",
+        "aliases": "Retained only the original aliases Io (moon), Io. Each names the same article subject in this moon/spacecraft-specific question and is explicit in the saved lead. No aliases added, fuzzy grading or retrieval-score tuning. Europa designation is no longer present in the question.",
+        "hint": "Retained the innermost-Galilean hint, explicit in Io's saved introduction; it narrows the set without spelling the accepted answer. Existing public-to-both policy unchanged.",
+        "distinctFact": "Checked all five proposals together: separate volcanism, intrinsic magnetic field, relative satellite size, orbital resonance and spacecraft launch/target facts; distinct answer titles and fact IDs, not paraphrase padding.",
+        "attribution": "Saved source attribution, article/history and CC BY-SA 4.0 links retained; no source bytes or revision IDs changed. Additional public rights review remains advisory, not blanket clearance.",
+        "difficulty": "Retain provisional Standard; no human familiarity/hint-use/difficulty observations exist to support relabeling."
+      },
+      "flagDecisions": [
+        {
+          "flag": "Pending factual support in context, unsupported claims, ambiguity, hint and difficulty review; exact quotation is not approval.",
+          "disposition": "resolved",
+          "rationale": "Saved Io lead explicitly supports tidal heating and hundreds of active volcanoes. Rechecked NASA Io facts https://science.nasa.gov/jupiter/jupiter-moons/io/facts/ for the mechanism and scale. Wording/alias/hint decisions and distinctness/attribution checked separately; remaining nonblocking limitations are explicitly retained, not silently approved."
+        },
+        {
+          "flag": "Questionable/unverified alias requires explicit review: Io",
+          "disposition": "resolved",
+          "rationale": "Verified the existing alias against the full saved lead and the clue's explicit astronomical context. No unsupported new variant was added."
+        }
+      ],
+      "blockers": [],
+      "advisories": [
+        "Provisional difficulty; no human approval, playtest or calibration.",
+        "Source is a captured lead with latest-render uncertainty, not a guaranteed revision-pinned full article."
+      ]
+    },
+    {
+      "clueId": "jovian-ganymede-magnetism-01",
+      "checks": {
+        "factualSupport": "Saved Ganymede lead explicitly distinguishes internally generated fields. NASA Ganymede facts https://science.nasa.gov/jupiter/jupiter-moons/ganymede/facts/ corroborates known uniqueness, not all induced fields.",
+        "wording": "Assistant recheck: saved lead and NASA Ganymede facts support the known internally generated field distinction. Ganymede is the short astronomical name in this moon-specific question. Retained qualifiers and aliases; scientific knowledge and difficulty remain provisional.",
+        "aliases": "Retained only the original aliases Ganymede (moon), Ganymede. Each names the same article subject in this moon/spacecraft-specific question and is explicit in the saved lead. No aliases added, fuzzy grading or retrieval-score tuning. Europa designation is no longer present in the question.",
+        "hint": "No hint present; no invented hint or unsupported premise.",
+        "distinctFact": "Checked all five proposals together: separate volcanism, intrinsic magnetic field, relative satellite size, orbital resonance and spacecraft launch/target facts; distinct answer titles and fact IDs, not paraphrase padding.",
+        "attribution": "Saved source attribution, article/history and CC BY-SA 4.0 links retained; no source bytes or revision IDs changed. Additional public rights review remains advisory, not blanket clearance.",
+        "difficulty": "Retain provisional Standard; no human familiarity/hint-use/difficulty observations exist to support relabeling."
+      },
+      "flagDecisions": [
+        {
+          "flag": "Pending factual support in context, unsupported claims, ambiguity, hint and difficulty review; exact quotation is not approval.",
+          "disposition": "resolved",
+          "rationale": "Saved Ganymede lead explicitly distinguishes internally generated fields. NASA Ganymede facts https://science.nasa.gov/jupiter/jupiter-moons/ganymede/facts/ corroborates known uniqueness, not all induced fields. Wording/alias/hint decisions and distinctness/attribution checked separately; remaining nonblocking limitations are explicitly retained, not silently approved."
+        },
+        {
+          "flag": "Questionable/unverified alias requires explicit review: Ganymede",
+          "disposition": "resolved",
+          "rationale": "Verified the existing alias against the full saved lead and the clue's explicit astronomical context. No unsupported new variant was added."
+        }
+      ],
+      "blockers": [],
+      "advisories": [
+        "Provisional difficulty; no human approval, playtest or calibration.",
+        "Source is a captured lead with latest-render uncertainty, not a guaranteed revision-pinned full article."
+      ]
+    },
+    {
+      "clueId": "jovian-europa-identity-01",
+      "checks": {
+        "factualSupport": "Saved Europa opening explicitly states smallest and least massive and identifies Jupiter II. NASA Europa overview was accessible but did not substantiate that precise superlative in the retrieved context; no additional corroboration is claimed.",
+        "wording": "Assistant correction: removed Jupiter II from the question to stop presenting an accepted answer verbatim. The source explicitly identifies Europa/Jupiter II, so both existing names remain legitimate aliases in this moon-specific context. No new alias or scorer change. Empty pronunciation parentheses in source remain unedited. Standard label is provisional.",
+        "aliases": "Retained only the original aliases Europa (moon), Europa, Jupiter II. Each names the same article subject in this moon/spacecraft-specific question and is explicit in the saved lead. No aliases added, fuzzy grading or retrieval-score tuning. Europa designation is no longer present in the question.",
+        "hint": "No hint present; no invented hint or unsupported premise.",
+        "distinctFact": "Checked all five proposals together: separate volcanism, intrinsic magnetic field, relative satellite size, orbital resonance and spacecraft launch/target facts; distinct answer titles and fact IDs, not paraphrase padding.",
+        "attribution": "Saved source attribution, article/history and CC BY-SA 4.0 links retained; no source bytes or revision IDs changed. Additional public rights review remains advisory, not blanket clearance.",
+        "difficulty": "Retain provisional Standard; no human familiarity/hint-use/difficulty observations exist to support relabeling."
+      },
+      "flagDecisions": [
+        {
+          "flag": "Pending factual support in context, unsupported claims, ambiguity, hint and difficulty review; exact quotation is not approval.",
+          "disposition": "resolved",
+          "rationale": "Saved Europa opening explicitly states smallest and least massive and identifies Jupiter II. NASA Europa overview was accessible but did not substantiate that precise superlative in the retrieved context; no additional corroboration is claimed. Wording/alias/hint decisions and distinctness/attribution checked separately; remaining nonblocking limitations are explicitly retained, not silently approved."
+        },
+        {
+          "flag": "Questionable/unverified alias requires explicit review: Europa",
+          "disposition": "resolved",
+          "rationale": "Verified the existing alias against the full saved lead and the clue's explicit astronomical context. No unsupported new variant was added."
+        },
+        {
+          "flag": "Questionable/unverified alias requires explicit review: Jupiter II",
+          "disposition": "resolved",
+          "rationale": "Verified the existing alias against the full saved lead and the clue's explicit astronomical context. No unsupported new variant was added."
+        }
+      ],
+      "blockers": [],
+      "advisories": [
+        "Provisional difficulty; no human approval, playtest or calibration.",
+        "Exact size/designation evidence rests on saved Wikipedia lead; additional NASA overview did not confirm that exact statement."
+      ]
+    },
+    {
+      "clueId": "jovian-callisto-resonance-01",
+      "checks": {
+        "factualSupport": "Expanded contiguous Callisto quotation names the moon before the non-resonance sentence. NASA Ganymede orbital section https://science.nasa.gov/jupiter/jupiter-moons/ganymede/facts/ explains the repeating pattern and explicitly excludes Callisto.",
+        "wording": "Assistant correction: explained orbital resonance in plain language without supplying the answer. Extended the exact contiguous support from Callisto's named introduction through the non-resonance sentence so the pronoun has context. NASA Ganymede orbital section corroborates the repeating timing pattern and Callisto exclusion. Retained Standard provisionally; specialist vocabulary remains an advisory, not evidence for relabeling.",
+        "aliases": "Retained only the original aliases Callisto (moon), Callisto. Each names the same article subject in this moon/spacecraft-specific question and is explicit in the saved lead. No aliases added, fuzzy grading or retrieval-score tuning. Europa designation is no longer present in the question.",
+        "hint": "No hint present; no invented hint or unsupported premise.",
+        "distinctFact": "Checked all five proposals together: separate volcanism, intrinsic magnetic field, relative satellite size, orbital resonance and spacecraft launch/target facts; distinct answer titles and fact IDs, not paraphrase padding.",
+        "attribution": "Saved source attribution, article/history and CC BY-SA 4.0 links retained; no source bytes or revision IDs changed. Additional public rights review remains advisory, not blanket clearance.",
+        "difficulty": "Retain provisional Standard; no human familiarity/hint-use/difficulty observations exist to support relabeling."
+      },
+      "flagDecisions": [
+        {
+          "flag": "Pending factual support in context, unsupported claims, ambiguity, hint and difficulty review; exact quotation is not approval.",
+          "disposition": "resolved",
+          "rationale": "Expanded contiguous Callisto quotation names the moon before the non-resonance sentence. NASA Ganymede orbital section https://science.nasa.gov/jupiter/jupiter-moons/ganymede/facts/ explains the repeating pattern and explicitly excludes Callisto. Wording/alias/hint decisions and distinctness/attribution checked separately; remaining nonblocking limitations are explicitly retained, not silently approved."
+        },
+        {
+          "flag": "Questionable/unverified alias requires explicit review: Callisto",
+          "disposition": "resolved",
+          "rationale": "Verified the existing alias against the full saved lead and the clue's explicit astronomical context. No unsupported new variant was added."
+        }
+      ],
+      "blockers": [],
+      "advisories": [
+        "Specialist resonance terminology may still be hard for an unfamiliar player; no relabeling without observations.",
+        "Source is a captured lead with latest-render uncertainty, not a guaranteed revision-pinned full article."
+      ]
+    },
+    {
+      "clueId": "jovian-juice-mission-01",
+      "checks": {
+        "factualSupport": "Full saved Juice lead links canonical and abbreviated names, launch/date/location and intended Ganymede orbit. ESA factsheet https://www.esa.int/Science_Exploration/Space_Science/Juice/Juice_factsheet corroborates launch and orbital tour. No accomplished future event is asserted.",
+        "wording": "Assistant correction: removed the fruit-drink hint, which nearly supplied Juice. Expanded support to the full saved lead so the canonical title, short name, launch and intended Ganymede orbit are together. ESA factsheet corroborates the launch and planned orbital tour. Existing Juice alias retained; intended avoids claiming a future event has occurred. No unsupported aliases or retrieval tuning.",
+        "aliases": "Retained only the original aliases Jupiter Icy Moons Explorer, Juice. Each names the same article subject in this moon/spacecraft-specific question and is explicit in the saved lead. No aliases added, fuzzy grading or retrieval-score tuning. Europa designation is no longer present in the question.",
+        "hint": "Removed the answer-revealing fruit-drink hint; no replacement or altered hint policy.",
+        "distinctFact": "Checked all five proposals together: separate volcanism, intrinsic magnetic field, relative satellite size, orbital resonance and spacecraft launch/target facts; distinct answer titles and fact IDs, not paraphrase padding.",
+        "attribution": "Saved source attribution, article/history and CC BY-SA 4.0 links retained; no source bytes or revision IDs changed. Additional public rights review remains advisory, not blanket clearance.",
+        "difficulty": "Retain provisional Standard; no human familiarity/hint-use/difficulty observations exist to support relabeling."
+      },
+      "flagDecisions": [
+        {
+          "flag": "Pending factual support in context, unsupported claims, ambiguity, hint and difficulty review; exact quotation is not approval.",
+          "disposition": "resolved",
+          "rationale": "Full saved Juice lead links canonical and abbreviated names, launch/date/location and intended Ganymede orbit. ESA factsheet https://www.esa.int/Science_Exploration/Space_Science/Juice/Juice_factsheet corroborates launch and orbital tour. No accomplished future event is asserted. Wording/alias/hint decisions and distinctness/attribution checked separately; remaining nonblocking limitations are explicitly retained, not silently approved."
+        },
+        {
+          "flag": "Questionable/unverified alias requires explicit review: Juice",
+          "disposition": "resolved",
+          "rationale": "Verified the existing alias against the full saved lead and the clue's explicit astronomical context. No unsupported new variant was added."
+        }
+      ],
+      "blockers": [],
+      "advisories": [
+        "Provisional difficulty; no human approval, playtest or calibration.",
+        "Source is a captured lead with latest-render uncertainty, not a guaranteed revision-pinned full article."
+      ]
+    }
+  ]
+}

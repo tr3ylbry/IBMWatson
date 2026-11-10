@@ -3,4 +3,28 @@ wiki-subset-20140602.tar.gz
 IBM-Watson.iml
 /src/resources/
 .DS_Store
+# Local provider credentials must never enter a checkpoint.
+.env
+.env.*
+!.env.example
+!.env.*.example
 /target
+**/target/
+/indexes/
+/corpus/
+**/1_idxTypeNone/
+**/2_idxTypeLemma/
+**/3_idxTypeStem/
+# Private participant notes and downloaded receipts; share only consented summaries.
+reviews/local/
+# External benchmark terms include non-commercial-research restrictions; do not redistribute keys/questions.
+/data/external-challenge/*/private/
+# Operator drafts/notes are private by default; only the small attributed authoring fixture is retained.
+/drafts/*
+!/drafts/jovian-v1/
+!/drafts/jovian-v2/
+/drafts/jovian-v2/.*
+/drafts/jovian-v1/.*
+/drafts/.export.lock
+/data/packs/.activation.lock
+/data/packs/.activation-history/

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-05",
+  "timezone": "America/Phoenix",
+  "classification": "local-engineering-software-verification-not-human-review",
+  "baseline": {
+    "command": "mvn -B -ntp clean verify",
+    "passed": 120,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "final": {
+    "command": "mvn -B -ntp clean verify",
+    "passed": 133,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "nodeTests": 7,
+    "jarPackaged": true
+  },
+  "indexing": {
+    "sourceFiles": 80,
+    "sourceBytes": 840051120,
+    "records": 279775,
+    "distinctNormalizedTitles": 275030,
+    "firstAttempt": "Rolled back on CoreNLP empty-sentence failure for U+30A0 title; no partial index evaluated.",
+    "fixedAttempt": "Separate -fixed base committed every frozen record; all three modes tested for symbol-only source retention."
+  },
+  "challenge": {
+    "development": 50,
+    "test": 150,
+    "baselineOnly": true,
+    "noTuningOrPromotion": true,
+    "privateQuestionFilesIgnored": true,
+    "preparationRepeatedByteIdentically": true,
+    "evidence": [
+      "external-challenge-v1-development.json",
+      "external-challenge-v1-test.json",
+      "external-challenge-v1-source-shapes.json"
+    ]
+  },
+  "browser": {
+    "main": {
+      "pageErrors": [],
+      "softwareQAOnly": true,
+      "gamesCompleted": 2,
+      "correctIncorrectAlias": true,
+      "lostStartAnswerAdvanceCompletionRecovered": true,
+      "duplicateAndLateRequestsStable": true,
+      "replay": true,
+      "exportExact": true,
+      "unavailableChoiceDisabled": true,
+      "layout": [
+        {
+          "width": 390,
+          "client": 375,
+          "content": 375
+        },
+        {
+          "width": 320,
+          "client": 305,
+          "content": 305
+        }
+      ]
+    },
+    "missingIndex": {
+      "softwareQAOnly": true,
+      "realMissingIndexGameCompleted": true,
+      "rounds": 5,
+      "humanScore": 500,
+      "computerScore": 0,
+      "noFabricatedEvidence": true,
+      "touchEmulation": true,
+      "hintsOpened": 3,
+      "reloadStable": true
+    },
+    "legacy": {
+      "softwareQAOnly": true,
+      "legacySingleRoundMode": true,
+      "alias": 100,
+      "computer": 100,
+      "duplicateAndReloadStable": true
+    }
+  },
+  "humanStarterCoverage": {
+    "reviewed": 0,
+    "playtested": 0,
+    "calibrated": 0,
+    "total": 60,
+    "status": "deferred"
+  },
+  "limitations": [
+    "No full historical 100-question rerun",
+    "No full lemma rebuild",
+    "No comprehensive security audit",
+    "No human content approval, player study, physical-device, screen-reader or cross-browser audit",
+    "External test is inspected and no longer an unseen set for later tuning",
+    "External data remains local non-commercial research material; public/commercial rights review unresolved"
+  ],
+  "previewServersStopped": true,
+  "missingIndexNotCreated": true
+}

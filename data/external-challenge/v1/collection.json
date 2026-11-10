@@ -1,0 +1,576 @@
+{
+  "schemaVersion": 1,
+  "id": "coursework-all-shards",
+  "version": "1.0.0",
+  "language": "en",
+  "description": "Every regular .txt shard in the original 80-file coursework wikiPages directory, sorted by filename; strict existing article boundaries; byte-identical snapshots, complete articles and all valid titles including redirects/disambiguations. No question-based document selection or excerpt tailoring.",
+  "sources": [
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0005.txt",
+      "bytes": 10516121,
+      "sha256": "d3a7b91af2a83d1f61a2fc8b97cb6b5f67dead6fc40532a41619bd8e9d3c3d49",
+      "documents": 645,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0006.txt",
+      "bytes": 10496080,
+      "sha256": "8b44e3b087bd7d7fbf1ad301dc1e58ca1f1fe053496bded66f8d92569c54c04c",
+      "documents": 634,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0007.txt",
+      "bytes": 10487786,
+      "sha256": "d347761339c95e390a04883c630211dec6d36f1e4de38d9240edeac6c544885c",
+      "documents": 727,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0009.txt",
+      "bytes": 10495016,
+      "sha256": "7a60ccce65f127d96976b81f1dd5e964d0eef4b2683ac24ca6c7eff5a09431d3",
+      "documents": 698,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0013.txt",
+      "bytes": 10503507,
+      "sha256": "aec6ac9caff44e5d341d8fa400e3ff30bfa7394bbf5b3ff873f49bd37bf9ae6d",
+      "documents": 551,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0014.txt",
+      "bytes": 10497613,
+      "sha256": "5b5598b1469c0ad399dfaacbc618457a3c77498966203b5384e43672dd3f4121",
+      "documents": 599,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0016.txt",
+      "bytes": 10487293,
+      "sha256": "52c2e2e019548260c2717e785d9015587c892e7e7a8d4707d14a009caafd4d2a",
+      "documents": 576,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0017.txt",
+      "bytes": 10604391,
+      "sha256": "de9a2b531aa2a21f79d4f6a6be6321081d768762fab50951efcb73dccc818ace",
+      "documents": 808,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0018.txt",
+      "bytes": 10520297,
+      "sha256": "f792adf5c1fe66e58010d6cebfd61c3e7537fce571a78b8c9c9e82012a090950",
+      "documents": 723,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0020.txt",
+      "bytes": 10495287,
+      "sha256": "458b3c954a6133e05c83b8f5c861a0c349e8770c27a0dd4c02907baee9566521",
+      "documents": 696,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0021.txt",
+      "bytes": 10491075,
+      "sha256": "971163ed6d74e06168e823c5e2764eba0e4eeb28d5d50812b3c768cfd80eb2fa",
+      "documents": 672,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0022.txt",
+      "bytes": 10542972,
+      "sha256": "20dcea249f84ddc8c0a5c75c0c6e4d55b112dc6baf7d8a6afd473d181c3d0b1b",
+      "documents": 726,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0025.txt",
+      "bytes": 10490463,
+      "sha256": "95fe3ed7ff2c6d9a3d394009575503800f432e36423afc6fe3800c450314da10",
+      "documents": 515,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0026.txt",
+      "bytes": 10516756,
+      "sha256": "3c9e96359e051b5a5ba67315ad3486ed6c7f34dff5d2b5c8d5b5131995c580e1",
+      "documents": 624,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0032.txt",
+      "bytes": 10486579,
+      "sha256": "f30b1a25b9aa7f7b7c38d80a945d2a3c50824ee08d98bf7823ecb697ae596840",
+      "documents": 571,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0033.txt",
+      "bytes": 10495077,
+      "sha256": "70658d806a7342538cdf04f46ca77cbd579a27e61062a180310a4bf7ce345162",
+      "documents": 1496,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0034.txt",
+      "bytes": 10505786,
+      "sha256": "cca216b064d71aeede3c36c3367f69d2dbee81fd4a45909266fda2419f33c7a2",
+      "documents": 1555,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0035.txt",
+      "bytes": 10500025,
+      "sha256": "ec7fd4b820e6510dbd2e62369bc5031c23761b04f3d44234a3aec5f3e101ca67",
+      "documents": 928,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0039.txt",
+      "bytes": 10496881,
+      "sha256": "9c1552fb004e3ff3b887c7bd632638f75d4dbd454fc0405c5181bb2f31112d33",
+      "documents": 932,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0040.txt",
+      "bytes": 10492513,
+      "sha256": "c5ad50b364dceada9ce3285afc5703aa77cdb07f305de547921f1b83dd58aa93",
+      "documents": 789,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0042.txt",
+      "bytes": 10491693,
+      "sha256": "a558d472b057d69a9e74fce3a2e67b0ce97db96d753452e936e3365b580c4944",
+      "documents": 881,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0043.txt",
+      "bytes": 10494126,
+      "sha256": "8583464a41a87011ea1d89a2f417c92ea2a54e1018faa9416e20ba92163b53af",
+      "documents": 862,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0048.txt",
+      "bytes": 10492704,
+      "sha256": "27ea6c989edb24ec4c659659e11fce31d92e05a93a1c4c9fdddbdbc1bc4857b3",
+      "documents": 1041,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0049.txt",
+      "bytes": 10488081,
+      "sha256": "4a0aa0b7bc7cd8504d5e42ed65a5a899b2726e97e2ab9490e119b37b0b6da2fc",
+      "documents": 1092,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0051.txt",
+      "bytes": 10498466,
+      "sha256": "2a036a35b892aa0c2afc45c7804407b6d65b621c124d32b8f1c7594c177b2ce0",
+      "documents": 1099,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0052.txt",
+      "bytes": 10489897,
+      "sha256": "e81bbbeb6667bf286484edb5ba17aa10044de5b9cb9a258b248ec5dcca456d3b",
+      "documents": 1295,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0053.txt",
+      "bytes": 10487240,
+      "sha256": "42ca319f699acea05b12a16c11ab75be79a58aefab4edb65b5e49be9331911de",
+      "documents": 1108,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0054.txt",
+      "bytes": 10512088,
+      "sha256": "37587c840ec00d1ef27678c8fb140398e8c3db5e3452b3ce46243be966100fa3",
+      "documents": 1484,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0057.txt",
+      "bytes": 10512275,
+      "sha256": "94d3bb007318d497c404370d9cfb4bd9689165946564989938d2ac8bbe2b3789",
+      "documents": 1448,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0058.txt",
+      "bytes": 10547654,
+      "sha256": "185aae61fd584ffd1c029ef0efddbfa5209c0a68950444a960403d5f0f9310a6",
+      "documents": 1823,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0062.txt",
+      "bytes": 10512420,
+      "sha256": "f5f735f3bf68c3824d01d357cfa54c5e8c3be82f27f7deba7d45296b33a828d0",
+      "documents": 1610,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0067.txt",
+      "bytes": 10498191,
+      "sha256": "4658aaad7d276eb58544be7604cfc6d366b4bf4030948847e9933aebf5c7b1bc",
+      "documents": 1604,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0087.txt",
+      "bytes": 10515849,
+      "sha256": "5bd4d7b8536d695e0cd4bf5aa47a7f7df2f4a57ddabbb4b4a778c1f3f9d6a80f",
+      "documents": 1407,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0088.txt",
+      "bytes": 10538730,
+      "sha256": "25c4634d7fac34a3724b28fade4b9282f596e9c5cfd2516cba048e288a656240",
+      "documents": 1387,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0093.txt",
+      "bytes": 10495275,
+      "sha256": "5da33967a1072828723eca651f0eae3ad659a4c74401e8c5c0eaa4256e61b201",
+      "documents": 1353,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0095.txt",
+      "bytes": 10517003,
+      "sha256": "2d02edf20051a76a2417c4f9c19dd018d4a4fb15938ddfbb51c348dcd3caeaed",
+      "documents": 1390,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0098.txt",
+      "bytes": 10492029,
+      "sha256": "6413cc7599143aa4abe33c2746ab61566e8e86199f46016ba63a1467f5179d05",
+      "documents": 1533,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0099.txt",
+      "bytes": 10496531,
+      "sha256": "0996cadf284da68a7feb8f1c91eaac399657fe63cb8fb04b680cf2318f94f9fa",
+      "documents": 1432,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0100.txt",
+      "bytes": 10522762,
+      "sha256": "936fcec20aa16fb661f8c8f1890ef2d1fd00ffe46340be1b630d23d454fff5d1",
+      "documents": 1808,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0103.txt",
+      "bytes": 10486163,
+      "sha256": "fafab0f695687621db4da2bbf7880459e7df9bfd5882290535625723c1bc0e59",
+      "documents": 1594,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0115.txt",
+      "bytes": 10488058,
+      "sha256": "85621e2a48834bb5beaee5f14265f4a7df4773c3d0d3cc8395e335857663ce47",
+      "documents": 2156,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0123.txt",
+      "bytes": 10541612,
+      "sha256": "768843618a2f0f66fe81bf88190a2bdbd22a832f9c90629c4f8c02ac511778dd",
+      "documents": 1882,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0124.txt",
+      "bytes": 10487462,
+      "sha256": "4d0aa1f59febecec52b9128efc48d4958a82bd8acdb2172bbde03c102b31a4eb",
+      "documents": 1794,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0125.txt",
+      "bytes": 10488388,
+      "sha256": "282125385e083d6e3720f2a1d8844e7cda57e08e9e83b431df882dfbf34297b0",
+      "documents": 1932,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0128.txt",
+      "bytes": 10488811,
+      "sha256": "12ef0b0c3ab8374aa62e9e4046d24680c1b61f06f0f923330d8c3d142ad561a0",
+      "documents": 1878,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0129.txt",
+      "bytes": 10522204,
+      "sha256": "0db307149e99389ec2ff0781870adc734a2d1d7bea9c07dec777c0ae11d9be6a",
+      "documents": 2003,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0130.txt",
+      "bytes": 10489931,
+      "sha256": "91692ab947bfa33b9c9cab1e62e13ce6e68804455c2e4379db87ef125a567c55",
+      "documents": 1947,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0131.txt",
+      "bytes": 10535928,
+      "sha256": "c6cfe4a9e544f52786ce26aabf24fab667adba61a6e98992a6814a788037947b",
+      "documents": 1712,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0132.txt",
+      "bytes": 10494961,
+      "sha256": "e27e0c8c197fae433ea7575588ce1aa6ae90572dac78bf8dc46ae0b9daaad657",
+      "documents": 1862,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0136.txt",
+      "bytes": 10518931,
+      "sha256": "d59e98e311849924cad2659a286380c3e3817f5eef68aa0047f33393de8dbcec",
+      "documents": 1934,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0146.txt",
+      "bytes": 10488301,
+      "sha256": "c4b3cdd58ea972d3ba56d8bf1b9a386d55e22c4f43e23f3b8bf0f594952a67bf",
+      "documents": 2260,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0151.txt",
+      "bytes": 10489282,
+      "sha256": "885a922e097459400579a5962ed1f764174ceec93b6ef64e487ba2484851221d",
+      "documents": 2342,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0153.txt",
+      "bytes": 10489478,
+      "sha256": "42fa3ebd663a5c29d93c9b98f223d52bb286595b62b9604823c6cc2bb3567e5b",
+      "documents": 2332,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0174.txt",
+      "bytes": 10499728,
+      "sha256": "e830451e78ad4026609e7fcc46955bd7d4f016a237d703ad5a90abeeacb4219c",
+      "documents": 2817,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0185.txt",
+      "bytes": 10516401,
+      "sha256": "8fb01ffa03f0a410e18243e5e2ed461b556ac2581945a70b57b8bcb922871312",
+      "documents": 2991,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0203.txt",
+      "bytes": 10487264,
+      "sha256": "c0c85131f4417b0282195762ec04e92fde91591215165b42d6c8836e2bebaa5a",
+      "documents": 3441,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0215.txt",
+      "bytes": 10494680,
+      "sha256": "5782a906ae6a062a2fd92ffc4056d906029681707bef7330b8638f4ef9ed782e",
+      "documents": 3052,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0216.txt",
+      "bytes": 10538353,
+      "sha256": "c888286926a0cced105983e9feb831ed624d95ccbd2e2f6e4ac278a9ee63e2fd",
+      "documents": 3207,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0226.txt",
+      "bytes": 10487300,
+      "sha256": "cdb7e0c5def6f66f0d9542baee587323ab02477573497777180e7654e8763415",
+      "documents": 6901,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0268.txt",
+      "bytes": 10506527,
+      "sha256": "3b92b025091229bfc7fab32c5db37655c9f3af87bd22daf3e1fb9b83e257bde8",
+      "documents": 3447,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0348.txt",
+      "bytes": 10488362,
+      "sha256": "449fe8613a29924ee65cda335b98c0016b3cf83ef88e51ed2a8c5e31ebd06661",
+      "documents": 4736,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0363.txt",
+      "bytes": 10500340,
+      "sha256": "3b0435d3815e67a8062482ffe10375d31f8d4618dd2398fa47c645ab7285daf2",
+      "documents": 4919,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0540.txt",
+      "bytes": 10488884,
+      "sha256": "3b76a21d6d12428996c74ece03d9ab6eda020c7cba9d3cfd5fe2af03c0a793b8",
+      "documents": 8024,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0555.txt",
+      "bytes": 10487267,
+      "sha256": "5d8db5fb54c4cad8313bcc49b3d551d5815655cd2dbe3bf1479e7330a774023b",
+      "documents": 7989,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0567.txt",
+      "bytes": 10485943,
+      "sha256": "e3f226fbd9258058849162c8298b3f807f4254781ab390343bc75f30d038df01",
+      "documents": 8351,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0593.txt",
+      "bytes": 10486789,
+      "sha256": "d1934c567e754da58526d524aea2771e0adafcc19dc9c732e242f2d53589d8f8",
+      "documents": 7599,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0597.txt",
+      "bytes": 10487285,
+      "sha256": "23b97198e7d840a12a3f469ef54ed930a37aa5b83994322a35e064958b3f3e3c",
+      "documents": 8167,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0689.txt",
+      "bytes": 10490761,
+      "sha256": "5f0d82f848f5a5034d60cadc56d43d94fbd9078acf45b631dc12c70867d00a4c",
+      "documents": 9335,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0714.txt",
+      "bytes": 10491167,
+      "sha256": "a6e8c355437132ff63611bccca1dae5f1cb677e4a125e6bcb836aad14026ad7f",
+      "documents": 9809,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0766.txt",
+      "bytes": 10487019,
+      "sha256": "caa513609a96dc8dd653fd0e2b109f74fd2d0c90b42c7fd86caa21ce967a41fa",
+      "documents": 14121,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0806.txt",
+      "bytes": 10487747,
+      "sha256": "8cca989e1b62a1cab5d2e46b530230d4864f74972d4ee3c33bb778d51fd10737",
+      "documents": 8834,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0813.txt",
+      "bytes": 10488044,
+      "sha256": "9a7c18e6d4cd3a5f1e9c3fd2c12db8e5611f98812a3599866e24870e1613fdbe",
+      "documents": 10677,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0833.txt",
+      "bytes": 10491494,
+      "sha256": "5f8be226acf298b32375d5e4514d1c0cfa335c92789b5215381c4f974fd1956e",
+      "documents": 9022,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0841.txt",
+      "bytes": 10493957,
+      "sha256": "dfe7b3b4149af8a54a122791754a40ec600d7eec2ae14e827b4a64560eb4fdd8",
+      "documents": 5727,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0856.txt",
+      "bytes": 10487943,
+      "sha256": "6a3a66a8a81b873256016af9ebc341387d88f50cb16be2389224caa72fd246be",
+      "documents": 11940,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0964.txt",
+      "bytes": 10486537,
+      "sha256": "ee48e4f6913ab0897f2cca0b6ed5d23458691a907bf7a24c053cb95d43911b0e",
+      "documents": 10967,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-0985.txt",
+      "bytes": 10493752,
+      "sha256": "84ec5bf00f6d9342750d9e5ed92b4ce45db8fe711364ffc066b6cd98b42e1afb",
+      "documents": 10640,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-1069.txt",
+      "bytes": 10488522,
+      "sha256": "74c67a7e4436ab915cd6d6fa4d59d08f6551747a851d88deab29571a71c144e5",
+      "documents": 10050,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-1129.txt",
+      "bytes": 10488001,
+      "sha256": "c00a95d124a7ccfa6ab05ca7cebdcd4a1b794dc173d9813c51bb3161c72be525",
+      "documents": 11347,
+      "revisionId": null
+    },
+    {
+      "file": "enwiki-20140602-pages-articles.xml-1259.txt",
+      "bytes": 10487011,
+      "sha256": "4a5f955986308921616ffebe410d897e6c0432476cf16080f3419e4f9dbcb756",
+      "documents": 12915,
+      "revisionId": null
+    }
+  ],
+  "documents": 279775,
+  "distinctNormalizedTitles": 275030,
+  "membershipSha256": "68a8e7a5a36306800e72a4fb6b7302417804f293a24e6c4d9c0def25e54c2715",
+  "boundaryParser": "tools/wiki-shard.mjs articles; same strict title rule as Indexer",
+  "attribution": "Wikipedia contributors, historical processed export attributed under CC BY-SA 3.0. Exact article revisions and processing history unknown. Third-party material may retain separate rights. Full text not redistributed in Git.",
+  "sourceDateHint": "2014-06-02 in filenames is not an immutable revision",
+  "revisionId": null
+}

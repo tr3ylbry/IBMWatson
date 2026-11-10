@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A local human-versus-search-engine clue game.">
+  <title>ClueLab | You vs. the Index</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" type="module"></script>
+</head>
+<body>
+  <a class="skip" href="#round">Skip to the Round</a>
+  <div class="shell">
+    <header class="masthead"><a class="wordmark" href="/">ClueLab<span class="dot">.</span></a><span class="badge">LOCAL EXPERIMENT / 01</span></header>
+    <main>
+      <section class="intro" aria-labelledby="heading">
+        <p class="eyebrow">HUMAN INTUITION. MACHINE RETRIEVAL.</p>
+        <h1 id="heading">You vs. <span>the Index.</span></h1>
+        <p class="lede" id="game-lede">Five clues. Two independent answers.<br>See what you know, then see what it found.</p>
+        <p class="small">Small, source-checked practice packs. Difficulty labels are provisional, and demo scores do not measure general question-answering ability.</p>
+      </section>
+
+      <section class="arena" id="round" tabindex="-1" aria-label="Play ClueLab">
+        <p class="eyebrow" id="score-label">CURRENT GAME</p>
+        <div class="scoreboard" id="scoreboard" aria-label="Current Game Scores">
+          <div><span class="eyebrow">YOU</span><strong id="player-total">0</strong></div>
+          <span class="versus" aria-hidden="true">VS</span>
+          <div><span class="eyebrow">COMPUTER</span><strong id="computer-total">0</strong></div>
+        </div>
+        <p class="small session-totals" id="session-totals" hidden></p>
+        <div class="round-top"><span id="round-number">YOUR FIRST GAME</span><span>100 POINTS EACH</span></div>
+        <progress id="game-progress" max="5" value="0" aria-label="Clues Scored" hidden></progress>
+        <div id="welcome">
+          <h2>A Little Friendly Competition.</h2>
+          <p>The computer searches the documents and locks its answer. You make your own guess. Both earn 100 points for a correct answer.</p>
+          <p id="game-instructions">Choose a topic and level for five clues. No timer. Each correct answer earns 100 points.</p>
+          <p class="small">This browser can recover saved games after a server restart, for two hours from session creation. Clearing cookies loses access. Downloads are review copies, not save files.</p>
+        </div>
+        <div id="question" hidden>
+          <p class="eyebrow" id="category"></p>
+          <p class="small" id="round-scope"></p>
+          <h2 id="clue" tabindex="-1"></h2>
+          <details class="clue-hint" id="clue-hint" hidden>
+            <summary><span id="hint-toggle-label">Show Hint</span><span class="chevron" aria-hidden="true"></span></summary>
+            <p id="clue-hint-text"></p>
+          </details>
+        </div>
+        <p id="status" role="status" aria-live="polite">Connecting to your local game...</p>
+        <div class="error" id="error-box" hidden><p id="error" role="alert"></p><button type="button" id="retry">Reconnect</button><button type="button" id="new-session" hidden>Start a New Game Session</button></div>
+        <form id="answer-form" hidden>
+          <label for="answer">Your Answer</label>
+          <p class="hint" id="answer-hint">Name the answer directly. Case and extra spaces do not matter.</p>
+          <div class="answer-row"><input id="answer" name="answer" type="text" maxlength="200" required autocomplete="off" aria-describedby="answer-hint"><button class="primary" id="submit" type="submit">Lock My Answer</button></div>
+          <p class="hint">Submitting reveals both guesses. Your first submitted answer is final.</p>
+        </form>
+        <section id="result" aria-labelledby="outcome" hidden>
+          <h2 id="outcome" tabindex="-1"></h2>
+          <div class="answers">
+            <div><p class="eyebrow">YOUR ANSWER</p><p id="player-answer" class="guess"></p><strong id="player-points"></strong></div>
+            <div><p class="eyebrow">COMPUTER'S ANSWER</p><p id="computer-answer" class="guess"></p><strong id="computer-points"></strong></div>
+          </div>
+          <p class="accepted"><strong>Accepted Answers:</strong> <span id="accepted"></span></p>
+          <p id="engine-outcome"></p>
+          <p class="small review-reference" id="review-reference"></p>
+          <button type="button" id="save-clue">Save Clue Result</button>
+          <section class="evidence" id="evidence" aria-labelledby="evidence-title" hidden>
+            <p class="eyebrow">OPEN THE NOTEBOOK</p>
+            <h3 id="evidence-title">What the Computer Found</h3>
+            <blockquote id="evidence-text"></blockquote>
+            <p class="small" id="evidence-details"></p>
+            <p class="small" id="attribution"></p>
+            <p class="source-links"><a id="article-link" target="_blank" rel="noopener noreferrer">Saved Source</a><a id="history-link" target="_blank" rel="noopener noreferrer">Contributor History</a><a id="revision-link" target="_blank" rel="noopener noreferrer">Observed Revision</a><a id="license-link" target="_blank" rel="noopener noreferrer">Declared License</a></p>
+            <p class="small">A retrieved excerpt supports a guess; it is not proof that the guess is correct.</p>
+          </section>
+          <section class="evidence curated" id="curated-evidence" aria-labelledby="curated-title" hidden>
+            <h3 id="curated-title">Accepted Answer: Source Check</h3>
+            <p class="small">Chosen by the pack author to support the accepted answer. This is not the computer's search result.</p>
+            <blockquote id="curated-text"></blockquote>
+            <p class="small" id="curated-details"></p>
+            <p class="small" id="curated-attribution"></p>
+            <p class="source-links"><a id="curated-link" target="_blank" rel="noopener noreferrer">Supporting Source</a><a id="curated-history-link" target="_blank" rel="noopener noreferrer">Contributor History</a><a id="curated-revision-link" target="_blank" rel="noopener noreferrer">Observed Revision</a><a id="curated-license-link" target="_blank" rel="noopener noreferrer">Declared License</a></p>
+          </section>
+        </section>
+        <button class="primary" id="next-clue" type="button" hidden>Next Clue <span aria-hidden="true">&rarr;</span></button>
+        <section id="game-summary" aria-labelledby="game-outcome" hidden>
+          <p class="eyebrow">FIVE CLUES COMPLETE</p>
+          <h2 id="game-outcome" tabindex="-1"></h2>
+          <p id="game-summary-score"></p>
+          <button type="button" id="save-game">Save Game Results</button>
+          <p class="small">Saves scored answers and source references to this device. Hint use and review notes must be recorded separately. Keep the file private until playtesting is finished.</p>
+          <h3>Review Your Clues</h3>
+          <label class="review-filter"><input id="missed-only" type="checkbox"> Show Only Clues I Missed</label>
+          <p class="small" id="no-missed-clues" hidden>You answered every clue correctly.</p>
+          <ol class="receipt-list" id="game-review"></ol>
+        </section>
+        <div id="topic-control" hidden>
+          <label id="topic-label" for="topic">Topic for Your Next Game</label>
+          <div class="picker" id="topic-picker">
+            <button type="button" id="topic" role="combobox" aria-labelledby="topic-label" aria-describedby="topic-hint" aria-haspopup="listbox" aria-controls="topic-options" aria-expanded="false" disabled>
+              <span id="topic-value">Loading Topics...</span><span class="chevron" aria-hidden="true"></span>
+            </button>
+            <div class="picker-options" id="topic-options" role="listbox" aria-labelledby="topic-label" hidden></div>
+          </div>
+          <p class="hint" id="topic-hint"></p>
+        </div>
+        <div id="difficulty-control">
+          <label id="difficulty-label" for="difficulty">Difficulty for Your Next Game</label>
+          <div class="picker" id="difficulty-picker">
+            <button type="button" id="difficulty" role="combobox" aria-labelledby="difficulty-label" aria-describedby="difficulty-hint" aria-haspopup="listbox" aria-controls="difficulty-options" aria-expanded="false" disabled>
+              <span id="difficulty-value">Loading Levels...</span><span class="chevron" aria-hidden="true"></span>
+            </button>
+            <div class="picker-options" id="difficulty-options" role="listbox" aria-labelledby="difficulty-label" hidden></div>
+          </div>
+          <p class="hint" id="difficulty-hint">Every correct answer earns 100 points. Optional hints are public to both participants, even when you leave them closed.</p>
+        </div>
+        <p class="availability" id="availability" role="status"></p>
+        <button class="primary" id="start" type="button" disabled><span id="start-label">Start Five-Clue Game</span><span aria-hidden="true">&rarr;</span></button>
+        <details class="topic-requests" id="topic-requests" hidden>
+          <summary>Request a Topic <span class="chevron" aria-hidden="true"></span></summary>
+          <p>Ask for a five-clue game. New subjects need manual operator preparation; submitting does not fetch sources, generate clues or approve content. Levels remain provisional.</p>
+          <form id="topic-request-form"><label for="request-topic">Requested Topic</label><input id="request-topic" maxlength="120" required placeholder="For example, Jupiter moons">
+            <fieldset><legend>Requested Difficulty</legend><label><input type="radio" name="request-level" value="easy"> Easy</label><label><input type="radio" name="request-level" value="standard" checked> Standard</label><label><input type="radio" name="request-level" value="hard"> Hard</label></fieldset>
+            <button id="request-submit" type="submit">Submit Topic Request</button></form>
+          <p class="small">Requests recover with a private browser cookie for seven days, independently of two-hour game sessions. Clearing it loses access; no secret is placed in a URL. Eight retained/four pending requests per identity.</p>
+          <p id="request-status" role="status" aria-live="polite"></p><p id="request-error" class="error" role="alert" hidden></p>
+          <div class="request-actions"><button id="request-reconnect" type="button">Reconnect Requests</button><button id="request-new-identity" type="button" hidden>Start New Request Identity</button></div>
+          <div id="request-list"></div>
+        </details>
+        <section class="game-history" id="history" aria-labelledby="history-title" hidden>
+          <h3 id="history-title">Previous Games</h3>
+          <p class="small">Saved receipts survive server restarts until this two-hour session expires. This browser's recovery cookie is required.</p>
+          <ul id="game-history"></ul>
+        </section>
+        <section class="game-history" id="past-game" aria-labelledby="past-game-title" hidden>
+          <h3 id="past-game-title" tabindex="-1"></h3>
+          <p id="past-game-score"></p>
+          <button type="button" id="save-past-game">Save Previous Game Results</button>
+          <ol class="receipt-list" id="past-game-review"></ol>
+          <button type="button" id="close-past-game">Close Review</button>
+        </section>
+      </section>
+    </main>
+    <footer><span>CLUELAB / A RETRIEVAL EXPERIMENT</span><span>Private answer key. Independent guesses. Evidence after scoring.</span></footer>
+  </div>
+  <noscript>This local game requires JavaScript. Enable it and reload to play.</noscript>
+</body>
+</html>

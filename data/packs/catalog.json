@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "id": "cluelab-starter-catalog",
+  "version": "1.0.0",
+  "defaults": {
+    "topicId": "general-knowledge",
+    "difficulty": "easy"
+  },
+  "difficulties": [
+    {
+      "id": "easy",
+      "label": "Easy"
+    },
+    {
+      "id": "standard",
+      "label": "Standard"
+    },
+    {
+      "id": "hard",
+      "label": "Hard"
+    }
+  ],
+  "collections": [
+    {
+      "id": "general-knowledge-sources",
+      "version": "1.0.0",
+      "path": "collections/general-knowledge-sources.json"
+    },
+    {
+      "id": "world-history-sources",
+      "version": "1.0.0",
+      "path": "collections/world-history-sources.json"
+    },
+    {
+      "id": "geography-sources",
+      "version": "1.0.0",
+      "path": "collections/geography-sources.json"
+    },
+    {
+      "id": "music-sources",
+      "version": "1.0.0",
+      "path": "collections/music-sources.json"
+    },
+    {
+      "id": "coursework-demo-sources",
+      "version": "1.0.0",
+      "path": "collections/coursework-demo-sources.json"
+    }
+  ],
+  "packs": [
+    {
+      "id": "general-knowledge-clues",
+      "version": "1.0.0",
+      "path": "private/general-knowledge-clues.json"
+    },
+    {
+      "id": "world-history-clues",
+      "version": "1.0.0",
+      "path": "private/world-history-clues.json"
+    },
+    {
+      "id": "geography-clues",
+      "version": "1.0.0",
+      "path": "private/geography-clues.json"
+    },
+    {
+      "id": "music-clues",
+      "version": "1.0.0",
+      "path": "private/music-clues.json"
+    },
+    {
+      "id": "coursework-demo-clues",
+      "version": "1.0.0",
+      "path": "private/coursework-demo-clues.json"
+    }
+  ],
+  "topics": [
+    {
+      "id": "general-knowledge",
+      "packId": "general-knowledge-clues",
+      "packVersion": "1.0.0"
+    },
+    {
+      "id": "world-history",
+      "packId": "world-history-clues",
+      "packVersion": "1.0.0"
+    },
+    {
+      "id": "geography",
+      "packId": "geography-clues",
+      "packVersion": "1.0.0"
+    },
+    {
+      "id": "music",
+      "packId": "music-clues",
+      "packVersion": "1.0.0"
+    },
+    {
+      "id": "coursework-demo",
+      "packId": "coursework-demo-clues",
+      "packVersion": "1.0.0"
+    }
+  ]
+}

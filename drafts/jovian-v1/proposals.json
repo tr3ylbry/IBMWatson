@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "id": "jovian-intake-demo",
+  "version": "1.0.0",
+  "topicId": "jovian-system",
+  "topic": "Jupiter moons",
+  "label": "Jovian System",
+  "description": "Source-intake authoring demonstration, not a retrieval benchmark or approved game pack. Five newly assistant-authored proposals with provisional Standard difficulty.",
+  "subtopics": [
+    {"id": "geology", "label": "Geology"},
+    {"id": "magnetism", "label": "Magnetism"},
+    {"id": "satellite-identities", "label": "Satellite Identities"},
+    {"id": "orbital-dynamics", "label": "Orbital Dynamics"},
+    {"id": "spacecraft", "label": "Spacecraft"}
+  ],
+  "authoring": {
+    "method": "operator-supplied",
+    "author": "Codex (implementing assistant), not an independent human author",
+    "createdOn": "2026-11-06",
+    "notes": "New proposals written from the eight captured Wikipedia lead sections. Assistant inspected the complete saved leads and article context; no benchmark questions were used. No paid provider. Source support is assistant-checked, not independently human-approved; aliases, ambiguity, hints and difficulty still require editorial review. Text excerpts retain separate CC BY-SA attribution.",
+    "humanReviewer": null,
+    "humanReviewedOn": null
+  },
+  "clues": [
+    {
+      "id": "jovian-io-volcanism-01", "factId": "io-tidal-volcanism",
+      "subtopicId": "geology", "category": "Jovian Geology",
+      "text": "Tidal heating helps drive hundreds of active volcanoes on which Galilean moon?",
+      "hint": "It is the innermost of the four Galilean moons.",
+      "difficulty": "standard", "answerType": "article-title", "answerPageId": 1051892,
+      "aliases": ["Io (moon)", "Io"],
+      "support": {"pageId": 1051892, "text": "With over 400 active volcanoes, Io is the most geologically active object in the Solar System. This extreme geologic activity results from tidal heating from friction generated within Io's interior as it is pulled between Jupiter and two other Galilean moons—Europa and Ganymede."},
+      "reviewNotes": "Assistant: both geological premises are explicit in the saved lead; the hint is in its opening sentence. Io is the astronomical short name, but its bare alias and provisional difficulty need human review. No independent approval."
+    },
+    {
+      "id": "jovian-ganymede-magnetism-01", "factId": "ganymede-internal-field",
+      "subtopicId": "magnetism", "category": "Moon Magnetism",
+      "text": "Which moon of Jupiter is the only natural satellite in the Solar System known to possess an internally generated magnetic field?",
+      "difficulty": "standard", "answerType": "article-title", "answerPageId": 54211,
+      "aliases": ["Ganymede (moon)", "Ganymede"],
+      "support": {"pageId": 54211, "text": "Ganymede is the only natural satellite in the solar system to possess an internally generated magnetic field."},
+      "reviewNotes": "Assistant: the uniqueness qualifier matches the saved lead, and internally generated avoids confusing induced fields. Knowledge is time-sensitive. Bare astronomical name and perceived difficulty remain unapproved."
+    },
+    {
+      "id": "jovian-europa-identity-01", "factId": "europa-jupiter-ii-smallest",
+      "subtopicId": "satellite-identities", "category": "Satellite Identities",
+      "text": "Also designated Jupiter II, which is the smallest of Jupiter's four Galilean moons?",
+      "difficulty": "standard", "answerType": "article-title", "answerPageId": 43127,
+      "aliases": ["Europa (moon)", "Europa", "Jupiter II"],
+      "support": {"pageId": 43127, "text": "Europa ( ) or Jupiter II is the smallest and least massive of Jupiter's four Galilean moons."},
+      "reviewNotes": "Assistant: the opening sentence supports the designation and size claim; missing pronunciation leaves an empty parenthesis in the extractor output, preserved rather than silently edited. The designation alias is deliberately explicit, but giving it in the clue may make grading/difficulty too permissive. Hold for editorial review, not a calibrated Standard label."
+    },
+    {
+      "id": "jovian-callisto-resonance-01", "factId": "callisto-outside-resonance",
+      "subtopicId": "orbital-dynamics", "category": "Orbital Dynamics",
+      "text": "Which Galilean moon is outside the orbital resonance shared by Io, Europa, and Ganymede?",
+      "difficulty": "standard", "answerType": "article-title", "answerPageId": 43126,
+      "aliases": ["Callisto (moon)", "Callisto"],
+      "support": {"pageId": 43126, "text": "It is not in an orbital resonance like the three other Galilean satellites—Io, Europa and Ganymede—and is thus not appreciably tidally heated."},
+      "reviewNotes": "Assistant: pronoun antecedent is Callisto in the complete saved lead, so this passage must be read in context. Distinct orbital fact rather than a reworded volcano clue. Specialized terminology may feel Hard; no player evidence justifies a relabel."
+    },
+    {
+      "id": "jovian-juice-mission-01", "factId": "juice-launch-and-ganymede",
+      "subtopicId": "spacecraft", "category": "Jupiter Missions",
+      "text": "Which ESA spacecraft launched from French Guiana on 14 April 2023 is intended to orbit Ganymede?",
+      "hint": "Its short name is also a common word for a fruit drink.",
+      "difficulty": "standard", "answerType": "article-title", "answerPageId": 32657610,
+      "aliases": ["Jupiter Icy Moons Explorer", "Juice"],
+      "support": {"pageId": 32657610, "text": "Juice is the first interplanetary spacecraft to the outer Solar System planets not launched by the United States and the first intended to orbit a moon other than Earth's Moon. Launched by ESA, from Guiana Space Centre in French Guiana on 14 April 2023, with Airbus Defence and Space as the main contractor, it is expected to reach Jupiter in July 2031 after four gravity assists and eight years of travel. In December 2034, the spacecraft will enter orbit around Ganymede for its close-up science mission."},
+      "reviewNotes": "Assistant: the source lead identifies Juice as Jupiter Icy Moons Explorer; the passage supports launch location/date and intended target. Wording intentionally avoids claiming the future orbit has occurred. Source schedule is a plan, not certainty. The wordplay hint exposes the alias directly and needs human/editorial assessment; it is public to both players under existing hint rules."
+    }
+  ]
+}

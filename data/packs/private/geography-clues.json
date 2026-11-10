@@ -1,0 +1,395 @@
+{
+  "schemaVersion": 1,
+  "id": "geography-clues",
+  "version": "1.0.0",
+  "topicId": "geography",
+  "label": "Geography",
+  "description": "15 distinct practice clues, five per level. Source-checked by an assistant; independent human review and difficulty calibration pending.",
+  "language": "en",
+  "collectionId": "geography-sources",
+  "collectionVersion": "1.0.0",
+  "subtopics": [
+    {
+      "id": "rivers",
+      "label": "Rivers"
+    },
+    {
+      "id": "deserts",
+      "label": "Deserts"
+    },
+    {
+      "id": "mountains",
+      "label": "Mountains"
+    },
+    {
+      "id": "continents",
+      "label": "Continents"
+    },
+    {
+      "id": "oceans",
+      "label": "Oceans"
+    },
+    {
+      "id": "lakes",
+      "label": "Lakes"
+    },
+    {
+      "id": "islands",
+      "label": "Islands"
+    },
+    {
+      "id": "straits",
+      "label": "Straits"
+    },
+    {
+      "id": "rift-valleys",
+      "label": "Rift Valleys"
+    },
+    {
+      "id": "rift-lakes",
+      "label": "Rift Lakes"
+    },
+    {
+      "id": "inland-wetlands",
+      "label": "Inland Wetlands"
+    },
+    {
+      "id": "european-wetlands",
+      "label": "European Wetlands"
+    },
+    {
+      "id": "island-biodiversity",
+      "label": "Island Biodiversity"
+    },
+    {
+      "id": "coastal-wetlands",
+      "label": "Coastal Wetlands"
+    }
+  ],
+  "review": {
+    "status": "source-checked",
+    "reviewer": "Codex (AI assistant); not an independent human reviewer",
+    "reviewedOn": "2026-11-04",
+    "factualNotes": "Each clue's distinguishing fact checked against the cited institutional source text returned by web retrieval. Short excerpt snapshots retained; not full page archives. See docs/PACK-REVIEW.md.",
+    "editorialNotes": "Distinct canonical answers and facts across levels; checked for clear answer type, reasonable aliases and subtopic variety. Difficulty labels are provisional editorial choices.",
+    "limitations": "No independent human sign-off or player testing. Tiny answer-aligned collections are development sets, not held-out benchmarks. Rights assessment before public redistribution remains required."
+  },
+  "clues": [
+    {
+      "id": "geography-amazon-01",
+      "topicId": "geography",
+      "subtopicId": "rivers",
+      "category": "Rivers",
+      "text": "Which river carries the world's largest volume of freshwater toward the Atlantic Ocean?",
+      "hint": null,
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "geography-amazon",
+      "aliases": [
+        "Amazon River",
+        "Amazon",
+        "The Amazon",
+        "The Amazon River"
+      ],
+      "support": {
+        "sourceId": "geography-amazon",
+        "start": 0,
+        "end": 109
+      }
+    },
+    {
+      "id": "geography-sahara-01",
+      "topicId": "geography",
+      "subtopicId": "deserts",
+      "category": "Deserts",
+      "text": "Which vast desert stretches across Northern Africa, with much of its surface made of bare stone and pebbles rather than sand?",
+      "hint": null,
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "geography-sahara",
+      "aliases": [
+        "Sahara",
+        "Sahara Desert",
+        "The Sahara"
+      ],
+      "support": {
+        "sourceId": "geography-sahara",
+        "start": 0,
+        "end": 108
+      }
+    },
+    {
+      "id": "geography-everest-01",
+      "topicId": "geography",
+      "subtopicId": "mountains",
+      "category": "Mountains",
+      "text": "Which mountain has the highest summit above global mean sea level?",
+      "hint": null,
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "geography-everest",
+      "aliases": [
+        "Mount Everest",
+        "Everest",
+        "Mt. Everest",
+        "Mt Everest",
+        "Sagarmatha",
+        "Qomolangma"
+      ],
+      "support": {
+        "sourceId": "geography-everest",
+        "start": 0,
+        "end": 63
+      }
+    },
+    {
+      "id": "geography-antarctica-01",
+      "topicId": "geography",
+      "subtopicId": "continents",
+      "category": "Continents",
+      "text": "Which continent is the coldest, windiest and driest on Earth?",
+      "hint": "Think of the South Pole.",
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "geography-antarctica",
+      "aliases": [
+        "Antarctica"
+      ],
+      "support": {
+        "sourceId": "geography-antarctica",
+        "start": 0,
+        "end": 66
+      }
+    },
+    {
+      "id": "geography-pacific-01",
+      "topicId": "geography",
+      "subtopicId": "oceans",
+      "category": "Oceans",
+      "text": "What is Earth's largest and deepest ocean basin?",
+      "hint": null,
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "geography-pacific",
+      "aliases": [
+        "Pacific Ocean",
+        "Pacific",
+        "The Pacific",
+        "The Pacific Ocean"
+      ],
+      "support": {
+        "sourceId": "geography-pacific",
+        "start": 0,
+        "end": 60
+      }
+    },
+    {
+      "id": "geography-baikal-01",
+      "topicId": "geography",
+      "subtopicId": "lakes",
+      "category": "Lakes",
+      "text": "Which Siberian lake is the world's deepest?",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "geography-baikal",
+      "aliases": [
+        "Lake Baikal",
+        "Baikal"
+      ],
+      "support": {
+        "sourceId": "geography-baikal",
+        "start": 0,
+        "end": 137
+      }
+    },
+    {
+      "id": "geography-galapagos-01",
+      "topicId": "geography",
+      "subtopicId": "islands",
+      "category": "Islands",
+      "text": "Which Pacific archipelago is known for the wildlife that helped inspire Darwin's theory after his 1835 visit?",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "geography-galapagos",
+      "aliases": [
+        "Galapagos Islands",
+        "Galapagos",
+        "Galápagos Islands",
+        "Galápagos",
+        "The Galapagos Islands"
+      ],
+      "support": {
+        "sourceId": "geography-galapagos",
+        "start": 0,
+        "end": 100
+      }
+    },
+    {
+      "id": "geography-gibraltar-01",
+      "topicId": "geography",
+      "subtopicId": "straits",
+      "category": "Straits",
+      "text": "Which strait is the natural entrance to the Mediterranean Sea from the Atlantic Ocean?",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "geography-gibraltar",
+      "aliases": [
+        "Strait of Gibraltar",
+        "The Strait of Gibraltar",
+        "Gibraltar Strait"
+      ],
+      "support": {
+        "sourceId": "geography-gibraltar",
+        "start": 0,
+        "end": 124
+      }
+    },
+    {
+      "id": "geography-andes-01",
+      "topicId": "geography",
+      "subtopicId": "mountains",
+      "category": "Mountains",
+      "text": "What is the world's longest continental mountain range?",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "geography-andes",
+      "aliases": [
+        "Andes",
+        "The Andes",
+        "Andes Mountains",
+        "Andean Mountains"
+      ],
+      "support": {
+        "sourceId": "geography-andes",
+        "start": 0,
+        "end": 77
+      }
+    },
+    {
+      "id": "geography-dead-sea-01",
+      "topicId": "geography",
+      "subtopicId": "rift-valleys",
+      "category": "Rift Valleys",
+      "text": "Which salty lake occupies the depression with the lowest exposed dry land on Earth?",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "geography-dead-sea",
+      "aliases": [
+        "Dead Sea",
+        "The Dead Sea"
+      ],
+      "support": {
+        "sourceId": "geography-dead-sea",
+        "start": 0,
+        "end": 99
+      }
+    },
+    {
+      "id": "geography-tanganyika-01",
+      "topicId": "geography",
+      "subtopicId": "rift-lakes",
+      "category": "Rift Lakes",
+      "text": "Which African lake is the world's longest freshwater lake and second deepest?",
+      "hint": null,
+      "difficulty": "hard",
+      "answerType": "article-title",
+      "answerSourceId": "geography-tanganyika",
+      "aliases": [
+        "Lake Tanganyika",
+        "Tanganyika"
+      ],
+      "support": {
+        "sourceId": "geography-tanganyika",
+        "start": 0,
+        "end": 73
+      }
+    },
+    {
+      "id": "geography-okavango-01",
+      "topicId": "geography",
+      "subtopicId": "inland-wetlands",
+      "category": "Inland Wetlands",
+      "text": "Which large inland delta lies in north-western Botswana?",
+      "hint": null,
+      "difficulty": "hard",
+      "answerType": "article-title",
+      "answerSourceId": "geography-okavango",
+      "aliases": [
+        "Okavango Delta",
+        "The Okavango Delta",
+        "Okavango"
+      ],
+      "support": {
+        "sourceId": "geography-okavango",
+        "start": 0,
+        "end": 108
+      }
+    },
+    {
+      "id": "geography-danube-delta-01",
+      "topicId": "geography",
+      "subtopicId": "european-wetlands",
+      "category": "European Wetlands",
+      "text": "What delta, formed where its namesake river enters the Black Sea, is described by UNESCO as Europe's largest and best preserved?",
+      "hint": null,
+      "difficulty": "hard",
+      "answerType": "article-title",
+      "answerSourceId": "geography-danube-delta",
+      "aliases": [
+        "Danube Delta",
+        "The Danube Delta"
+      ],
+      "support": {
+        "sourceId": "geography-danube-delta",
+        "start": 0,
+        "end": 112
+      }
+    },
+    {
+      "id": "geography-socotra-01",
+      "topicId": "geography",
+      "subtopicId": "island-biodiversity",
+      "category": "Island Biodiversity",
+      "text": "Which archipelago near the Gulf of Aden comprises four islands and two rocky islets?",
+      "hint": null,
+      "difficulty": "hard",
+      "answerType": "article-title",
+      "answerSourceId": "geography-socotra",
+      "aliases": [
+        "Socotra Archipelago",
+        "Socotra",
+        "The Socotra Archipelago"
+      ],
+      "support": {
+        "sourceId": "geography-socotra",
+        "start": 0,
+        "end": 136
+      }
+    },
+    {
+      "id": "geography-wadden-sea-01",
+      "topicId": "geography",
+      "subtopicId": "coastal-wetlands",
+      "category": "Coastal Wetlands",
+      "text": "Which sea is the world's largest unbroken system of intertidal sand and mud flats?",
+      "hint": null,
+      "difficulty": "hard",
+      "answerType": "article-title",
+      "answerSourceId": "geography-wadden-sea",
+      "aliases": [
+        "Wadden Sea",
+        "The Wadden Sea"
+      ],
+      "support": {
+        "sourceId": "geography-wadden-sea",
+        "start": 0,
+        "end": 92
+      }
+    }
+  ]
+}

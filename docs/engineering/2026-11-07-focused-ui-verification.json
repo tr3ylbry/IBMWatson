@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-11-07-focused-ui-verification",
+  "date": "2026-11-07",
+  "timezone": "America/Phoenix",
+  "classification": "Assistant scripted local software/media verification; not human review, calibrated difficulty, live model verification, legal clearance or publication approval",
+  "scope": [
+    "Recovery focus",
+    "Safe evidence navigation",
+    "Unpublished captioned Labs walkthrough"
+  ],
+  "implementationSha256": {
+    "src/main/resources/web/presentation.mjs": "cd7eaefd1c188e55ae90e7620ab2e55b94ad7c93080103521bbfbb634bdb32e3",
+    "src/main/resources/web/app.js": "8a1e1ca02b716f3c5e211f375bb547988ece899940ab40ad45785335d65f8007",
+    "src/main/resources/web/index.html": "6b03905c461b8d37a7c4d91572630a5b4ab79f247a9105e4697b2c22c9f5d2aa",
+    "src/main/resources/web/style.css": "ba812633ab8e8dfdc52fdc60b831bb4a630fe051bdfa40899bbae13356a90bc7",
+    "src/main/GameServer.java": "10fd9036ae073d79f4adb89345039148b6011556e2a164cf966c15ebd2ff100f",
+    "src/test/java/main/GameServerTest.java": "276cfe7cefb1b6405b75e0424a931a7b123eae57c73e51402cdfbc0812394d59",
+    "tools/player-presentation.test.mjs": "dfd6ba14c77b4124c290159d451f792b940406c9b7510a18fe1cf2049770cb2a",
+    "tools/player-ui.browser.js": "71f9772ce10e349c391f2db04a280e4618b24ac4237461fef179f92b20bd2123"
+  },
+  "baseline": {
+    "command": "env CLUELAB_ASSISTANCE_ENABLED=false mvn -o clean verify",
+    "javaTests": 305,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "log": "/tmp/cluelab-focused-baseline.log",
+    "finishedAt": "2026-11-07T15:08:52-07:00",
+    "nodeTestsBeforeEdits": "Not separately rerun before edits; the seven existing tests are included in the final14"
+  },
+  "final": {
+    "command": "env CLUELAB_ASSISTANCE_ENABLED=false mvn -o clean verify",
+    "javaTests": 305,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "log": "/tmp/cluelab-focused-final.log",
+    "finishedAt": "2026-11-07T15:14:36-07:00",
+    "javaChange": "Expanded existing fixed-asset/privacy test; no new Java test methods",
+    "nodeTests": 14,
+    "nodeNewGroupedTests": 7,
+    "nodeCommand": "node --test tools/prepare-external-challenge.test.mjs tools/review-external-challenge.test.mjs tools/player-presentation.test.mjs",
+    "newDependencies": 0,
+    "syntaxChecks": [
+      "src/main/resources/web/app.js",
+      "tools/player-ui.browser.js",
+      "drafts/local/focused-ui-2026-11-07/media/record-phase.js"
+    ],
+    "diffCheck": true,
+    "jar": {
+      "sha256": "8edd5323c5fa51318fbb9b3cee457d328e14bb3164f09e2e9add659359416462",
+      "bytes": 346318,
+      "entries": 100,
+      "webAssets": [
+        "web/app.js",
+        "web/favicon.svg",
+        "web/index.html",
+        "web/presentation.mjs",
+        "web/style.css"
+      ],
+      "privateEntries": []
+    }
+  },
+  "focus": {
+    "before": {
+      "lostCommittedAnswerResponse": "BODY",
+      "gameId": "ae5d9e69-4820-4dc5-9c19-0673d295134f",
+      "playerScore": 0,
+      "computerScore": 100
+    },
+    "after": {
+      "sameStoredReceipt": true,
+      "recoveredTarget": "outcome",
+      "recoveryAction": "retry",
+      "activeReady": "answer",
+      "activeThinking": "clue",
+      "completed": "game-outcome",
+      "expiry": "new-session",
+      "routinePollingMovesFocus": false
+    },
+    "schemaOrBackendScoringChange": false
+  },
+  "browser": {
+    "runner": "tools/player-ui.browser.js",
+    "result": {
+      "passed": true,
+      "gameId": "8eb62f07-eb64-461f-8291-9c61448ca2ae",
+      "score": [
+        0,
+        400
+      ],
+      "polling": [
+        {
+          "before": "clue",
+          "after": "clue"
+        },
+        {
+          "before": "clue",
+          "after": "clue"
+        },
+        {
+          "before": "clue",
+          "after": "clue"
+        }
+      ],
+      "links": 40,
+      "replayId": "f76bbe4c-432a-4b71-91e4-6eda0ae2ad53",
+      "privateBeforeReveal": true,
+      "oldReceiptUnchanged": true,
+      "mobileWidth": 320
+    },
+    "lostCommittedResponses": [
+      "start",
+      "answer",
+      "advance",
+      "fifth-answer-completion",
+      "replay"
+    ],
+    "checks": [
+      "Same committed IDs/results on recovery",
+      "Duplicate old advancement cannot skip clue",
+      "Original receipt survives replay",
+      "Visible deliberate recovery/result focus",
+      "Typing focus/value stable",
+      "Routine THINKING->READY polling does not steal clue focus",
+      "Pre-reveal private fields absent",
+      "Separate retrieved/curated source links",
+      "390px touch and320px layout without horizontal overflow"
+    ],
+    "actualNavigation": [
+      {
+        "id": "curated-link",
+        "expected": "https://en.wikipedia.org/wiki/Vultures_1",
+        "actual": "https://en.wikipedia.org/wiki/Vultures_1",
+        "title": "Vultures 1 - Wikipedia"
+      },
+      {
+        "id": "curated-history-link",
+        "expected": "https://en.wikipedia.org/w/index.php?title=Vultures+1&action=history",
+        "actual": "https://en.wikipedia.org/w/index.php?title=Vultures+1&action=history",
+        "title": "Vultures 1: Revision history - Wikipedia"
+      },
+      {
+        "id": "curated-revision-link",
+        "expected": "https://en.wikipedia.org/w/index.php?title=Vultures+1&oldid=1383325624",
+        "actual": "https://en.wikipedia.org/w/index.php?title=Vultures+1&oldid=1383325624",
+        "title": "Vultures 1 - Wikipedia"
+      },
+      {
+        "id": "curated-license-link",
+        "expected": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "actual": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "title": "Deed - Attribution-ShareAlike 4.0 International - Creative Commons"
+      }
+    ],
+    "limits": "Chromium emulation/scripted QA only; no screen-reader, physical-device, cross-browser or human usability sign-off"
+  },
+  "validation": {
+    "normal": {
+      "config": "data/game.json",
+      "indexes": true,
+      "valid": true,
+      "catalogVersion": "1.0.0",
+      "topics": 5,
+      "documents": 68,
+      "clues": 76
+    },
+    "isolated": {
+      "config": "drafts/local/kanye-showcase-2026-11-07/workshop/isolated/game.json",
+      "indexes": true,
+      "valid": true,
+      "catalogVersion": "1.0.1",
+      "topics": 6,
+      "documents": 77,
+      "clues": 81
+    },
+    "factualOrRightsApproval": false
+  },
+  "media": {
+    "status": "Actual recorded local unpublished review cut; publication/editorial approval pending",
+    "privateRoot": "drafts/local/focused-ui-2026-11-07/media",
+    "files": [
+      "cluelab-walkthrough.webm",
+      "cluelab-walkthrough.vtt",
+      "WALKTHROUGH.md",
+      "timeline.json"
+    ],
+    "sha256": "f2f2bd2e51ed6a3f5d9c6f196ff7caabca58ec012e4b2865c3fc9770756a57ea",
+    "bytes": 21991400,
+    "durationSeconds": 149.76,
+    "width": 1280,
+    "height": 900,
+    "audio": false,
+    "captions": {
+      "duration": 149.76,
+      "width": 1280,
+      "height": 900,
+      "captions": 21,
+      "captionEnd": 149.76,
+      "maxLines": 2,
+      "maxCharactersPerSecond": 20.093770931011406
+    },
+    "frameReviewSeconds": [
+      2,
+      20,
+      44,
+      57,
+      74,
+      84,
+      90,
+      118,
+      132,
+      145
+    ],
+    "privacy": "Viewport only; no browser chrome, terminal, private filesystem paths, raw credentials, unrelated information, third-party imagery or music. Answer-bearing footage remains private/ignored, outside served assets.",
+    "preparation": "Documentary title-card summary of existing saved sources/manual proposal/separate assistant review/explicit isolated activation; no new preparation or fake admin activity.",
+    "actualGameId": "ab220bad-4a85-4230-8a82-f9d9eea0f02a",
+    "score": [
+      400,
+      400
+    ],
+    "firstGuessDeliberatelyIncorrect": true,
+    "retainedComputerMiss": "kanye-ty-debut-01",
+    "realRestart": {
+      "samePublicGameSnapshot": true,
+      "fullPrivateState": {
+        "before": "4efd476b47aedf4e6d2259d53a8caa54e4ca8bbc6f500409a1c61345f64ac7be",
+        "after": "4efd476b47aedf4e6d2259d53a8caa54e4ca8bbc6f500409a1c61345f64ac7be",
+        "unchanged": true
+      },
+      "phase": "Second clue READY after first clue scored",
+      "mode": "Graceful owned JVM stop/restart; same config/store/cookies; same local POSIX disk"
+    },
+    "recorder": "Available native browser video recorder; no dependency install",
+    "recordingReviewLimit": "Assistant caption timing/readability/frame/privacy review; final human media/rights/editorial approval still pending"
+  },
+  "preservation": {
+    "referenceCount": 188,
+    "changed": [],
+    "candidate": {
+      "count": 453,
+      "sha256": "3f4b5f45725028efc901d379f4632b4b10769c64f00c603af88922e1d7841bd7"
+    },
+    "priorAssessment": {
+      "count": 10,
+      "sha256": "b1b85254b948759cb5436fc5eb7a23e01a41a08e9a35525f550b5a423c3efdd4"
+    },
+    "sharedRequestLedgerSha256": "10fb1271e0dba37ca6174c81fcc68bc18763503a066f5d2de524b3631fce0b02",
+    "jar": {
+      "sha256": "8edd5323c5fa51318fbb9b3cee457d328e14bb3164f09e2e9add659359416462",
+      "bytes": 346318,
+      "entries": 100,
+      "webAssets": [
+        "web/app.js",
+        "web/favicon.svg",
+        "web/index.html",
+        "web/presentation.mjs",
+        "web/style.css"
+      ],
+      "privateEntries": []
+    },
+    "vtt": {
+      "cueCount": 21
+    },
+    "mediaIgnored": "drafts/local/focused-ui-2026-11-07/media/cluelab-walkthrough.webm",
+    "treeHashMethod": "SHA256 of sorted repository-relative full paths plus one space plus each file SHA256, joined by newline without final newline",
+    "before": {
+      "referenceCount": 188,
+      "changed": [],
+      "candidateCount": 453,
+      "candidateTreeSha": "3f4b5f45725028efc901d379f4632b4b10769c64f00c603af88922e1d7841bd7",
+      "readinessFiles": 10,
+      "readinessTreeSha": "b1b85254b948759cb5436fc5eb7a23e01a41a08e9a35525f550b5a423c3efdd4",
+      "ledgerSha": "10fb1271e0dba37ca6174c81fcc68bc18763503a066f5d2de524b3631fce0b02"
+    },
+    "candidateUnchanged": true,
+    "priorAssessmentUnchanged": true,
+    "sharedRequestLedgerUnchanged": true,
+    "normalCatalogActivation": false,
+    "archiveOrHistoricalIndexWrites": false,
+    "historicalMeasurementsRerun": false,
+    "frozenContentOrChallengeChanges": false,
+    "oldReceiptsChanged": false,
+    "readinessLeases": "Only owned transient runtime lease registration/close metadata updated"
+  },
+  "retainedMeasurements": {
+    "candidate": {
+      "first": 4,
+      "total": 5,
+      "hitAt10": 5,
+      "mrrAt10": 0.9,
+      "sourceDocuments": 9,
+      "rerun": false,
+      "classification": "Previously recorded assistant-authored development set, not held-out"
+    },
+    "humanReviewed": {
+      "candidate": "0/5",
+      "starter": "0/60",
+      "jovian": "0/5"
+    },
+    "humanPlaytestedOrCalibrated": false
+  },
+  "remaining": [
+    "Independent five-clue content/alias decisions",
+    "Known background chart inconsistency",
+    "Saved starter source association errors remain visible, not rewritten",
+    "Long support/editorial review requiring new immutable content versions",
+    "Source/excerpt/credits/naming and code/model rights judgment",
+    "Final media publication authorization",
+    "Broader screen-reader/device/browser/human checks",
+    "Public origin/admission/storage/monitoring/release bundle/advisory gates"
+  ],
+  "notion": {
+    "project": "https://app.notion.com/p/40879c71a87e81bdbeb7c4971883c906",
+    "roadmap": "https://app.notion.com/p/40879c71a87e811d8c30d5f12ced0d1b",
+    "updated": true,
+    "historicalCheckpointsPreserved": true,
+    "mediaUploaded": false,
+    "recorded": "Completed R7 and R8 navigation, actual verification/preservation, unpublished review-cut location and pending editorial/rights/human/public-release decisions"
+  },
+  "operations": {
+    "ownedVerificationPort": 8793,
+    "ownedVerificationPlayerStopped": true,
+    "workshopStarted": false,
+    "ownedBrowserContextsClosed": 4,
+    "defaultBrowserContextKept": true,
+    "normalServerStoppedOrRestarted": false,
+    "assistanceEnabled": false,
+    "modelOrPaidCalls": 0,
+    "keySetup": false,
+    "providerBudgetChanges": false,
+    "published": false,
+    "deployed": false
+  }
+}
+

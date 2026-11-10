@@ -1,0 +1,1410 @@
+{
+  "schemaVersion": 1,
+  "experimentId": "cluelab-retrieval-pilot",
+  "version": "1.0.0",
+  "mode": "baseline",
+  "measuredAt": "2026-11-06T04:41:10.982478Z",
+  "runtime": {
+    "java": "21.0.13",
+    "lucene": "10.6.0",
+    "corenlp": "4.6.0",
+    "indexSchema": "3"
+  },
+  "frozenSha256": "42bd844ea74516b29c3d420d61cd03fcddb779d80d6fac62969cbc5e13a56923",
+  "collectionSha256": "1002a0c3f9aaadfb785d74df02b89089f9cc9494389b93fd9229487a571f88f3",
+  "developmentSha256": "730efec27e0f36c108890126d04fba7afe16fa48e375828479db420a93463388",
+  "classification": "same-author-historical-source-pilot-not-general-accuracy",
+  "split": "development",
+  "reports": [
+    {
+      "profile": "baseline",
+      "index": {
+        "path": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/indexes/retrieval-lab-v1-lucene10-schema3/1_idxTypeNone",
+        "documents": 645,
+        "indexType": 1,
+        "scorer": 4,
+        "origin": "cluelab-rebuilt",
+        "commit": "segments_1",
+        "retrievalProfile": "baseline",
+        "runtime": {
+          "java": "21.0.13",
+          "lucene": "10.6.0",
+          "corenlp": "4.6.0",
+          "indexSchema": "3"
+        },
+        "metadata": {
+          "datasetVersion": "1.0.0",
+          "documents": "645",
+          "cluelab.schema": "3",
+          "corpus": "/Users/Tr3y/Projects/PersonalProjects/IBMWatson/corpus/retrieval-lab-v1",
+          "manifestSha256": "1002a0c3f9aaadfb785d74df02b89089f9cc9494389b93fd9229487a571f88f3",
+          "sourceSha256": "d3a7b91af2a83d1f61a2fc8b97cb6b5f67dead6fc40532a41619bd8e9d3c3d49",
+          "indexType": "1",
+          "sourceFiles": "1",
+          "builtAt": "2026-11-06T04:40:10.979865Z",
+          "norms": "BM25-lucene10",
+          "luceneVersion": "10.6.0",
+          "nlpVersion": "4.6.0",
+          "datasetId": "cluelab-wiki-shard-b"
+        }
+      },
+      "size": 20,
+      "correctFirst": 19,
+      "foundWithin10": 20,
+      "accuracy": 0.95,
+      "hitAt10": 1,
+      "mrrAt10": 0.975,
+      "timing": {
+        "samples": 100,
+        "warmupMs": 92.655584,
+        "minMs": 0.986833,
+        "medianMs": 2.344875,
+        "p95Ms": 5.973125,
+        "meanMs": 2.7421412199999997,
+        "maxMs": 15.141959
+      },
+      "predictions": [
+        {
+          "id": "wiki-b-development-01",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "BeOS",
+              "rawRetrievalScore": 44.62388229370117
+            },
+            {
+              "rank": 2,
+              "title": "BeBox",
+              "rawRetrievalScore": 25.906858444213867
+            },
+            {
+              "rank": 3,
+              "title": "Central processing unit",
+              "rawRetrievalScore": 25.300952911376953
+            },
+            {
+              "rank": 4,
+              "title": "Computing",
+              "rawRetrievalScore": 24.20038414001465
+            },
+            {
+              "rank": 5,
+              "title": "Computer science",
+              "rawRetrievalScore": 22.97906494140625
+            },
+            {
+              "rank": 6,
+              "title": "Computer data storage",
+              "rawRetrievalScore": 20.436649322509766
+            },
+            {
+              "rank": 7,
+              "title": "Control character",
+              "rawRetrievalScore": 20.23138427734375
+            },
+            {
+              "rank": 8,
+              "title": "Software",
+              "rawRetrievalScore": 19.923828125
+            },
+            {
+              "rank": 9,
+              "title": "Video game",
+              "rawRetrievalScore": 19.552370071411133
+            },
+            {
+              "rank": 10,
+              "title": "Printer (computing)",
+              "rawRetrievalScore": 18.294517517089844
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0022",
+            "rawSha256": "18c2863a3c03f24b06c5e5dad7591616deefc947e112e3349b9b8db56d22fb9c",
+            "quote": "BeOS was built for digital media work"
+          },
+          "opponentRetrieved": {
+            "title": "BeOS",
+            "text": "...hor=Owen W. Linzmayer |year=1999 |website=Mac Speed Zone |accessdate=18 January 2014 In 1997, Power Computing began bundling BeOS (on a CD for optional installation) with its line of PowerPC-based Macintosh clones. These systems could dual boot either the Mac OS or BeOS, with a start-up screen offering the choice. cite web |url=http://www.haiku-os.org/legacy-docs/benewsletter/Issue1-36.html |title=Be Newsletters, Volume 1: 1995-1996 |author= |year=1996 |website=HaikuOS |publi...",
+            "source": "source.txt:1136",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-development-02",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Battle of Marathon",
+              "rawRetrievalScore": 40.625343322753906
+            },
+            {
+              "rank": 2,
+              "title": "Classics",
+              "rawRetrievalScore": 20.86097526550293
+            },
+            {
+              "rank": 3,
+              "title": "Battle of Gettysburg",
+              "rawRetrievalScore": 19.493297576904297
+            },
+            {
+              "rank": 4,
+              "title": "Battle of Actium",
+              "rawRetrievalScore": 17.431928634643555
+            },
+            {
+              "rank": 5,
+              "title": "Behistun Inscription",
+              "rawRetrievalScore": 17.228126525878906
+            },
+            {
+              "rank": 6,
+              "title": "Battle of Berestechko",
+              "rawRetrievalScore": 16.97850799560547
+            },
+            {
+              "rank": 7,
+              "title": "Battle of Abritus",
+              "rawRetrievalScore": 16.624582290649414
+            },
+            {
+              "rank": 8,
+              "title": "Battle of Bouvines",
+              "rawRetrievalScore": 16.365276336669922
+            },
+            {
+              "rank": 9,
+              "title": "Battle of Świecino",
+              "rawRetrievalScore": 16.175334930419922
+            },
+            {
+              "rank": 10,
+              "title": "Balkans",
+              "rawRetrievalScore": 15.758395195007324
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0025",
+            "rawSha256": "11b46ba4a1f8fac9ce636d4646ca823b9929735c1bc254ae64ea3cd424c16bf6",
+            "quote": "It was fought between the citizens of Athens, aided by Plataea"
+          },
+          "opponentRetrieved": {
+            "title": "Battle of Marathon",
+            "text": "...ated with the battle Marathon run Posttraumatic Stress Disorder Depiction See also Notes References Ancient sources Modern studies External links The Battle of Marathon (Greek: lang|grc|Μάχη τοῦ Μαραθῶνος , Machē tou Marathōnos) took place in 490 BC, during the first Persian invasion of Greece. It was fought between the citizens of Athens, aided by Plataea, and a Persian force commanded by Datis and Artaphernes. The battle was the culmination of the first attempt by Persia, u...",
+            "source": "source.txt:1312",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-development-03",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Biosphere",
+              "rawRetrievalScore": 30.062501907348633
+            },
+            {
+              "rank": 2,
+              "title": "Biome",
+              "rawRetrievalScore": 27.12809181213379
+            },
+            {
+              "rank": 3,
+              "title": "Cambrian",
+              "rawRetrievalScore": 20.214927673339844
+            },
+            {
+              "rank": 4,
+              "title": "Coast",
+              "rawRetrievalScore": 18.775531768798828
+            },
+            {
+              "rank": 5,
+              "title": "Capricornus",
+              "rawRetrievalScore": 14.441473007202148
+            },
+            {
+              "rank": 6,
+              "title": "Bernoulli number",
+              "rawRetrievalScore": 14.433049201965332
+            },
+            {
+              "rank": 7,
+              "title": "Chives",
+              "rawRetrievalScore": 13.935054779052734
+            },
+            {
+              "rank": 8,
+              "title": "Cymbal",
+              "rawRetrievalScore": 13.687265396118164
+            },
+            {
+              "rank": 9,
+              "title": "Geography of Canada",
+              "rawRetrievalScore": 13.580687522888184
+            },
+            {
+              "rank": 10,
+              "title": "Central processing unit",
+              "rawRetrievalScore": 13.370731353759766
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0029",
+            "rawSha256": "fbb0b52fdc78e4656344278aab276b268109f2a8d815ea84a036e92d933fbc23",
+            "quote": "The biosphere is the global sum of all ecosystems."
+          },
+          "opponentRetrieved": {
+            "title": "Biosphere",
+            "text": "...r I. Vernadsky), preceding the 1935 introduction of the term \"ecosystem\" by Sir Arthur Tansley (see ecology history). Vernadsky defined ecology as the science of the biosphere. It is an interdisciplinary concept for integrating astronomy, geophysics, meteorology, biogeography, evolution, geology, geochemistry, hydrology and, generally speaking, all life and Earth sciences. Geochemists define the biosphere as being the total sum of living organisms (the \"biomass\" or \"biota\" as...",
+            "source": "source.txt:1567",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-development-04",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Biological membrane",
+              "rawRetrievalScore": 50.73398208618164
+            },
+            {
+              "rank": 2,
+              "title": "Common descent",
+              "rawRetrievalScore": 17.949613571166992
+            },
+            {
+              "rank": 3,
+              "title": "Communication",
+              "rawRetrievalScore": 16.145465850830078
+            },
+            {
+              "rank": 4,
+              "title": "Bistability",
+              "rawRetrievalScore": 14.718729972839355
+            },
+            {
+              "rank": 5,
+              "title": "Behavior",
+              "rawRetrievalScore": 13.733596801757812
+            },
+            {
+              "rank": 6,
+              "title": "Zebrafish",
+              "rawRetrievalScore": 13.42461109161377
+            },
+            {
+              "rank": 7,
+              "title": "Cytoplasm",
+              "rawRetrievalScore": 13.053299903869629
+            },
+            {
+              "rank": 8,
+              "title": "Capitalism",
+              "rawRetrievalScore": 12.989273071289062
+            },
+            {
+              "rank": 9,
+              "title": "Chemistry",
+              "rawRetrievalScore": 12.97990894317627
+            },
+            {
+              "rank": 10,
+              "title": "Community",
+              "rawRetrievalScore": 12.947728157043457
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0030",
+            "rawSha256": "86dadbe2317a3490b5c0e344f7449b4001cfe56fa191490550dd6cf3cd3572bd",
+            "quote": "an enclosing or separating membrane that acts as a selectively permeable barrier within living things."
+          },
+          "opponentRetrieved": {
+            "title": "Biological membrane",
+            "text": "... acts as a selectively permeable barrier within living things. Biological membranes, in the form of cell membranes, often consist of a phospholipid bilayer with embedded, integral and peripheral proteins used in communication and transportation of chemicals and ions. The cellular membranes should not be confused with isolating tissues formed by layers of cells, such as mucous membranes and basement membranes. The phospholipid bilayer contains a charged hydrophilic head, which...",
+            "source": "source.txt:1614",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-development-05",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Board of directors",
+              "rawRetrievalScore": 24.876514434814453
+            },
+            {
+              "rank": 2,
+              "title": "Corporate title",
+              "rawRetrievalScore": 17.455583572387695
+            },
+            {
+              "rank": 3,
+              "title": "Politics of the Central African Republic",
+              "rawRetrievalScore": 16.36026954650879
+            },
+            {
+              "rank": 4,
+              "title": "History of the Cayman Islands",
+              "rawRetrievalScore": 15.913553237915039
+            },
+            {
+              "rank": 5,
+              "title": "Bill Bryson",
+              "rawRetrievalScore": 15.180997848510742
+            },
+            {
+              "rank": 6,
+              "title": "Politics of Cyprus",
+              "rawRetrievalScore": 13.590418815612793
+            },
+            {
+              "rank": 7,
+              "title": "Politics of Croatia",
+              "rawRetrievalScore": 13.576728820800781
+            },
+            {
+              "rank": 8,
+              "title": "Card game",
+              "rawRetrievalScore": 13.386954307556152
+            },
+            {
+              "rank": 9,
+              "title": "Politics of Chile",
+              "rawRetrievalScore": 13.265666007995605
+            },
+            {
+              "rank": 10,
+              "title": "Constitution",
+              "rawRetrievalScore": 12.790669441223145
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0034",
+            "rawSha256": "e783be17539435033c2ff305a6f86d5dcecd52a0925a04cd6279f03a90077c1f",
+            "quote": "a body of elected or appointed members who jointly oversee the activities of a company or organization."
+          },
+          "opponentRetrieved": {
+            "title": "Board of directors",
+            "text": "...elected? | accessdate = 2011-04-08 | work = Commonwealth of Virginia, State Corporation Commission, Business FAQs cite web | url = http://legis.wisconsin.gov/statutes/Stat0181.pdf | title = Chapter 181, Nonstock Corporations (Sect. 181.0804) | accessdate = 2011-04-08 | work = Wisconsin Statutes Database Typical duties of boards of directors include: cite web|url=http://www.managementhelp.org/boards/brdrspon.htm |title=Overview of Roles and Responsibilities of Corporate Board ...",
+            "source": "source.txt:1813",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-development-06",
+          "acceptedRank": 2,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Balkans",
+              "rawRetrievalScore": 20.462570190429688
+            },
+            {
+              "rank": 2,
+              "title": "Balkan Wars",
+              "rawRetrievalScore": 19.796504974365234
+            },
+            {
+              "rank": 3,
+              "title": "Foreign relations of Croatia",
+              "rawRetrievalScore": 16.479272842407227
+            },
+            {
+              "rank": 4,
+              "title": "Bolsheviks",
+              "rawRetrievalScore": 16.38981056213379
+            },
+            {
+              "rank": 5,
+              "title": "Brigham Young",
+              "rawRetrievalScore": 16.168071746826172
+            },
+            {
+              "rank": 6,
+              "title": "Battle of Adwa",
+              "rawRetrievalScore": 15.977581977844238
+            },
+            {
+              "rank": 7,
+              "title": "Cultural anthropology",
+              "rawRetrievalScore": 15.417436599731445
+            },
+            {
+              "rank": 8,
+              "title": "History of Chile",
+              "rawRetrievalScore": 15.227783203125
+            },
+            {
+              "rank": 9,
+              "title": "Basel",
+              "rawRetrievalScore": 14.854178428649902
+            },
+            {
+              "rank": 10,
+              "title": "Central bank",
+              "rawRetrievalScore": 14.453269958496094
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0035",
+            "rawSha256": "c807a35d33197a4837acb672394103adaa96988f670d45248189bc0903d1e412",
+            "quote": "two conflicts that took place in the Balkan Peninsula in south-eastern Europe in 1912 and 1913."
+          },
+          "opponentRetrieved": {
+            "title": "Balkans",
+            "text": "...isbn=978-0-415-36627-4 |page=37 |url=http://books.google.com/?id=PTB0gn_qwTcC&printsec=frontcover A European Union initiative of 1999 is called the Stability Pact for South Eastern Europe, and the online newspaper Balkan Times renamed itself Southeast European Times in 2003. In the case of Slovenia and Croatia, \"Central Europe\" is often used. Citation needed|date=October 2012 Greece is also referred to as a Southern European country. Citation needed|date=October 2012 The Balk...",
+            "source": "source.txt:2268",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-development-07",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "BeBox",
+              "rawRetrievalScore": 52.20775604248047
+            },
+            {
+              "rank": 2,
+              "title": "Personal computer hardware",
+              "rawRetrievalScore": 29.927371978759766
+            },
+            {
+              "rank": 3,
+              "title": "Central processing unit",
+              "rawRetrievalScore": 23.16073226928711
+            },
+            {
+              "rank": 4,
+              "title": "Software",
+              "rawRetrievalScore": 22.044485092163086
+            },
+            {
+              "rank": 5,
+              "title": "BeOS",
+              "rawRetrievalScore": 21.938825607299805
+            },
+            {
+              "rank": 6,
+              "title": "ComputerHardware",
+              "rawRetrievalScore": 21.875831604003906
+            },
+            {
+              "rank": 7,
+              "title": "Computing",
+              "rawRetrievalScore": 19.828561782836914
+            },
+            {
+              "rank": 8,
+              "title": "Video game",
+              "rawRetrievalScore": 19.499156951904297
+            },
+            {
+              "rank": 9,
+              "title": "Computer science",
+              "rawRetrievalScore": 18.868574142456055
+            },
+            {
+              "rank": 10,
+              "title": "Computer data storage",
+              "rawRetrievalScore": 18.10567283630371
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0037",
+            "rawSha256": "3c343c6bb62d87145011e8220f9fd11c202ab0f15387fa43225a3121c5f14f5b",
+            "quote": "I/O board with \"GeekPort\", and \"Blinkenlights\" on the front bezel."
+          },
+          "opponentRetrieved": {
+            "title": "BeBox",
+            "text": "...board \"Blinkenlights\" References External links The BeBox was a short-lived dual processor personal computer, offered by Be Inc. to run the company's own operating system, BeOS. Notable aspects of the system include its CPU configuration, I/O board with \"GeekPort\", and \"Blinkenlights\" on the front bezel. The BeBox made its debut in October 1995 (BeBox Dual603-66). The processors were upgraded to 133 MHz in August 1996 (BeBox Dual603e-133). Production was halted in January 199...",
+            "source": "source.txt:2106",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-development-08",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Bombay Sapphire",
+              "rawRetrievalScore": 49.546897888183594
+            },
+            {
+              "rank": 2,
+              "title": "Bacardi",
+              "rawRetrievalScore": 17.979389190673828
+            },
+            {
+              "rank": 3,
+              "title": "Bundaberg Rum",
+              "rawRetrievalScore": 13.190031051635742
+            },
+            {
+              "rank": 4,
+              "title": "Card game",
+              "rawRetrievalScore": 11.620609283447266
+            },
+            {
+              "rank": 5,
+              "title": "Belfast",
+              "rawRetrievalScore": 10.957625389099121
+            },
+            {
+              "rank": 6,
+              "title": "Blood alcohol content",
+              "rawRetrievalScore": 10.67214584350586
+            },
+            {
+              "rank": 7,
+              "title": "Calf",
+              "rawRetrievalScore": 10.284953117370605
+            },
+            {
+              "rank": 8,
+              "title": "Beta sheet",
+              "rawRetrievalScore": 10.062087059020996
+            },
+            {
+              "rank": 9,
+              "title": "Citizen Kane",
+              "rawRetrievalScore": 9.342574119567871
+            },
+            {
+              "rank": 10,
+              "title": "Burwash Hall",
+              "rawRetrievalScore": 9.126684188842773
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0042",
+            "rawSha256": "4e55c7a6c3b2ab67fc6a00eecba04d1381fe31295992c47ae17c3207248cae7b",
+            "quote": "marketed in a flat-sided, sapphire-coloured bottle that bears a picture of Queen Victoria on the label."
+          },
+          "opponentRetrieved": {
+            "title": "Bombay Sapphire",
+            "text": "... is contracted out by Bacardi to G&J Greenall. cite web|author=Richard Haffner |url=http://www.just-drinks.com/news/new-gj-greenall-owners-plot-marketing-drive-eye-acquisitions_id104668.aspx?lk=dm |title=G&J Greenall eyes acquisitions, plots ad spend |publisher=Just-drinks.com |date= |accessdate=2012-10-04 Bacardi also markets Bombay Original London Dry Gin (or Bombay Original Dry). Made with eight botanical ingredients rather than ten, Bombay is less common than Bombay Sapph...",
+            "source": "source.txt:2503",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-development-09",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Bob Wills",
+              "rawRetrievalScore": 26.17771339416504
+            },
+            {
+              "rank": 2,
+              "title": "Country music",
+              "rawRetrievalScore": 14.93175983428955
+            },
+            {
+              "rank": 3,
+              "title": "Born again (Christianity)",
+              "rawRetrievalScore": 9.802817344665527
+            },
+            {
+              "rank": 4,
+              "title": "Barney Bubbles",
+              "rawRetrievalScore": 9.36443042755127
+            },
+            {
+              "rank": 5,
+              "title": "Citizen Kane",
+              "rawRetrievalScore": 9.218677520751953
+            },
+            {
+              "rank": 6,
+              "title": "Robert Bellarmine",
+              "rawRetrievalScore": 8.200002670288086
+            },
+            {
+              "rank": 7,
+              "title": "Barış Manço",
+              "rawRetrievalScore": 8.01858139038086
+            },
+            {
+              "rank": 8,
+              "title": "Bo Diddley",
+              "rawRetrievalScore": 7.632985591888428
+            },
+            {
+              "rank": 9,
+              "title": "Bob Young (businessman)",
+              "rawRetrievalScore": 7.54787015914917
+            },
+            {
+              "rank": 10,
+              "title": "House of Bonaparte",
+              "rawRetrievalScore": 7.471505641937256
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0043",
+            "rawSha256": "8eeb0d9b01892dec490fb4d5730fc6d2fca2889dcc57b793935ff9259aab216a",
+            "quote": "James Robert Wills (March 6, 1905 – May 13, 1975), better known as Bob Wills"
+          },
+          "opponentRetrieved": {
+            "title": "Bob Wills",
+            "text": "...bert Wills (March 6, 1905 – May 13, 1975), better known as Bob Wills, was an American Western swing musician, songwriter, and bandleader. Considered by music authorities as the co-founder of Western swing, cite news|url=http://online.wsj.com/article/SB123430049028669793.html|title=The Tiffany Transcriptions, Back and Better|last=Mazor|first=Barry|date=February 11, 2009|accessdate=13 January 2010|work=The Wall Street Journal Wolff, Country Music, \"Big Balls In Cowtown: Western...",
+            "source": "source.txt:2533",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-development-10",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Blitz BASIC",
+              "rawRetrievalScore": 46.35529708862305
+            },
+            {
+              "rank": 2,
+              "title": "Video game",
+              "rawRetrievalScore": 13.550850868225098
+            },
+            {
+              "rank": 3,
+              "title": "Computer programming",
+              "rawRetrievalScore": 12.797331809997559
+            },
+            {
+              "rank": 4,
+              "title": "Computing",
+              "rawRetrievalScore": 12.752123832702637
+            },
+            {
+              "rank": 5,
+              "title": "Basic English",
+              "rawRetrievalScore": 12.617685317993164
+            },
+            {
+              "rank": 6,
+              "title": "Blizzard Entertainment",
+              "rawRetrievalScore": 11.678387641906738
+            },
+            {
+              "rank": 7,
+              "title": "Claude Shannon",
+              "rawRetrievalScore": 11.273551940917969
+            },
+            {
+              "rank": 8,
+              "title": "Capcom",
+              "rawRetrievalScore": 11.14350414276123
+            },
+            {
+              "rank": 9,
+              "title": "Software",
+              "rawRetrievalScore": 10.778180122375488
+            },
+            {
+              "rank": 10,
+              "title": "Balmoral",
+              "rawRetrievalScore": 9.872173309326172
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0047",
+            "rawSha256": "e2f351743102b1b341f70a361b1203cd7033a801f3e1d94575d9c5b0fe4f016e",
+            "quote": "devised by New Zealand-based developer Mark Sibly."
+          },
+          "opponentRetrieved": {
+            "title": "Blitz BASIC",
+            "text": "... using BlitzBasic See also References External links Books on Blitz Basic Blitz BASIC refers to the programming language dialect that was interpreted by the first Blitz compilers, devised by New Zealand-based developer Mark Sibly. Being derived from BASIC, Blitz syntax was designed to be easy to pick up for beginners first learning to program. The languages are game-programming orientated but are often found general-purpose enough to be used for most types of application. The...",
+            "source": "source.txt:2730",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-development-11",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Barrister",
+              "rawRetrievalScore": 52.945716857910156
+            },
+            {
+              "rank": 2,
+              "title": "Computer science",
+              "rawRetrievalScore": 19.5399169921875
+            },
+            {
+              "rank": 3,
+              "title": "College",
+              "rawRetrievalScore": 16.64005470275879
+            },
+            {
+              "rank": 4,
+              "title": "Capitalism",
+              "rawRetrievalScore": 16.394840240478516
+            },
+            {
+              "rank": 5,
+              "title": "Computing",
+              "rawRetrievalScore": 16.386838912963867
+            },
+            {
+              "rank": 6,
+              "title": "Common law",
+              "rawRetrievalScore": 15.731266021728516
+            },
+            {
+              "rank": 7,
+              "title": "Cross-dressing",
+              "rawRetrievalScore": 14.240155220031738
+            },
+            {
+              "rank": 8,
+              "title": "Politics of Chile",
+              "rawRetrievalScore": 12.91203784942627
+            },
+            {
+              "rank": 9,
+              "title": "Computer programming",
+              "rawRetrievalScore": 12.788973808288574
+            },
+            {
+              "rank": 10,
+              "title": "Blood alcohol content",
+              "rawRetrievalScore": 11.930118560791016
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0052",
+            "rawSha256": "6e4d2dfd98fa20efc020c74548544618e070c92bcf50cbcde05cddecbff0f5da",
+            "quote": "Barristers specialize in courtroom advocacy, drafting legal pleadings, and giving expert legal opinions."
+          },
+          "opponentRetrieved": {
+            "title": "Barrister",
+            "text": "...) is a member of one of the two classes of lawyer found in many common law jurisdictions with split legal professions. Barristers specialize in courtroom advocacy, drafting legal pleadings, and giving expert legal opinions. They can be contrasted with solicitors – the other class of lawyer in split professions – who have more direct access to clients, and may do transactional-type legal work. Barristers are rarely hired by clients directly but instead are retained (or instruc...",
+            "source": "source.txt:2950",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-development-12",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Bundaberg Rum",
+              "rawRetrievalScore": 27.914501190185547
+            },
+            {
+              "rank": 2,
+              "title": "Bacardi",
+              "rawRetrievalScore": 10.448637962341309
+            },
+            {
+              "rank": 3,
+              "title": "Blitz BASIC",
+              "rawRetrievalScore": 7.784158229827881
+            },
+            {
+              "rank": 4,
+              "title": "Constellation",
+              "rawRetrievalScore": 7.762995719909668
+            },
+            {
+              "rank": 5,
+              "title": "Physical cosmology",
+              "rawRetrievalScore": 7.226563930511475
+            },
+            {
+              "rank": 6,
+              "title": "Bladder (disambiguation)",
+              "rawRetrievalScore": 6.966612815856934
+            },
+            {
+              "rank": 7,
+              "title": "Economy of the Central African Republic",
+              "rawRetrievalScore": 6.955321788787842
+            },
+            {
+              "rank": 8,
+              "title": "Blood alcohol content",
+              "rawRetrievalScore": 6.797591686248779
+            },
+            {
+              "rank": 9,
+              "title": "Burns supper",
+              "rawRetrievalScore": 6.582184791564941
+            },
+            {
+              "rank": 10,
+              "title": "Card game",
+              "rawRetrievalScore": 6.391290187835693
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0101",
+            "rawSha256": "f3a6cc5d474fcf73e93709c5333c3a44a3c449b208c37aee61fb20f63e587647",
+            "quote": "It is often referred to as \"Bundy\"."
+          },
+          "opponentRetrieved": {
+            "title": "Bundaberg Rum",
+            "text": "... Diageo.Diago Press Release – Diageo acquires Bundaberg Rum from Bundaberg Sugar Group Ltd via Just-Drinks The Bundaberg Rum distillery is open to visitors for tours of the facility. There is also a museum which offers free samples of Bundaberg Rum products for visitors. Bundaberg Rum is a major sponsor of the Australian Wallabies rugby union team and also sponsors the Bundaberg Rum Rugby Series. Bundaberg is also a sponsor of the NSW Waratahs.Sponsors & Partners – NSW Rugby ...",
+            "source": "source.txt:6663",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-development-13",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Bodmin Moor",
+              "rawRetrievalScore": 42.91671371459961
+            },
+            {
+              "rank": 2,
+              "title": "Bodmin",
+              "rawRetrievalScore": 23.484146118164062
+            },
+            {
+              "rank": 3,
+              "title": "Cornwall",
+              "rawRetrievalScore": 22.58530044555664
+            },
+            {
+              "rank": 4,
+              "title": "Bolventor",
+              "rawRetrievalScore": 19.64487648010254
+            },
+            {
+              "rank": 5,
+              "title": "Geography of Cambodia",
+              "rawRetrievalScore": 11.841473579406738
+            },
+            {
+              "rank": 6,
+              "title": "Cambridge, Massachusetts",
+              "rawRetrievalScore": 10.799271583557129
+            },
+            {
+              "rank": 7,
+              "title": "Geography of the Central African Republic",
+              "rawRetrievalScore": 10.746847152709961
+            },
+            {
+              "rank": 8,
+              "title": "Colorado",
+              "rawRetrievalScore": 10.258188247680664
+            },
+            {
+              "rank": 9,
+              "title": "Ben Nevis",
+              "rawRetrievalScore": 10.230563163757324
+            },
+            {
+              "rank": 10,
+              "title": "Country",
+              "rawRetrievalScore": 10.222529411315918
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0060",
+            "rawSha256": "795967309439433574bf2599187c5122aa9c643043d2dc6efb926a914734a27d",
+            "quote": "It was formerly known as Fowey Moor after the River Fowey"
+          },
+          "opponentRetrieved": {
+            "title": "Bodmin Moor",
+            "text": "Geography Rivers and inland waters Parishes History and antiquities Prehistoric times Medieval and modern times Monuments and ruins Legends and traditions See also References External links Bodmin Moor ( lang-kw|Goon Brenn )Place-names in the Standard Written Form (SWF) : List of place-names agreed by the MAGA Signage Panel. Cornish Language Partnership. is a granite moorland in northeastern Cornwall, England, United Kingdom. It is convert|208|km2|sqmi in size, and dates from...",
+            "source": "source.txt:3811",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-development-14",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "B. F. Skinner",
+              "rawRetrievalScore": 23.249441146850586
+            },
+            {
+              "rank": 2,
+              "title": "Cognitive science",
+              "rawRetrievalScore": 13.147360801696777
+            },
+            {
+              "rank": 3,
+              "title": "Bicameral mind",
+              "rawRetrievalScore": 8.234837532043457
+            },
+            {
+              "rank": 4,
+              "title": "Constellation",
+              "rawRetrievalScore": 8.072416305541992
+            },
+            {
+              "rank": 5,
+              "title": "Civil Rights Memorial",
+              "rawRetrievalScore": 7.873857498168945
+            },
+            {
+              "rank": 6,
+              "title": "Cambridge, Massachusetts",
+              "rawRetrievalScore": 6.988216876983643
+            },
+            {
+              "rank": 7,
+              "title": "College",
+              "rawRetrievalScore": 6.984932899475098
+            },
+            {
+              "rank": 8,
+              "title": "Black Hand (Serbia)",
+              "rawRetrievalScore": 6.963596343994141
+            },
+            {
+              "rank": 9,
+              "title": "Checkers",
+              "rawRetrievalScore": 6.829215049743652
+            },
+            {
+              "rank": 10,
+              "title": "California",
+              "rawRetrievalScore": 6.7550950050354
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0067",
+            "rawSha256": "617e8c4d0e969a06b0cbefd1aa2a56c8461927bd2c3e182d7c173cc9e8406f31",
+            "quote": "Burrhus Frederic (B. F.) Skinner"
+          },
+          "opponentRetrieved": {
+            "title": "B. F. Skinner",
+            "text": "...Superstitious pigeons B.F. Skinner Quotations Criticism J. E. R. Staddon Noam Chomsky Psychodynamic psychology TV Guide List of awards and positions Honorary degrees In popular culture Bibliography See also References Further reading External links Burrhus Frederic (B. F.) Skinner (March 20, 1904 – August 18, 1990) was an American psychologist, behaviorist, author, inventor, and social philosopher. cite book |last=Smith |first=L. D. |last2=Woodward |first2=W. R. |year=1996 |t...",
+            "source": "source.txt:4435",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-development-15",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Bildungsroman",
+              "rawRetrievalScore": 42.51947784423828
+            },
+            {
+              "rank": 2,
+              "title": "Cross-dressing",
+              "rawRetrievalScore": 17.654035568237305
+            },
+            {
+              "rank": 3,
+              "title": "Cyberpunk",
+              "rawRetrievalScore": 17.036109924316406
+            },
+            {
+              "rank": 4,
+              "title": "Caspar David Friedrich",
+              "rawRetrievalScore": 16.310531616210938
+            },
+            {
+              "rank": 5,
+              "title": "Conspiracy theory",
+              "rawRetrievalScore": 15.548856735229492
+            },
+            {
+              "rank": 6,
+              "title": "Ben Bova",
+              "rawRetrievalScore": 14.164079666137695
+            },
+            {
+              "rank": 7,
+              "title": "B. F. Skinner",
+              "rawRetrievalScore": 13.858519554138184
+            },
+            {
+              "rank": 8,
+              "title": "Bride of the Monster",
+              "rawRetrievalScore": 13.582158088684082
+            },
+            {
+              "rank": 9,
+              "title": "Bruno of Querfurt",
+              "rawRetrievalScore": 12.968155860900879
+            },
+            {
+              "rank": 10,
+              "title": "Classics",
+              "rawRetrievalScore": 12.605701446533203
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0075",
+            "rawSha256": "eed08ae15a90bda33d0e105c9a8abdce909100d967cdfaccbffed98c39254b95",
+            "quote": "a literary genre that focuses on the psychological and moral growth of the protagonist from youth to adulthood"
+          },
+          "opponentRetrieved": {
+            "title": "Bildungsroman",
+            "text": "...entury 19th Century 20th Century 21st Century See also Notes Citations References External links In literary criticism, a bildungsroman ( IPA-de|ˈbɪldʊŋs.ʁoˌmaːn ; lang-de|\"novel of formation/education/culture\" ), efn|group=lower-alpha|Engel explains that the term has in recent years been applied to very different novels but originally meant a novel of formation of a character, of an individual personality in interaction (including conflict) with society. He also points out t...",
+            "source": "source.txt:5139",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-development-16",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Bayesian probability",
+              "rawRetrievalScore": 23.79475212097168
+            },
+            {
+              "rank": 2,
+              "title": "Combinatorics",
+              "rawRetrievalScore": 17.101198196411133
+            },
+            {
+              "rank": 3,
+              "title": "Bohr model",
+              "rawRetrievalScore": 14.908802032470703
+            },
+            {
+              "rank": 4,
+              "title": "Classics",
+              "rawRetrievalScore": 13.940197944641113
+            },
+            {
+              "rank": 5,
+              "title": "Candela",
+              "rawRetrievalScore": 13.547184944152832
+            },
+            {
+              "rank": 6,
+              "title": "Inflation (cosmology)",
+              "rawRetrievalScore": 12.448081970214844
+            },
+            {
+              "rank": 7,
+              "title": "Computer data storage",
+              "rawRetrievalScore": 12.418201446533203
+            },
+            {
+              "rank": 8,
+              "title": "Common law",
+              "rawRetrievalScore": 12.307662963867188
+            },
+            {
+              "rank": 9,
+              "title": "Combination",
+              "rawRetrievalScore": 12.129875183105469
+            },
+            {
+              "rank": 10,
+              "title": "Claude Shannon",
+              "rawRetrievalScore": 12.076108932495117
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0084",
+            "rawSha256": "44543385154cc2471e88a59f330ae2875387c3ea7ce52bf38db79bc6c6012438",
+            "quote": "specifies some prior probability, which is then updated in the light of new, relevant data"
+          },
+          "opponentRetrieved": {
+            "title": "Bayesian probability",
+            "text": "...bility, which is then updated in the light of new, relevant data (evidence).Paulos, John Allen. The Mathematics of Changing Your Mind, New York Times (US). August 5, 2011; retrieved 2011-08-06 The Bayesian interpretation provides a standard set of procedures and formulae to perform this calculation. In contrast to interpreting probability as the \"frequency\" or \"propensity\" of some phenomenon, Bayesian probability is a quantity that we assign for the purpose of representing a ...",
+            "source": "source.txt:5607",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-development-17",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Bamberg",
+              "rawRetrievalScore": 33.009742736816406
+            },
+            {
+              "rank": 2,
+              "title": "Bodmin",
+              "rawRetrievalScore": 14.074642181396484
+            },
+            {
+              "rank": 3,
+              "title": "Cayman Islands",
+              "rawRetrievalScore": 13.900606155395508
+            },
+            {
+              "rank": 4,
+              "title": "Belfast",
+              "rawRetrievalScore": 12.564861297607422
+            },
+            {
+              "rank": 5,
+              "title": "Country",
+              "rawRetrievalScore": 12.209352493286133
+            },
+            {
+              "rank": 6,
+              "title": "Ballarat",
+              "rawRetrievalScore": 12.079690933227539
+            },
+            {
+              "rank": 7,
+              "title": "Berkeley, California",
+              "rawRetrievalScore": 12.039955139160156
+            },
+            {
+              "rank": 8,
+              "title": "Bacardi",
+              "rawRetrievalScore": 11.149755477905273
+            },
+            {
+              "rank": 9,
+              "title": "City",
+              "rawRetrievalScore": 11.085533142089844
+            },
+            {
+              "rank": 10,
+              "title": "Ben Nevis",
+              "rawRetrievalScore": 10.749283790588379
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0088",
+            "rawSha256": "38c30c364ece30bca3251f14011169af1c5ab51d25a157f4c9badf661db27bc1",
+            "quote": "a town in Bavaria, Germany, located in Upper Franconia on the river Regnitz"
+          },
+          "opponentRetrieved": {
+            "title": "Bamberg",
+            "text": "History Historic population Geography The seven hills of Bamberg Climate Sights Beer Education Infrastructure Railway Motorways Air transport Water transport Local transport Military Bases Politics Lords Mayor since 1945 International relations Twin towns — Sister cities Famous residents Gallery See also References External links Bamberg ( IPA-de|ˈbambɛɐ̯k ) is a town in Bavaria, Germany, located in Upper Franconia on the river Regnitz close to its confluence with the river M...",
+            "source": "source.txt:5929",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-development-18",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Beryl",
+              "rawRetrievalScore": 33.52542495727539
+            },
+            {
+              "rank": 2,
+              "title": "Biotite",
+              "rawRetrievalScore": 23.443334579467773
+            },
+            {
+              "rank": 3,
+              "title": "Chemical element",
+              "rawRetrievalScore": 16.305862426757812
+            },
+            {
+              "rank": 4,
+              "title": "Calcium",
+              "rawRetrievalScore": 16.034690856933594
+            },
+            {
+              "rank": 5,
+              "title": "Chromium",
+              "rawRetrievalScore": 15.089372634887695
+            },
+            {
+              "rank": 6,
+              "title": "Carbon",
+              "rawRetrievalScore": 14.929182052612305
+            },
+            {
+              "rank": 7,
+              "title": "Californium",
+              "rawRetrievalScore": 14.910164833068848
+            },
+            {
+              "rank": 8,
+              "title": "Concrete",
+              "rawRetrievalScore": 12.583417892456055
+            },
+            {
+              "rank": 9,
+              "title": "Cadmium",
+              "rawRetrievalScore": 10.17722225189209
+            },
+            {
+              "rank": 10,
+              "title": "Chemistry",
+              "rawRetrievalScore": 8.800771713256836
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0096",
+            "rawSha256": "51cf11446700538d279072795bc396abf37a4665ade213cc08e34981fa4a0253",
+            "quote": "beryl is a mineral composed of beryllium aluminium cyclosilicate"
+          },
+          "opponentRetrieved": {
+            "title": "Beryl",
+            "text": "...f maxixe by light or heat thus may be due to the charge transfer Fe3+ and Fe2+. cite web|url=http://minerals.caltech.edu/FILES/Visible/BERYL/Index.htm| title = Color in the Beryl group| accessdate = 2009-06-06 cite journal| doi =10.1134/S0020168509020101| title =Correlations between admixtures and color centers created upon irradiation of natural beryl crystals| year =2009| author =Ibragimova, E. M.| journal =Inorganic Materials| volume =45| page =162| last2 =Mukhamedshina| f...",
+            "source": "source.txt:6299",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-development-19",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Bunnies & Burrows",
+              "rawRetrievalScore": 40.84063720703125
+            },
+            {
+              "rank": 2,
+              "title": "Card game",
+              "rawRetrievalScore": 21.312517166137695
+            },
+            {
+              "rank": 3,
+              "title": "Cyberpunk",
+              "rawRetrievalScore": 19.117876052856445
+            },
+            {
+              "rank": 4,
+              "title": "Video game",
+              "rawRetrievalScore": 16.981922149658203
+            },
+            {
+              "rank": 5,
+              "title": "Crokinole",
+              "rawRetrievalScore": 16.68310546875
+            },
+            {
+              "rank": 6,
+              "title": "Bubble Bobble",
+              "rawRetrievalScore": 15.566582679748535
+            },
+            {
+              "rank": 7,
+              "title": "Blizzard Entertainment",
+              "rawRetrievalScore": 12.896815299987793
+            },
+            {
+              "rank": 8,
+              "title": "Card games",
+              "rawRetrievalScore": 12.718783378601074
+            },
+            {
+              "rank": 9,
+              "title": "Computer games",
+              "rawRetrievalScore": 12.718783378601074
+            },
+            {
+              "rank": 10,
+              "title": "Collectable card games",
+              "rawRetrievalScore": 12.04722785949707
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0100",
+            "rawSha256": "51e6a78450e1b541478f79dbf93a068501d48a3a28d1175d6d4da01701794c15",
+            "quote": "a role-playing game (RPG) inspired by the novel Watership Down"
+          },
+          "opponentRetrieved": {
+            "title": "Bunnies & Burrows",
+            "text": "...aying game (RPG) inspired by the novel Watership Down.GURPS Bunnies & Burrows (1992), Steve Jackson Games, ISBN 978-1-55634-237-0 Published by Fantasy Games Unlimited in 1976, the game centered on intelligent rabbits. It introduced several innovations to role-playing game design, being the first game to allow players to have non-humanoid roles, and the first to have detailed martial arts and skill systems. Fantasy Games Unlimited published a second edition of the game in 1982...",
+            "source": "source.txt:6626",
+            "kind": "source-excerpt"
+          }
+        },
+        {
+          "id": "wiki-b-development-20",
+          "acceptedRank": 1,
+          "candidates": [
+            {
+              "rank": 1,
+              "title": "Basic English",
+              "rawRetrievalScore": 34.29225540161133
+            },
+            {
+              "rank": 2,
+              "title": "Cambodian Language",
+              "rawRetrievalScore": 18.59160804748535
+            },
+            {
+              "rank": 3,
+              "title": "C language",
+              "rawRetrievalScore": 18.04586410522461
+            },
+            {
+              "rank": 4,
+              "title": "ConLang",
+              "rawRetrievalScore": 17.185256958007812
+            },
+            {
+              "rank": 5,
+              "title": "Claude Shannon",
+              "rawRetrievalScore": 17.04022216796875
+            },
+            {
+              "rank": 6,
+              "title": "Computational linguistics",
+              "rawRetrievalScore": 14.942732810974121
+            },
+            {
+              "rank": 7,
+              "title": "B. F. Skinner",
+              "rawRetrievalScore": 13.864544868469238
+            },
+            {
+              "rank": 8,
+              "title": "Blitz BASIC",
+              "rawRetrievalScore": 13.616613388061523
+            },
+            {
+              "rank": 9,
+              "title": "Cognitive science",
+              "rawRetrievalScore": 13.410601615905762
+            },
+            {
+              "rank": 10,
+              "title": "Computer programming",
+              "rawRetrievalScore": 13.051048278808594
+            }
+          ],
+          "curatedAnswerSupport": {
+            "documentId": "wiki-b-0116",
+            "rawSha256": "86f68bf263db28dd5adcc05f028340af6453b7dbd712f4ee8e9a1aa2455fb3d4",
+            "quote": "controlled language created by linguist and philosopher Charles Kay Ogden"
+          },
+          "opponentRetrieved": {
+            "title": "Basic English",
+            "text": "...ces See also References Further reading External links Basic English is an English-based controlled language created by linguist and philosopher Charles Kay Ogden as an international auxiliary language, and as an aid for teaching English as a second language. Basic English is, in essence, a simplified subset of regular English. It was presented in Ogden's book Basic English: A General Introduction with Rules and Grammar (1930). Capitalised, BASIC is sometimes taken as an acro...",
+            "source": "source.txt:7356",
+            "kind": "source-excerpt"
+          }
+        }
+      ]
+    }
+  ]
+}

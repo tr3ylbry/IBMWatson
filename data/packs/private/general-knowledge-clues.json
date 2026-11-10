@@ -1,0 +1,368 @@
+{
+  "schemaVersion": 1,
+  "id": "general-knowledge-clues",
+  "version": "1.0.0",
+  "topicId": "general-knowledge",
+  "label": "General Knowledge",
+  "description": "15 distinct practice clues, five per level. Source-checked by an assistant; independent human review and difficulty calibration pending.",
+  "language": "en",
+  "collectionId": "general-knowledge-sources",
+  "collectionVersion": "1.0.0",
+  "subtopics": [
+    {
+      "id": "space",
+      "label": "Space"
+    },
+    {
+      "id": "biology",
+      "label": "Biology"
+    },
+    {
+      "id": "communication",
+      "label": "Communication"
+    },
+    {
+      "id": "printing",
+      "label": "Printing"
+    },
+    {
+      "id": "spaceflight",
+      "label": "Spaceflight"
+    },
+    {
+      "id": "instruments",
+      "label": "Instruments"
+    },
+    {
+      "id": "cell-biology",
+      "label": "Cell Biology"
+    },
+    {
+      "id": "chemistry",
+      "label": "Chemistry"
+    },
+    {
+      "id": "engineering",
+      "label": "Engineering"
+    },
+    {
+      "id": "ancient-technology",
+      "label": "Ancient Technology"
+    },
+    {
+      "id": "medicine",
+      "label": "Medicine"
+    }
+  ],
+  "review": {
+    "status": "source-checked",
+    "reviewer": "Codex (AI assistant); not an independent human reviewer",
+    "reviewedOn": "2026-11-04",
+    "factualNotes": "Each clue's distinguishing fact checked against the cited institutional source text returned by web retrieval. Short excerpt snapshots retained; not full page archives. See docs/PACK-REVIEW.md.",
+    "editorialNotes": "Distinct canonical answers and facts across levels; checked for clear answer type, reasonable aliases and subtopic variety. Difficulty labels are provisional editorial choices.",
+    "limitations": "No independent human sign-off or player testing. Tiny answer-aligned collections are development sets, not held-out benchmarks. Rights assessment before public redistribution remains required."
+  },
+  "clues": [
+    {
+      "id": "general-knowledge-sun-01",
+      "topicId": "general-knowledge",
+      "subtopicId": "space",
+      "category": "Space",
+      "text": "Which star sits at the heart of our solar system?",
+      "hint": "Think of the light that gives us daytime.",
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "general-knowledge-sun",
+      "aliases": [
+        "Sun",
+        "The Sun"
+      ],
+      "support": {
+        "sourceId": "general-knowledge-sun",
+        "start": 0,
+        "end": 53
+      }
+    },
+    {
+      "id": "general-knowledge-moon-01",
+      "topicId": "general-knowledge",
+      "subtopicId": "space",
+      "category": "Space",
+      "text": "What is Earth's only natural satellite?",
+      "hint": "It orbits our planet.",
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "general-knowledge-moon",
+      "aliases": [
+        "Moon",
+        "The Moon"
+      ],
+      "support": {
+        "sourceId": "general-knowledge-moon",
+        "start": 0,
+        "end": 43
+      }
+    },
+    {
+      "id": "general-knowledge-mars-01",
+      "topicId": "general-knowledge",
+      "subtopicId": "space",
+      "category": "Space",
+      "text": "Which planet was named for the Roman god of war because of its reddish color?",
+      "hint": null,
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "general-knowledge-mars",
+      "aliases": [
+        "Mars"
+      ],
+      "support": {
+        "sourceId": "general-knowledge-mars",
+        "start": 0,
+        "end": 109
+      }
+    },
+    {
+      "id": "general-knowledge-dna-01",
+      "topicId": "general-knowledge",
+      "subtopicId": "biology",
+      "category": "Biology",
+      "text": "Give the three-letter abbreviation for the molecule that carries an organism's genetic information.",
+      "hint": "Use the familiar three-letter abbreviation.",
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "general-knowledge-dna",
+      "aliases": [
+        "DNA",
+        "Deoxyribonucleic acid"
+      ],
+      "support": {
+        "sourceId": "general-knowledge-dna",
+        "start": 0,
+        "end": 140
+      }
+    },
+    {
+      "id": "general-knowledge-braille-01",
+      "topicId": "general-knowledge",
+      "subtopicId": "communication",
+      "category": "Communication",
+      "text": "Which tactile reading and writing system uses a cell of six raised dots?",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "general-knowledge-braille",
+      "aliases": [
+        "Braille"
+      ],
+      "support": {
+        "sourceId": "general-knowledge-braille",
+        "start": 0,
+        "end": 96
+      }
+    },
+    {
+      "id": "general-knowledge-gutenberg-bible-01",
+      "topicId": "general-knowledge",
+      "subtopicId": "printing",
+      "category": "Printing",
+      "text": "Which Bible edition was the first great book printed in Western Europe from movable metal type?",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "general-knowledge-gutenberg-bible",
+      "aliases": [
+        "Gutenberg Bible",
+        "The Gutenberg Bible",
+        "42-line Bible"
+      ],
+      "support": {
+        "sourceId": "general-knowledge-gutenberg-bible",
+        "start": 0,
+        "end": 94
+      }
+    },
+    {
+      "id": "general-knowledge-iss-01",
+      "topicId": "general-knowledge",
+      "subtopicId": "spaceflight",
+      "category": "Spaceflight",
+      "text": "Which multinational microgravity laboratory orbiting Earth has been continuously occupied by humans since 2000?",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "general-knowledge-iss",
+      "aliases": [
+        "International Space Station",
+        "ISS",
+        "The International Space Station"
+      ],
+      "support": {
+        "sourceId": "general-knowledge-iss",
+        "start": 0,
+        "end": 120
+      }
+    },
+    {
+      "id": "general-knowledge-seismograph-01",
+      "topicId": "general-knowledge",
+      "subtopicId": "instruments",
+      "category": "Instruments",
+      "text": "What instrument records the motion of the ground during an earthquake?",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "general-knowledge-seismograph",
+      "aliases": [
+        "Seismograph",
+        "Seismometer"
+      ],
+      "support": {
+        "sourceId": "general-knowledge-seismograph",
+        "start": 0,
+        "end": 90
+      }
+    },
+    {
+      "id": "general-knowledge-mitochondria-01",
+      "topicId": "general-knowledge",
+      "subtopicId": "cell-biology",
+      "category": "Cell Biology",
+      "text": "Which membrane-bound organelles generate most of the chemical energy that powers a cell's biochemical reactions?",
+      "hint": null,
+      "difficulty": "hard",
+      "answerType": "article-title",
+      "answerSourceId": "general-knowledge-mitochondria",
+      "aliases": [
+        "Mitochondria",
+        "Mitochondrion"
+      ],
+      "support": {
+        "sourceId": "general-knowledge-mitochondria",
+        "start": 0,
+        "end": 165
+      }
+    },
+    {
+      "id": "general-knowledge-periodic-table-01",
+      "topicId": "general-knowledge",
+      "subtopicId": "chemistry",
+      "category": "Chemistry",
+      "text": "What organizing system for the elements did Dmitri Mendeleev develop in February 1869?",
+      "hint": null,
+      "difficulty": "hard",
+      "answerType": "article-title",
+      "answerSourceId": "general-knowledge-periodic-table",
+      "aliases": [
+        "Periodic Table",
+        "The Periodic Table",
+        "Periodic Table of the Elements"
+      ],
+      "support": {
+        "sourceId": "general-knowledge-periodic-table",
+        "start": 0,
+        "end": 140
+      }
+    },
+    {
+      "id": "general-knowledge-hubble-01",
+      "topicId": "general-knowledge",
+      "subtopicId": "spaceflight",
+      "category": "Spaceflight",
+      "text": "Which observatory was carried into orbit by Discovery on mission STS-31?",
+      "hint": null,
+      "difficulty": "hard",
+      "answerType": "article-title",
+      "answerSourceId": "general-knowledge-hubble",
+      "aliases": [
+        "Hubble Space Telescope",
+        "Hubble",
+        "HST",
+        "The Hubble Space Telescope"
+      ],
+      "support": {
+        "sourceId": "general-knowledge-hubble",
+        "start": 0,
+        "end": 151
+      }
+    },
+    {
+      "id": "general-knowledge-suez-canal-01",
+      "topicId": "general-knowledge",
+      "subtopicId": "engineering",
+      "category": "Engineering",
+      "text": "Name the Egyptian sea-level waterway connecting the Mediterranean Sea and the Red Sea.",
+      "hint": null,
+      "difficulty": "hard",
+      "answerType": "article-title",
+      "answerSourceId": "general-knowledge-suez-canal",
+      "aliases": [
+        "Suez Canal",
+        "The Suez Canal"
+      ],
+      "support": {
+        "sourceId": "general-knowledge-suez-canal",
+        "start": 0,
+        "end": 108
+      }
+    },
+    {
+      "id": "general-knowledge-antikythera-01",
+      "topicId": "general-knowledge",
+      "subtopicId": "ancient-technology",
+      "category": "Ancient Technology",
+      "text": "Which ancient Greek mechanical computer calculated positions of the Sun and Moon?",
+      "hint": null,
+      "difficulty": "hard",
+      "answerType": "article-title",
+      "answerSourceId": "general-knowledge-antikythera",
+      "aliases": [
+        "Antikythera Mechanism",
+        "The Antikythera Mechanism"
+      ],
+      "support": {
+        "sourceId": "general-knowledge-antikythera",
+        "start": 0,
+        "end": 130
+      }
+    },
+    {
+      "id": "general-knowledge-photosynthesis-01",
+      "topicId": "general-knowledge",
+      "subtopicId": "biology",
+      "category": "Biology",
+      "text": "What process lets plants use sunlight to turn carbon dioxide and water into food?",
+      "hint": null,
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "general-knowledge-photosynthesis",
+      "aliases": [
+        "Photosynthesis"
+      ],
+      "support": {
+        "sourceId": "general-knowledge-photosynthesis",
+        "start": 0,
+        "end": 102
+      }
+    },
+    {
+      "id": "general-knowledge-penicillin-01",
+      "topicId": "general-knowledge",
+      "subtopicId": "medicine",
+      "category": "Medicine",
+      "text": "Which antibiotic did Alexander Fleming discover in 1928 from Penicillium mold?",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "general-knowledge-penicillin",
+      "aliases": [
+        "Penicillin"
+      ],
+      "support": {
+        "sourceId": "general-knowledge-penicillin",
+        "start": 0,
+        "end": 87
+      }
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 1,
+  "id": "world-history-clues",
+  "version": "1.0.0",
+  "topicId": "world-history",
+  "label": "World History",
+  "description": "15 distinct practice clues, five per level. Source-checked by an assistant; independent human review and difficulty calibration pending.",
+  "language": "en",
+  "collectionId": "world-history-sources",
+  "collectionVersion": "1.0.0",
+  "subtopics": [
+    {
+      "id": "african-history",
+      "label": "African History"
+    },
+    {
+      "id": "space-history",
+      "label": "Space History"
+    },
+    {
+      "id": "legal-history",
+      "label": "Legal History"
+    },
+    {
+      "id": "chinese-history",
+      "label": "Chinese History"
+    },
+    {
+      "id": "ancient-egypt",
+      "label": "Ancient Egypt"
+    },
+    {
+      "id": "writing-systems",
+      "label": "Writing Systems"
+    },
+    {
+      "id": "trade-networks",
+      "label": "Trade Networks"
+    },
+    {
+      "id": "diplomacy",
+      "label": "Diplomacy"
+    },
+    {
+      "id": "west-african-history",
+      "label": "West African History"
+    },
+    {
+      "id": "islamic-history",
+      "label": "Islamic History"
+    },
+    {
+      "id": "japanese-history",
+      "label": "Japanese History"
+    },
+    {
+      "id": "southern-african-history",
+      "label": "Southern African History"
+    },
+    {
+      "id": "norse-archaeology",
+      "label": "Norse Archaeology"
+    }
+  ],
+  "review": {
+    "status": "source-checked",
+    "reviewer": "Codex (AI assistant); not an independent human reviewer",
+    "reviewedOn": "2026-11-04",
+    "factualNotes": "Each clue's distinguishing fact checked against the cited institutional source text returned by web retrieval. Short excerpt snapshots retained; not full page archives. See docs/PACK-REVIEW.md.",
+    "editorialNotes": "Distinct canonical answers and facts across levels; checked for clear answer type, reasonable aliases and subtopic variety. Difficulty labels are provisional editorial choices.",
+    "limitations": "No independent human sign-off or player testing. Tiny answer-aligned collections are development sets, not held-out benchmarks. Rights assessment before public redistribution remains required."
+  },
+  "clues": [
+    {
+      "id": "world-history-mandela-01",
+      "topicId": "world-history",
+      "subtopicId": "african-history",
+      "category": "African History",
+      "text": "Who was inaugurated as South Africa's first democratically elected president in May 1994?",
+      "hint": null,
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "world-history-mandela",
+      "aliases": [
+        "Nelson Mandela",
+        "Mandela",
+        "Nelson Rolihlahla Mandela"
+      ],
+      "support": {
+        "sourceId": "world-history-mandela",
+        "start": 0,
+        "end": 98
+      }
+    },
+    {
+      "id": "world-history-apollo-eleven-01",
+      "topicId": "world-history",
+      "subtopicId": "space-history",
+      "category": "Space History",
+      "text": "Which mission made the first crewed Moon landing on July 20, 1969?",
+      "hint": null,
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "world-history-apollo-eleven",
+      "aliases": [
+        "Apollo 11",
+        "Apollo Eleven"
+      ],
+      "support": {
+        "sourceId": "world-history-apollo-eleven",
+        "start": 0,
+        "end": 75
+      }
+    },
+    {
+      "id": "world-history-magna-carta-01",
+      "topicId": "world-history",
+      "subtopicId": "legal-history",
+      "category": "Legal History",
+      "text": "What charter did King John seal at Runnymede in June 1215?",
+      "hint": null,
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "world-history-magna-carta",
+      "aliases": [
+        "Magna Carta",
+        "The Magna Carta"
+      ],
+      "support": {
+        "sourceId": "world-history-magna-carta",
+        "start": 0,
+        "end": 85
+      }
+    },
+    {
+      "id": "world-history-great-wall-01",
+      "topicId": "world-history",
+      "subtopicId": "chinese-history",
+      "category": "Chinese History",
+      "text": "What Chinese defensive system joined earlier fortifications under Qin Shi Huang to protect against invasions from the north?",
+      "hint": null,
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "world-history-great-wall",
+      "aliases": [
+        "Great Wall of China",
+        "Great Wall",
+        "The Great Wall",
+        "The Great Wall of China"
+      ],
+      "support": {
+        "sourceId": "world-history-great-wall",
+        "start": 0,
+        "end": 142
+      }
+    },
+    {
+      "id": "world-history-great-pyramid-01",
+      "topicId": "world-history",
+      "subtopicId": "ancient-egypt",
+      "category": "Ancient Egypt",
+      "text": "Which pyramid of Khufu is the only surviving wonder of the ancient world?",
+      "hint": null,
+      "difficulty": "easy",
+      "answerType": "article-title",
+      "answerSourceId": "world-history-great-pyramid",
+      "aliases": [
+        "Great Pyramid of Giza",
+        "Great Pyramid",
+        "The Great Pyramid of Giza",
+        "Pyramid of Khufu",
+        "Great Pyramid of Khufu"
+      ],
+      "support": {
+        "sourceId": "world-history-great-pyramid",
+        "start": 0,
+        "end": 76
+      }
+    },
+    {
+      "id": "world-history-hatshepsut-01",
+      "topicId": "world-history",
+      "subtopicId": "ancient-egypt",
+      "category": "Ancient Egypt",
+      "text": "Which female pharaoh had been the principal queen of her half-brother Thutmose II?",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "world-history-hatshepsut",
+      "aliases": [
+        "Hatshepsut"
+      ],
+      "support": {
+        "sourceId": "world-history-hatshepsut",
+        "start": 0,
+        "end": 94
+      }
+    },
+    {
+      "id": "world-history-rosetta-stone-01",
+      "topicId": "world-history",
+      "subtopicId": "writing-systems",
+      "category": "Writing Systems",
+      "text": "Which stone, inscribed with hieroglyphic, demotic and Greek text, provided a key to deciphering hieroglyphs?",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "world-history-rosetta-stone",
+      "aliases": [
+        "Rosetta Stone",
+        "The Rosetta Stone"
+      ],
+      "support": {
+        "sourceId": "world-history-rosetta-stone",
+        "start": 0,
+        "end": 109
+      }
+    },
+    {
+      "id": "world-history-silk-roads-01",
+      "topicId": "world-history",
+      "subtopicId": "trade-networks",
+      "category": "Trade Networks",
+      "text": "What trade network's name recalls the fine fabric transported from ancient China along routes through Central Asia?",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "world-history-silk-roads",
+      "aliases": [
+        "Silk Roads",
+        "Silk Road",
+        "The Silk Roads",
+        "The Silk Road"
+      ],
+      "support": {
+        "sourceId": "world-history-silk-roads",
+        "start": 0,
+        "end": 74
+      }
+    },
+    {
+      "id": "world-history-versailles-01",
+      "topicId": "world-history",
+      "subtopicId": "diplomacy",
+      "category": "Diplomacy",
+      "text": "Which treaty followed the November 1918 armistice and was signed on June 28, 1919?",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "world-history-versailles",
+      "aliases": [
+        "Treaty of Versailles",
+        "The Treaty of Versailles",
+        "Versailles Treaty"
+      ],
+      "support": {
+        "sourceId": "world-history-versailles",
+        "start": 0,
+        "end": 99
+      }
+    },
+    {
+      "id": "world-history-mali-empire-01",
+      "topicId": "world-history",
+      "subtopicId": "west-african-history",
+      "category": "West African History",
+      "text": "Which West African empire was founded by Sundiata Keita?",
+      "hint": null,
+      "difficulty": "standard",
+      "answerType": "article-title",
+      "answerSourceId": "world-history-mali-empire",
+      "aliases": [
+        "Mali Empire",
+        "Mali",
+        "The Mali Empire",
+        "Empire of Mali"
+      ],
+      "support": {
+        "sourceId": "world-history-mali-empire",
+        "start": 0,
+        "end": 79
+      }
+    },
+    {
+      "id": "world-history-hammurabi-01",
+      "topicId": "world-history",
+      "subtopicId": "legal-history",
+      "category": "Legal History",
+      "text": "What Babylonian legal collection contains 282 judgements handed down by its namesake king?",
+      "hint": null,
+      "difficulty": "hard",
+      "answerType": "article-title",
+      "answerSourceId": "world-history-hammurabi",
+      "aliases": [
+        "Code of Hammurabi",
+        "Hammurabi's Code",
+        "The Code of Hammurabi"
+      ],
+      "support": {
+        "sourceId": "world-history-hammurabi",
+        "start": 0,
+        "end": 74
+      }
+    },
+    {
+      "id": "world-history-abbasid-01",
+      "topicId": "world-history",
+      "subtopicId": "islamic-history",
+      "category": "Islamic History",
+      "text": "Which caliphate succeeded the Umayyads in 750?",
+      "hint": null,
+      "difficulty": "hard",
+      "answerType": "article-title",
+      "answerSourceId": "world-history-abbasid",
+      "aliases": [
+        "Abbasid Caliphate",
+        "Abbasids",
+        "The Abbasid Caliphate"
+      ],
+      "support": {
+        "sourceId": "world-history-abbasid",
+        "start": 0,
+        "end": 85
+      }
+    },
+    {
+      "id": "world-history-tokugawa-yoshinobu-01",
+      "topicId": "world-history",
+      "subtopicId": "japanese-history",
+      "category": "Japanese History",
+      "text": "Which last shogun submitted a proposal restoring political power to Japan's emperor in 1867?",
+      "hint": null,
+      "difficulty": "hard",
+      "answerType": "article-title",
+      "answerSourceId": "world-history-tokugawa-yoshinobu",
+      "aliases": [
+        "Tokugawa Yoshinobu",
+        "Yoshinobu Tokugawa",
+        "Yoshinobu"
+      ],
+      "support": {
+        "sourceId": "world-history-tokugawa-yoshinobu",
+        "start": 0,
+        "end": 133
+      }
+    },
+    {
+      "id": "world-history-great-zimbabwe-01",
+      "topicId": "world-history",
+      "subtopicId": "southern-african-history",
+      "category": "Southern African History",
+      "text": "Which Shona monumental site includes the Hill Ruins, the Great Enclosure and the Valley Ruins?",
+      "hint": null,
+      "difficulty": "hard",
+      "answerType": "article-title",
+      "answerSourceId": "world-history-great-zimbabwe",
+      "aliases": [
+        "Great Zimbabwe",
+        "Great Zimbabwe National Monument"
+      ],
+      "support": {
+        "sourceId": "world-history-great-zimbabwe",
+        "start": 0,
+        "end": 87
+      }
+    },
+    {
+      "id": "world-history-lanse-aux-meadows-01",
+      "topicId": "world-history",
+      "subtopicId": "norse-archaeology",
+      "category": "Norse Archaeology",
+      "text": "Name the North American historic site containing the excavated remains of a complete 11th-century Viking settlement.",
+      "hint": null,
+      "difficulty": "hard",
+      "answerType": "article-title",
+      "answerSourceId": "world-history-lanse-aux-meadows",
+      "aliases": [
+        "L'Anse aux Meadows",
+        "L’Anse aux Meadows",
+        "Lanse aux Meadows",
+        "L Anse aux Meadows"
+      ],
+      "support": {
+        "sourceId": "world-history-lanse-aux-meadows",
+        "start": 0,
+        "end": 117
+      }
+    }
+  ]
+}
